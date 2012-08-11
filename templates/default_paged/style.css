@@ -1,0 +1,107 @@
+
+<style type="text/css">
+<!--
+body             { font-family: Verdana, Arial, sans-serif; font-size: x-small;}
+a.dis            { text-decoration:none; font-size: 10px; font-family: verdana; color:silver; font-weight:bold;}
+a.dis:hover      { text-decoration:none; font-size: 10px; font-family: verdana; color:#52ACEA; font-weight:bold;}
+a.mnu            { text-decoration:none; font-size: 10px; font-family: verdana; color:white; font-weight:bold;}
+a.mnu:hover      { text-decoration:none; font-size: 10px; font-family: verdana; color:#52ACEA; font-weight:bold;}
+a.mnu2            { text-decoration:none; font-size: 10px; font-family: verdana; color:#00ff00; font-weight:bold;}
+a.mnu2:hover      { text-decoration:none; font-size: 10px; font-family: verdana; color:#52ACEA; font-weight:bold;}
+div.mnu          { text-decoration:none; font-size: 10px; font-family: verdana; color:white; font-weight:bold;}
+span.mnu         { text-decoration:none; font-size: 10px; font-family: verdana; color:white; font-weight:bold;}
+table.dis        { text-decoration:none; font-size: 10px; font-family: verdana; color:silver; font-weight:bold;}
+td.footer        { color: #FFFFFF; font-size: xx-small;} 
+.faderlines      { background-color:#000000;}
+.headlines       { text-decoration:none; font-size:10px; font-family: Verdana, Arial, sans-serif; font-weight:bold; color:white;}
+.headlines:hover { text-decoration:none; color:#52ACEA;}
+.nav             { text-decoration: none; } 
+.nav:link        { text-decoration: none; color: lime;} 
+.nav:visited     { text-decoration: none; color: lime;} 
+.nav:hover       { text-decoration: none; color: yellow;} 
+.portcosts1      { width:15em;border-style:none;font-family: verdana;font-size:14px;background-color:#000000;color:#c0c0c0;text-align:right;}
+.portcosts_sm1      { width:2em;border-style:none;font-family: verdana;font-size:12px;background-color:#000000;color:#c0c0c0;text-align:right;FONT-WEIGHT: bold}
+.portcosts2      { width:15em;border-style:none;font-family: verdana;font-size:14px;background-color:#000000;color:#c0c0c0;text-align:right;}
+.portcosts_sm2      { width:2em;border-style:none;font-family: verdana;font-size:12px;background-color:#000000;color:#c0c0c0;text-align:right;FONT-WEIGHT: bold}
+.portcosts3      { width:3em;border-style:none;font-family: verdana;font-size:14px;background-color:#000000;color:#c0c0c0;text-align:right;}
+.portcosts4      { width:7em;border-style:none;font-family: verdana;font-size:14px;background-color:#000000;color:#c0c0c0;text-align:right;}
+.portcosts5      { width:7em;border-style:none;font-family: verdana;font-size:14px;background-color:#000000;color:#c0c0c0;text-align:right;}
+.rsform          { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF; background-color:#000000;}
+TEXTAREA.shoutbox  { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF; background-color:#000000;}
+.shoutform          { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF; background-color:#000000;}
+TD.nav_title_12 {FONT-FAMILY: Arial; FONT-SIZE: 12px; COLOR: #FFFFFF;}
+TD.nav_title_14b {FONT-FAMILY: Arial; FONT-SIZE: 14px; COLOR: #FFFFFF; font-weight:bold}
+TD.nav_title_16b {FONT-FAMILY: Arial; FONT-SIZE: 16px; COLOR: #FFFFFF; font-weight:bold}
+font.title         {BACKGROUND: none; COLOR: #FFFFFF; FONT-SIZE: 14px; FONT-FAMILY: Arial; TEXT-DECORATION: none; font-weight:bold}
+td                { font-size: 12px; color: #e0e0e0; font-family: verdana; }
+.normal         { text-decoration:none; font-size: 10px; font-family: verdana; color:#e0e0e0;}
+
+ 
+
+
+#smedia {
+    float: right;
+    width: 200px;
+    z-index: 1400;
+}
+
+#socialicons li {
+    background-image: url("/images/smedia.png");
+    background-repeat: no-repeat;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+#socialicons li, #socialicons a {
+    display: block;
+    float: left;
+    height: 32px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 32px;
+}
+.facebook {
+    background-position: 0 -256px;
+}
+.flickr {
+    background-position: 0 -224px;
+}
+.foursquare {
+    background-position: 0 -192px;
+}
+.email {
+    background-position: 0 -160px;
+}
+.linkedin {
+    background-position: 0 -128px;
+}
+.twitter {
+    background-position: 0 -96px;
+}
+.people {
+    background-position: 0 -64px;
+}
+.youtube {
+    background-position: 0 -32px;
+}
+.yelp {
+    background-position: 0 0;
+}
+.spacer {
+    background-position: 0 -500px;
+}
+
+
+-->
+</style>

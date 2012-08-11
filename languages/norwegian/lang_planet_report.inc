@@ -1,0 +1,39 @@
+<?php
+$l_pr_title = "Planet Report";
+$l_pr_teamlink = "Vis team planeter";
+$l_pr_noplanet = "Du har ingen planeter så langt";
+$l_pr_clicktosort = "Klikk på kolonneoverskriften for å sortere.";
+$l_pr_totals = "Totals";
+$l_pr_menulink = "Planetary Report Hovedmeny";
+$l_pr_menu = "Meny";
+$l_pr_status = "Status";
+$l_pr_production = "Produksjon";
+$l_pr_planetstatus = "Planet Status";
+$l_pr_changeprods = "Endre Production";
+$l_pr_baserequired = "<B>Base Nødvendig</b> på Planet";
+$l_pr_comm_disp = "Viser antall av hver vare på planeten.";
+$l_pr_prod_disp = "Denne rapporten kan du endre hastighet på produksjon av commondits på planeter som har en base <BR> - Du må reise til planeten for å bygge en base sett planeten til bedriftens eller endre navnet (feiringer og slikt)";
+$l_pr_team_disp = "Commondity Report (som Planet Status) for planeter satt til Team eies av deg og / eller de andre gruppemedlemmene";
+$l_pr_warning = "<B>ADVARSEL:</b> &quot;Base&quot;, vil føre til at skipet å flytte.";
+$l_pr_takecreds = "Ta <BR> Studiepoeng";
+$l_pr_collectcreds = "Samle Credits";
+$l_pr_build = "Bygge";
+$l_pr_notenoughturns = "Ikke nok blir til TA CREDITS";
+$l_pr_ppupdated = "Produksjon Prosentandeler Oppdatert";
+$l_pr_prexeedcheck = "Sjekke Verdier for over 100% og negative produksjon verdier";
+$l_pr_prexeeds = "Planet [name] i sektor [sector_id] ville overstige 100% produksjon. Produksjon verdier uendret.";
+$l_pr_credstaken = "Tok [CreditsTaken] Mynter fra planeten [name].";
+$l_pr_credsonboard = "Skipet ditt - <B>[name]</b> - har nå [NewShipCredits] ombord.";
+$l_pr_notturns = "Du har ikke nok blir å ta studiepoeng fra [name] i sektor [sector_id]";
+$l_pr_hostile = "Kan ikke flytte til SECTOR [destination] GJENNOM fiendtlige forsvarsverk";
+$l_pr_pdefense = "Planetary Defenses";
+$l_pr_sector = "Sector";
+$l_pr_display = "Vise forsvaret nivåer av planeter.";
+$l_pr_showd = "Vis Forsvarets Nivåene av alle planetene på teamet.";
+$l_pr_showtd = "Show Team Defenses";
+$l_pr_selectall = "Velg alle";
+
+$l_pr_build = "Bygge";
+$l_pr_research = "Forskning";
+$l_pr_special = "Spesial";
+?>

@@ -1,0 +1,40 @@
+<?php
+$l_ranks_title           = "Top $max_rank Spieler";
+$l_ranks_none            = "Keine Ergebnisse.";
+$l_ranks_pnum            = "Geamtzahl an Spielern";
+$l_ranks_dships          = "Spieler mit zerstörten Schiffen werden nicht mitgezählt.";
+$l_ranks_rank            = "Rang";
+$l_ranks_lastlog         = "Letzter login";
+$l_ranks_regen           = "zum erneuten berechnen Ihrers Punktestandes.";
+$l_ranks_done            = "Ihr Punktestand wurde neu berechnet.";
+$l_ranks_standing        = "Stand";
+$l_ranks_select        = "Wählen Sie zur Ansicht die Rang-Seite aus.";
+$l_ranks_page        = "Seite";
+$l_ranks_next        = "Nächste";
+$l_ranks_prev        = "Vorige";
+$l_ranks_online = "Online";
+$l_ranks_rating = "Eff. Bewertung";
+$l_ranks_show        = "Zeige Spieler";
+$l_ranks_to        = "zu";
+$l_ranks_kills = "Kills";
+$l_ranks_deaths        = "getötet";
+$l_ranks_captures        = "Eroberungen";
+$l_ranks_lost        = "Verluste";
+$l_ranks_built        = "Aufgebaut";
+$l_ranks_based = "Basierend";
+$l_ranks_destroyed = "Destroy";
+$l_ranks_experience        = "Erfahrung";
+$l_ranks_death_type = "Death Typ";
+$l_ranks_deadtitle = "Die letzten 10 Spieler getötet, ohne ein Escape Pod";
+$l_ranks_killefficiency = "Kill Effizienz";
+
+$l_ranks_kill['killed'] = "Killed";
+$l_ranks_kill['killedSD'] = "Sector Defense";
+$l_ranks_kill['killedplanet'] = "Planet Attack";
+$l_ranks_kill['killedship'] = "Ship Attack";
+$l_ranks_kill['killedsuicide'] = "Suicide";
+$l_ranks_kill['killedsofa'] = "Sofa Attack";
+$l_ranks_kill['killednova'] = "Nova Bomb";
+$l_ranks_kill['killednovabackfire'] = "Nova Backfire";
+$l_ranks_kill['killedsectormissile'] = "Sector Missile";
+?>

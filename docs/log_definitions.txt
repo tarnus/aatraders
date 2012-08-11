@@ -1,0 +1,135 @@
+//Planet log constants
+PLOG_GENESIS_CREATE			//
+PLOG_GENESIS_DESTROY		//
+PLOG_CAPTURE				//
+PLOG_ATTACKED				//
+PLOG_SCANNED				//
+PLOG_OWNER_DEAD				//
+PLOG_DEFEATED				//
+PLOG_SOFA					//
+PLOG_PLANET_DESTRUCT		//
+
+// Log constants
+// These two log definitions are displayed for every log catagory.
+LOG_LOGIN					// Player Login time and IP
+LOG_LOGOUT					// Player Logout time and IP
+
+// These entries will be displayed in the General Log Category.
+LOG0_RAW					// Sent as-is
+LOG0_PLANET_EJECT			// Sent when ejected from a planet due to team switch
+LOG0_BADLOGIN				// Sent when bad login
+LOG0_TOW					// Sent when a player is towed
+LOG0_HARAKIRI				// Sent when self-destructed
+LOG0_TEAM_REJECT			// Sent when player refuses invitation
+LOG0_TEAM_RENAME			// Sent when renaming a team
+LOG0_TEAM_M_RENAME			// Sent to members on team rename
+LOG0_TEAM_KICK				// Sent to booted player
+LOG0_TEAM_CREATE			// Sent when created a team
+LOG0_TEAM_LEAVE				// Sent when leaving a team
+LOG0_TEAM_NEWLEAD			// Sent when leaving a team, appointing a new leader
+LOG0_TEAM_LEAD				// Sent to the new team leader
+LOG0_TEAM_JOIN				// Sent when joining a team
+LOG0_TEAM_NEWMEMBER			// Sent to leader on join
+LOG0_TEAM_INVITE			// Sent to invited player
+LOG0_TEAM_NOT_LEAVE			// Sent to leader on leave
+LOG0_ADMIN_HARAKIRI			// Sent to admin on self-destruct
+LOG0_ADMIN_PLANETDEL		// Sent to admin on planet destruction instead of capture
+LOG0_DEFENCE_DEGRADE		// Sent sector fighters have no supporting planet
+LOG0_BOUNTY_CLAIMED			// Sent to player when they claim a bounty
+LOG0_BOUNTY_PAID			// Sent to player when their bounty on someone is paid
+LOG0_BOUNTY_CANCELLED		// Sent to player when their bounty is refunded
+LOG0_BOUNTY_FEDBOUNTY		// Sent when the federation places a bounty on a player
+LOG0_ADMIN_ILLEGVALUE		// Sent to admin on planet destruction instead of capture
+LOG0_CHEAT_TEAM				// Sent when someone attempts the kick any team member cheat
+LOG0_IGB_TRANSFER1			// Sent when someone transferred money to your IGB account
+LOG0_IGB_TRANSFER2			// Sent when you transferred money to sb's IGB account
+LOG0_ADMIN_PLANETIND		// Sent to admin on planet independance
+LOG0_BOUNTY_TAX_PAID		// Sent to player when their bounty on someone is paid
+LOG0_TEAM_CANCEL			// Sent to initation cancel to player
+
+// These entries will be displayed in the Dignitary Log Category.
+LOG1_DIG_PRODUCTION			// Sent to dig owner if his dig starts production increasing
+LOG1_DIG_BIRTHDEC			// Sent to dig owner if his dig starts decreasing birth rate
+LOG1_DIG_INTEREST			// Sent to dig owner if his dig starts stealing planet interest
+LOG1_DIG_MONEY				// Sent to dig owner if his dig steals money
+LOG1_DIG_TORPS				// Sent to dig owner if his dig destroys torpedoes
+LOG1_DIG_FITS				// Sent to dig owner if his dig destroys fighters
+LOG1_DIG_KILLED_SPY			// Sent to dig owner if his dig killed a spy
+LOG1_DIG_CATACLYSM			// Sent to dig owner if his dig get killed with a planet
+LOG1_SHIPDIG_CATACLYSM		// Sent to dig owner if his dig get killed with a ship
+LOG1_DIG_BIRTHINC			//
+LOG1_DIG_SPYHUNT			//
+
+// These entries will be displayed in the Spy Log Category.
+LOG2_SPY_SEND_FAIL			// Sent to player when another player failed to send a spy to his planet
+LOG2_SPY_SABOTAGE			// Sent to spy owner if his spy starts sabotage
+LOG2_SPY_BIRTH				// Sent to spy owner if his spy starts decreasing birth rate
+LOG2_SPY_INTEREST			// Sent to spy owner if his spy starts stealing planet interest
+LOG2_SPY_MONEY				// Sent to spy owner if his spy steals money
+LOG2_SPY_TORPS				// Sent to spy owner if his spy destroys torpedoes
+LOG2_SPY_FITS				// Sent to spy owner if his spy destroys fighters
+LOG2_SPY_CPTURE				// Sent to spy owner if his spy captures a planet
+LOG2_SPY_CPTURE_OWNER		// Sent to planet owner if his planet is captured
+LOG2_SPY_KILLED_SPYOWNER	// Sent to spy owner if his spy get killed on a planet
+LOG2_SPY_KILLED				// Sent to planet owner if he killed an enemy spy
+LOG2_SHIPSPY_KILLED			// Sent to spy owner if his spy get killed on a ship
+LOG2_SPY_CATACLYSM			// Sent to spy owner if his spy get killed with a planet
+LOG2_SHIPSPY_CATACLYSM		// Sent to spy owner if his spy get killed with a ship
+LOG2_SPY_TOSHIP				// Sent to spy owner if his spy infiltrates an enemy ship
+LOG2_SPY_TOPLANET			// Sent to spy owner if his spy infiltrates an enemy planet
+LOG2_SPY_NEWSHIP			// Sent to spy owner if his spy get lost, because the ship owner bought a new ship
+LOG2_SPY_FOUND_EMBEZZLER	// Sent to dig owner if his dig get lost, because the ship owner bought a new ship
+
+// These entries will be displayed in the Planet Disaster Log Category.
+LOG3_PLANET_REVOLT			// Sent to planet owner if planet revolts
+LOG3_SPACE_PLAGUE			// Sent when space plague attacks a planet
+LOG3_PLASMA_STORM			// Sent when a plasma storm attacks a planet
+
+// These entries will be displayed in the Nova Log Category.
+LOG4_PLANET_novaED_D		// Sent to planet owner if planet is novaed
+LOG4_SHIP_novaED_D			// Sent to planet owner if ship is novaed
+
+// These entries will be displayed in the Attack Log Category.
+LOG5_ATTACK_OUTMAN			// Sent to target when better engines
+LOG5_ATTACK_OUTSCAN			// Sent to target when better cloak
+LOG5_ATTACK_EWD				// Sent to target when EWD engaged
+LOG5_ATTACK_EWDFAIL			// Sent to target when EWD failed
+LOG5_ATTACK_LOSE			// Sent to target when he lost
+LOG5_ATTACKED_WIN			// Sent to target when he won
+LOG5_HIT_MINES				// Sent when hit mines
+LOG5_SHIP_DESTROYED_MINES	// Sent when destroyed by mines
+LOG5_PLANET_DEFEATED_D		// Sent when one of your defeated planets is destroyed instead of captured
+LOG5_PLANET_DEFEATED		// Sent when a planet is defeated
+LOG5_PLANET_NOT_DEFEATED	// Sent when a planet survives
+LOG5_DEFS_DESTROYED			// Sent for destroyed sector defenses
+LOG5_DEFS_DESTROYED_F		// Sent when a player destroys fighters
+LOG5_DEFS_KABOOM			// Sent when sector fighters destroy you
+LOG5_PLANET_CAPTURED		// Sent to player when he captures a planet
+LOG5_PLANET_BOMBED			// Sent after bombing a planet
+LOG5_PLANET_YOUR_CAPTURED	// Sent when your planet is captured
+LOG5_KABAL_ATTACK			// Sent to the Alliance by the Alliance ** TODO - redo this.
+
+// These entries will be displayed in the Scan Log Category.
+LOG6_PLANET_SCAN			// Sent when a planet has been scanned
+LOG6_PLANET_SCAN_FAIL		// Sent when a planet scan failed
+LOG6_PLANET_CAPTURE	 		// Sent when a planet is captured
+LOG6_SHIP_SCAN				// Sent when a ship is scanned
+LOG6_SHIP_SCAN_FAIL			// Sent when a ship scan fails
+
+// These entries will be displayed in the Planet Starvation Log Category.
+LOG7_STARVATION				// Sent when colonists are starving... ** TODO - check to ensure its bein used
+
+// These entries will be displayed in the Probe Log Category.
+LOG9_PROBE_DETECTED_SHIP	// Sent to player when their probe detects incoming ship
+LOG9_PROBE_SCAN_SHIP		// Sent to player when their probe scans incoming ship
+LOG9_PROBE_DESTROYED		// Sent to player when their probe is destroyed
+LOG9_PROBE_NOTURNS 			// Send to player when player is out of turns
+LOG9_PROBE_INVALIDSECTOR	// Sent to player when thier probe tried to move to an invalid sector
+LOG9_PROBE_DETECTED_SHIP	// Sent to player when their probe detects incoming ship
+LOG9_PROBE_SCAN_SHIP		// Sent to player when their probe scans incoming ship
+LOG9_PROBE_DETECTPROBE		// Sent to player when their probe detects incoming probe
+
+// These entries will be displayed in the Planet Auto Trade Log Category.
+LOG10_AUTOTRADE				// Log Auto Trades
+LOG10_AUTOTRADE_ABORTED		// Log Auto Trades Failed due to enemy Sector Defense
+

@@ -1,0 +1,39 @@
+<?php
+$l_pr_title		 = "Rapport des planètes";
+$l_pr_teamlink		 = "Montrer les planètes de votre alliance";
+$l_pr_noplanet		 = "Vous ne possédez aucune planète.";
+$l_pr_clicktosort	 = "Cliquez sur un en-tête pour trier les résultats.";
+$l_pr_totals		 = "Totaux";
+$l_pr_menulink           = "Planetary Report Main Menu";  //Translate them, please
+$l_pr_menu = "Menu";
+$l_pr_status = "État";
+$l_pr_production = "Production";
+$l_pr_planetstatus = "Planet Etat";
+$l_pr_changeprods = "Changement de production";
+$l_pr_baserequired = "<B>De base nécessaires</b> sur la planète";
+$l_pr_comm_disp = "Affiche le nombre de chacun des produits de base sur la planète.";
+$l_pr_prod_disp = "Ce rapport vous permet de modifier le taux de production de commondits sur des planètes qui ont une base <BR> - Vous devez Voyage vers la planète pour construire un ensemble de base à la planète de l&#39;entreprise ou de changer le nom (fêtes et autres)";
+$l_pr_team_disp = "Commondity Report (comme Planet Etat) pour définir les planètes à l&#39;équipe dont vous êtes propriétaire et / ou les membres de votre équipe de collègues";
+$l_pr_warning = "<B>AVERTISSEMENT:</b> «Base» entraînera votre navire à se déplacer.";
+$l_pr_takecreds = "Prendre <BR> Crédits";
+$l_pr_collectcreds = "Accumuler des crédits";
+$l_pr_build = "Construire";
+$l_pr_notenoughturns = "TOURNE PAS ASSEZ DE PRENDRE DES CREDITS";
+$l_pr_ppupdated = "Les pourcentages de production à jour";
+$l_pr_prexeedcheck = "Vérifier les valeurs de l&#39;excès de 100% et les valeurs de production négatif";
+$l_pr_prexeeds = "Planète [name] dans le secteur [sector_id] serait supérieure à la production de 100%. Les valeurs de production inchangés.";
+$l_pr_credstaken = "Pris [CreditsTaken] Crédits de planète [name].";
+$l_pr_credsonboard = "Votre vaisseau - <B>[name]</b> - a maintenant [NewShipCredits] à bord.";
+$l_pr_notturns = "Vous n&#39;avez pas assez de tours pour prendre des crédits à partir de [name] dans le secteur [sector_id]";
+$l_pr_hostile = "NE PAS DÉPLACER AU SECTEUR [destination] par le biais HOSTILE DEFENSES";
+$l_pr_pdefense = "Planetary Défenses";
+$l_pr_sector = "Secteur";
+$l_pr_display = "Afficher les niveaux de défense de vos planètes.";
+$l_pr_showd = "Montrent les niveaux de défense de toutes les planètes de votre équipe.";
+$l_pr_showtd = "Show Team Défenses";
+$l_pr_selectall = "Select All";
+
+$l_pr_build = "Construire";
+$l_pr_research = "Rechercher";
+$l_pr_special = "Spécial";
+?>

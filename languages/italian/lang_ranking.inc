@@ -1,0 +1,40 @@
+<?php
+$l_ranks_title           = "I migliori $max_rank Giocatori";
+$l_ranks_none            = "Nessun risultato da mostrare.";
+$l_ranks_pnum            = "Numero totale giocatori";
+$l_ranks_dships          = "I giocatori le cui navi sian ostate distrutte non sono considerati.";
+$l_ranks_rank            = "Rango";
+$l_ranks_lastlog         = "Ultimo login";
+$l_ranks_regen           = "per ricalcolare il tuo punteggio.";
+$l_ranks_done            = "Il tuo punteggio è stato ricalcolato.";
+$l_ranks_standing        = "Classifica";
+$l_ranks_select        = "Seleziona la pagina da vedere";
+$l_ranks_page        = "Pagina";
+$l_ranks_next        = "Prossima";
+$l_ranks_prev        = "Precedente";
+$l_ranks_online        = "Loggati";
+$l_ranks_rating        = "Efficienza";
+$l_ranks_show        = "Sto mostrando i giocatori";
+$l_ranks_to        = "per";
+$l_ranks_kills        = "Vittorie";
+$l_ranks_deaths        = "Sconfitte";
+$l_ranks_captures        = "PCatturati";
+$l_ranks_lost        = "Persi";
+$l_ranks_built        = "Costruiti";
+$l_ranks_based = "Basato";
+$l_ranks_destroyed = "Destroy";
+$l_ranks_experience        = "Esperienza";
+$l_ranks_death_type = "Tipo di morte";
+$l_ranks_deadtitle = "Ultimi 10 giocatori uccisi senza una scialuppa di salvataggio";
+$l_ranks_killefficiency = "Kill Efficienza";
+
+$l_ranks_kill['killed'] = "Killed";
+$l_ranks_kill['killedSD'] = "Settore Difesa";
+$l_ranks_kill['killedplanet'] = "Planet Attack";
+$l_ranks_kill['killedship'] = "Ship Attack";
+$l_ranks_kill['killedsuicide'] = "Suicide";
+$l_ranks_kill['killedsofa'] = "Divano Attack";
+$l_ranks_kill['killednova'] = "Nova Bomb";
+$l_ranks_kill['killednovabackfire'] = "Nova Backfire";
+$l_ranks_kill['killedsectormissile'] = "Settore Missile";
+?>

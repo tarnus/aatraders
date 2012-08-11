@@ -1,0 +1,30 @@
+<?php
+$l_forums_titlemain = "Team Forums";
+$l_forums_title = "s privata fora";
+$l_forums_new = "Ny";
+$l_forums_topics = "Ämnen:";
+$l_forums_date = "Datum:";
+$l_forums_topic2 = "Ämne";
+$l_forums_date2 = "Datum";
+$l_forums_author = "Författare";
+$l_forums_posts = "Inlägg";
+$l_forums_views = "Visningar";
+$l_forums_sticky = "Sticky:";
+$l_forums_locked = "Låst";
+$l_forums_sticky2 = "Sticky";
+$l_forums_locked2 = "Låst";
+$l_forums_coord = "Samordnare";
+$l_forums_admin = "Admin";
+$l_forums_posttopic = "Upp ett ämne";
+$l_forums_subject = "Ämne:";
+$l_forums_message = "Meddelande:";
+$l_forums_editmessage = "Redigera meddelande:";
+$l_forums_reply = "Svar:";
+$l_forums_edited = "Edited";
+$l_forums_lastedit = "Senast ändrat på";
+$l_forums_edit = "Redigera";
+$l_forums_lock = "Låsa / låsa Topic";
+$l_forums_showtopic = "Return to Topic List";
+$l_forums_normaltopic = "Normal Topic";
+$l_forums_stickytopic = "Sticky Topic";
+?>

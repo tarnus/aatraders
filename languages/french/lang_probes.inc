@@ -1,0 +1,111 @@
+<?php
+// probe.php probe2.php probe3.php
+$l_probe_defense_levels = "Probe Niveaux";
+$l_probe_engine = "Moteur";
+$l_probe_sensors = "Capteurs";
+$l_probe_cloak = "Cloak";
+$l_probe_title = "Space Probe Menu";
+$l_probe_none = "Vous n&#39;êtes pas dans le même secteur que cette sonde, de sorte que vous ne pouvez pas interagir avec elle.";
+
+$l_probe_named = "Bienvenue à Probe Number [probename], détenue par [name], située dans le secteur [sector].";
+$l_probe_orders = "[orders] de reconnaissance à l&#39;univers de recherche";
+$l_probe_orders_link = "Programme";
+$l_probe_upgrade = "[upgrade] Capteurs Probe / moteur / Cloak";
+$l_probe_upgrade_link = "Mise à niveau";
+$l_probe_pickup = "[pickup] Sonde de placement de côté";
+$l_probe_pickup_link = "Pickup";
+$l_probe_update = "Mettre à jour";
+
+$l_probe_att_link = "Attaque";
+$l_probe_att = "[attack] sur la sonde";
+$l_probe_att_sure = "Êtes-vous sûr ...";
+$l_probe_scn_link = "Scan";
+$l_probe_scn = "[scan] sonde";
+
+$l_probe_unknown = "Inconnu";
+$l_plant_scn_turn = "Vous devez avoir au moins un tour pour numériser une sonde.";
+$l_probe_noscan = "Les capteurs peuvent pas obtenir un correctif sur la cible!";
+$l_probe_logscanA = "[name] a tenté de balayer une de vos sondes dans le secteur [sector], mais a échoué.";
+$l_probe_logscanB = "Un de vos sondes dans le secteur [sector] a été scannée par [name].";
+$l_probe_scn_report = "Les résultats de scans sur [name], appartenant à: [owner]";
+
+$l_probe_caplog = "Votre sonde «[probename] &#39;dans le secteur [sector] fut capturé par [name].";
+$l_probe_scan = "Sonde balaie secteur [sector] et conclut:";
+$l_probe_destroyprobe = "Destroy sonde";
+$l_probe_destroyed = "Probe Destroyed!";
+$l_probe_warning = "Faire cela va totalement détruire cette sonde";
+$l_probe_confirm = "Voulez-vous vraiment détruire cette sonde?";
+$l_gns_turn = "Vous n&#39;avez pas assez de tours pour détruire cette sonde";
+$l_probe_type = "Type de sonde";
+$l_probe_type0 = "Stationary Probe";
+$l_probe_type1 = "Sentry Probe";
+$l_probe_type2 = "Warp Probe";
+$l_probe_type3 = "REALSPACE Probe";
+$l_probe_type4 = "Sequential REALSPACE Probe";
+$l_probe_target = "Public Sector";
+$l_probe_ordered = "Probe programmé et commencera à chercher.";
+$l_probe_order2 = "Probe est un type [type] et vise secteur [target]";
+$l_probe_pickedup = "Probe ramassé et mis en stock actifs";
+$l_probe_title = "Probe Menu";
+$l_probe_messages = "pour voir ce que vos espions sont détectés.";
+
+$l_probe_defaulttitle1 = "Active Probes";
+$l_probe_defaulttitle2 = "Sondes que vous avez ramassé";
+$l_probe_defaulttitle3 = "Sondes sur vos planètes";
+$l_probe_defaulttitle4 = "Sondes sur votre bateau";
+$l_probe_linkback = "aller au menu de la sonde.";
+$l_probe_no1 = "Vous n&#39;avez pas toutes les sondes actives.";
+$l_probe_no2 = "Vous n&#39;avez pas toutes les sondes de l&#39;entreposage.";
+$l_probe_no3 = "Vous n&#39;avez pas toutes les sondes sur vos planètes.";
+$l_probe_no4 = "Vous n&#39;avez pas toutes les sondes de votre navire.";
+$l_probe_noprobeatall = "Vous n&#39;avez pas toutes les sondes.";
+$l_probe_notknown = "Inconnu";
+$l_probe_launch = "Goutte";
+$l_probe_detect = "Détecté";
+$l_probe_codenumber = "Code";
+$l_probe_job = "Travail";
+$l_probe_percent = "Pour cent";
+$l_probe_move = "Mouvement";
+$l_probe_view = "Affichage";
+$l_probe_action = "Action";
+$l_probe_shipowner = "Propriétaire du navire";
+$l_probe_shipname = "Nom du navire";
+$l_probe_shiptype = "Navire de la classe";
+$l_probe_shiplocation = "Ship";
+$l_probe_planetowner = "Planet Propriétaire";
+$l_probe_planetname = "Planet";
+$l_probe_sector = "Secteur actuel";
+$l_probe_tsector = "Public Sector";
+$l_probe_type = "Type de sonde";
+$l_probe_forbid = "Vous ne pouvez pas supprimer des sondes dans ce secteur";
+$l_probe2_title = "Lancement de Space Probe";
+$l_probe2_turn = "Vous devez avoir au moins un tour d&#39;utiliser une sonde spatiale.";
+$l_probe2_onplanet = "Vous ne pouvez pas utiliser cet appareil en cours sur la surface de la planète.";
+$l_probe2_noprobe = "Vous n&#39;avez pas toutes les sondes spatiales.";
+$l_probe2_forbid = "Lancement d&#39;une sonde dans ce secteur n&#39;est pas permise.";
+$l_probe2_launched = "Sonde spatiale lancée!";
+
+$l_probe2_warplink = "WarpLink";
+$l_probe2_player = "Player";
+$l_probe2_onboarda = "à bord d&#39;un";
+$l_probe2_classship = "navire de la classe";
+$l_probe2_traveled = "voyagé au secteur";
+$l_probe2_fedjammed = "Fédération est le brouillage tous balayage s&#39;effectue vers le secteur 1.";
+$l_probe2_lastseen = "Dernière visite des navires";
+$l_probe2_portfound = "Port Found";
+$l_probe2_supports = "Supports";
+$l_probe2_planets = "planètes";
+$l_probe2_sectord = "Secteur de la défense Détecté";
+$l_probe2_mines = "Mines";
+$l_probe2_fighters = "Fighters";
+$l_probe2_ships = "Expédié Détecté";
+$l_probe2_ships2 = "Navire détecté";
+$l_probe2_noneowned = "Aucune planète ne vous appartient pas avoir été détecté.";
+$l_probe2_warplinks = "Warplinks";
+$l_probe2_nothing = "Rien Détecté";
+$l_probe2_nocredits = "Vous n&#39;avez pas assez de crédits pour cette transaction. Le coût total est [total] Crédits et vous avez seulement [credits] crédits.";
+
+$l_probe_forbidSG = "Vous ne pouvez pas envoyer une sonde de type REALSPACE dans le secteur de la Genèse la création de secteurs.";
+$l_probe_forbidFED = "Vous ne pouvez pas envoyer une sonde de type REALSPACE en Fédération ou des secteurs appartenant à l&#39;Alliance.";
+$l_probe_forbidINVALID = "Votre secteur de destination est un nom du secteur non valide.";
+?>

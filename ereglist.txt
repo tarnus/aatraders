@@ -1,0 +1,12 @@
+./feedback.php:83:	$msg = AAT_ereg_replace("\r\n.\r\n","\r\n. \r\n", $msg);
+./installer/30.inc:118:		$versioncheck = AAT_ereg_replace("[^0-9.]","", $version);
+./installer/30.inc:128:		$versioncheck = AAT_ereg_replace("[^0-9.]","", $version);
+./config/config.php:124:	$versioncheck = ereg_replace("[^0-9.]","", $version);
+./config/config_sched.php:126:$versioncheck = AAT_ereg_replace("[^0-9.]","", $version);
+./new_player_process.php:387:$msg = AAT_ereg_replace("\r\n.\r\n","\r\n. \r\n",$msg);
+./globals/AAT_mbstring.inc:178:function AAT_ereg_replace($pattern, $replacement, $string)
+./globals/AAT_mbstring.inc:182:		return mb_ereg_replace($pattern, $replacement, $string);
+./globals/AAT_mbstring.inc:186:		return ereg_replace($pattern, $replacement, $string);
+./global_funcs.php:432:	$output = AAT_ereg_replace("[^0-9.]","",$str);
+./global_funcs.php:440:  $output = AAT_ereg_replace("[^0-9]","",$str);
+./global_funcs.php:481:		$dberror = AAT_ereg_replace("'","&#039;",$dberror); // Allows the use of apostrophes.

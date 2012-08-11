@@ -1,0 +1,82 @@
+<?php
+$l_s_yes = "Oui";
+$l_s_no = "Non";
+$l_s_enabled = "Activé";
+$l_s_disabled = "Mobilité Réduite";
+
+$l_s_modules = "Modules";
+$l_s_modulename = "Nom du module";
+$l_s_moduleauthor = "Auteur";
+$l_s_moduleinfo = "Info";
+$l_s_nomodules = "N Loaded Modules";
+
+$l_s_gamestatus = "Game Status";
+$l_s_allowpl = "Permettent aux joueurs";
+$l_s_allownewpl = "Autoriser les nouvelles Lecteurs";
+
+$l_s_gameoptions = "Options de jeu";
+$l_s_allowteamplcreds = "Permettre à l&#39;équipe Planet Credit Transfer";
+$l_s_allowfullscan = "Allow Full Scan Long Range";
+$l_s_sofa = "Permettre des attaques sous-orbitale Fighter";
+$l_s_showpassword = "Annonce de passe sur l&#39;enregistrement des";
+$l_s_genesisdestroy = "Torps Genesis peut détruire des planètes";
+$l_s_igb = "Intergalactic Bank (IGB)";
+$l_s_ksm = "Known Space Maps";
+$l_s_navcomp = "Ordinateur de navigation";
+$l_s_newbienice = "Newbie Nice";
+$l_s_spies = "Spy System";
+$l_s_spycapture = "Spies permettent de capturer les planètes";
+
+$l_s_gamesettings = "Paramètres de jeu";
+$l_s_gameversion = "Version du jeu:";
+$l_s_minhullmines = "Taille minimale de la coque nécessaires pour frapper les mines";
+$l_s_averagetechewd = "Moyenne de niveau de technologie d&#39;urgence Lorsque Warp dégrade";
+$l_s_numsectors = "Nombre de secteurs";
+$l_s_maxwarpspersector = "Liens maximale par secteur";
+$l_s_averagetechfed = "Maximum niveau de technologie moyenne pour les Secteurs de la Fédération";
+$l_s_igbirateperupdate = "Taux d&#39;intérêt IGB par mise à jour";
+$l_s_igblrateperupdate = "IGB Taux de prêt par mise à jour";
+$l_s_techupgradebase = "Niveau de mise à niveau technologique des bases de";
+$l_s_collimit = "Limite de colons";
+$l_s_maxturns = "Le nombre maximum de tours accumulés";
+$l_s_maxplanetssector = "Le nombre maximum de planètes par secteur";
+$l_s_maxtraderoutes = "Le nombre maximum de Routes commerciales par joueur";
+$l_s_colreprodrate = "Colonist Taux de natalité";
+$l_s_energyperfighter = "Unité d&#39;énergie utilisée par le secteur de chasse";
+$l_s_secfighterdegrade = "Secteur de la dégradation de chasse pourcentage du taux";
+$l_s_planetinterest = "Planet de taux d&#39;intérêt";
+$l_s_spiesperplanet = "Le nombre maximum d&#39;espions par Planet";
+$l_s_spysuccessfactor = "Spy un facteur de réussite";
+$l_s_spykillfactor = "Spy tuer facteur";
+$l_s_colsperfighter = "Colons nécessaires pour produire 1 Fighter chaque tour";
+$l_s_colspertorp = "Colons nécessaires pour produire 1 Torpedo chaque tour";
+$l_s_colsperore = "Colons nécessaires pour produire 1 Ore chaque tour";
+$l_s_colsperorganics = "Colons nécessaires pour produire 1 Biologique chaque tour";
+$l_s_colspergoods = "Colons nécessaires pour produire 1 Marchandises à chaque tour";
+$l_s_colsperenergy = "Colons nécessaires pour produire 1 de l&#39;énergie à chaque tour";
+$l_s_colspercreds = "Colons nécessaires pour produire 1 Crédits chaque tour";
+$l_s_colsper      = "Colonists needed to produce 1 [commodities] each turn";
+
+$l_s_gameschedsettings = "Game Settings Scheduler";
+$l_s_schedtype = "Planificateur Type";
+$l_s_cronbased = "Sur la base Cron";
+$l_s_playertriggered = "Déclenchée Player";
+$l_s_minutes = "minutes";
+$l_s_ticksupdate = "Tiques se produisent chaque";
+$l_s_turnsupdate = "Tourne-t-il toutes les";
+$l_s_npcupdate = "L&#39;Alliance sera compatible avec toutes";
+$l_s_igbturnsupdate = "Intérêts sur comptes igb seront accumulés chaque";
+$l_s_newsupdate = "Nouvelles seront générées chaque";
+$l_s_planetupdate = "Les planètes vont générer de production tous les";
+$l_s_spyupdate = "Spies agira à chaque";
+$l_s_portsupdate = "Est régénérée tous les ports seront";
+$l_s_towupdate = "Les navires devront être remorqué de manger tous les secteurs";
+$l_s_scoreupdate = "Classements seront générées chaque";
+$l_s_secdefdegrupdate = "Les défenses du secteur se dégrade chaque";
+$l_s_apocalypseupdate = "L&#39;apocalypse planétaire auront lieu tous les";
+$l_s_independence = "Planetary Indépendance";
+$l_s_dignitaryupdate = "Loi tous les dignitaires";
+$l_s_turnsupdate = "transforme chaque";
+$l_s_release_version = "Game Release";
+$l_s_time_since_reset = "Temps depuis la dernière réinitialisation";
+?>

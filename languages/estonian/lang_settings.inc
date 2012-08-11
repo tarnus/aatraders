@@ -1,0 +1,82 @@
+<?php
+$l_s_yes               = "Lubatud";
+$l_s_no                = "Keelatud";
+$l_s_enabled           = "Lubatud";
+$l_s_disabled          = "Keelatud";
+
+$l_s_modules           = "Moodulid";
+$l_s_modulename        = "Mooduli nimi";
+$l_s_moduleauthor      = "Autor";
+$l_s_moduleinfo = "Info";
+$l_s_nomodules         = "Mooduleid ei ole laetud";
+
+$l_s_gamestatus        = "M&auml;ngu Staatus";
+$l_s_allowpl           = "Sisse logimine";
+$l_s_allownewpl        = "Uute m&auml;ngijate registreerimine";
+
+$l_s_gameoptions       = "M&auml;ngu Seaded";
+$l_s_allowteamplcreds  = "Liiduplaneedi raha&uuml;lekanded";
+$l_s_allowfullscan     = "Sektorite t&auml;isvaatlus";
+$l_s_sofa              = "Orbitaalne h&auml;vitajate r&uuml;nnak";
+$l_s_showpassword      = "Parooli n&auml;itamine registreerimisel";
+$l_s_genesisdestroy    = "Mateeriatorpeedo abil planeedi purustamine";
+$l_s_igb               = "Intergalaktiline pank (IGB)";
+$l_s_ksm               = "Galaktika kaart";
+$l_s_navcomp           = "Pardakompuuter";
+$l_s_newbienice        = "<i>Newbie nice</i>";
+$l_s_spies             = "Spioonid";
+$l_s_spycapture        = "Planeetide h&otilde;ivamine spioonide poolt";
+
+$l_s_gamesettings      = "M&auml;ngu Parameetrid";
+$l_s_gameversion       = "M&auml;ngu versioon:";
+$l_s_minhullmines      = "V&auml;him kere miinide vastu p&otilde;rkamiseks";
+$l_s_averagetechewd    = "V&auml;him keskmine tehniline tase h&auml;daabi varbi t&otilde;rgeteks";
+$l_s_numsectors        = "Sektorite arv";
+$l_s_maxwarpspersector = "Maksimaalne sektorist v&auml;ljuvate varp-koridoride arv";
+$l_s_averagetechfed    = "Suurim keskmine tehniline tase F&ouml;deratsiooni sektorites viibimiseks";
+$l_s_igbirateperupdate = "IGB konto intress igal uuendamisel (%)";
+$l_s_igblrateperupdate = "IGB laenu intress igal uuendamisel (%)";
+$l_s_techupgradebase   = "Planeedi baasi lisa tehnilisele tasemele";
+$l_s_collimit          = "Kolonistide limiit";
+$l_s_maxturns          = "Maksimaalne kogutud k&auml;ikude arv";
+$l_s_maxplanetssector  = "Maksimaalne planeetide arv &uuml;hes sektoris";
+$l_s_maxtraderoutes    = "Maksimaalne kaubateede arv &uuml;hel m&auml;ngijal";
+$l_s_colreprodrate     = "Kolonistide s&uuml;ndivus";
+$l_s_energyperfighter  = "Sektori kaitse h&auml;vitaja energiatarve";
+$l_s_secfighterdegrade = "Sektori kaitse h&auml;vitajate v&auml;henemise protsent";
+$l_s_planetinterest    = "Raha intress planeedil";
+$l_s_spiesperplanet    = "Spioonide limiit &uuml;hel planeedil";
+$l_s_spysuccessfactor  = "Spioonide edukuse faktor";
+$l_s_spykillfactor     = "Spioonide tabamise faktor";
+$l_s_colsperfighter    = "&Uuml;he k&auml;iguga &uuml;he H&auml;vitaja tootmiseks on koloniste vaja";
+$l_s_colspertorp       = "&Uuml;he k&auml;iguga &uuml;he Torpeedo tootmiseks on koloniste vaja";
+$l_s_colsperore        = "&Uuml;he k&auml;iguga &uuml;he &uuml;hiku Maagi tootmiseks on koloniste vaja";
+$l_s_colsperorganics   = "&Uuml;he k&auml;iguga &uuml;he &uuml;hiku Orgaanika tootmiseks on koloniste vaja";
+$l_s_colspergoods      = "&Uuml;he k&auml;iguga &uuml;he &uuml;hiku Tarbekauba tootmiseks on koloniste vaja";
+$l_s_colsperenergy     = "&Uuml;he k&auml;iguga &uuml;he &uuml;hiku Energia tootmiseks on koloniste vaja";
+$l_s_colspercreds      = "&Uuml;he k&auml;iguga &uuml;he &uuml;hiku Raha tootmiseks on koloniste vaja";
+$l_s_colsper      = "&Uuml;he k&auml;iguga &uuml;he &uuml;hiku [commodity] tootmiseks on koloniste vaja";
+
+$l_s_gameschedsettings = "M&auml;ngu Kiiruse Info";
+$l_s_schedtype         = "Uuendamise t&uuml;&uuml;p";
+$l_s_cronbased         = "Automaatne";
+$l_s_playertriggered   = "M&auml;ngijate abil";
+$l_s_minutes           = " minuti j&auml;rel";
+$l_s_ticksupdate       = "Uuendamine toimub iga";
+$l_s_turnsupdate       = "K&auml;ike antakse iga";
+$l_s_npcupdate       = "Alliance m&auml;ngivad iga";
+$l_s_igbturnsupdate    = "IGB intresse arvutatakse iga";
+$l_s_newsupdate        = "Uudiseid genereeritakse iga";
+$l_s_planetupdate      = "Planeedid toodavad iga";
+$l_s_spyupdate         = "Spioonid tegutsevad iga";
+$l_s_portsupdate       = "Sadamad uuenevad iga";
+$l_s_towupdate         = "Suured laevad t&otilde;stetakse F&ouml;deratsiooni sektoritest v&auml;lja iga";
+$l_s_scoreupdate       = "Skoore arvutatakse iga";
+$l_s_secdefdegrupdate  = "Sektori energiata kaitsed v&auml;henevad iga";
+$l_s_apocalypseupdate  = "Apokal&uuml;psis v&otilde;ib aset leida iga";
+$l_s_release_version   = "M&auml;ngu v&auml;ljalaske versioon";
+$l_s_time_since_reset  = "Viimasest resetist on m&ouml;&ouml;dunud";
+$l_s_independence = "Planeetide Iseseisvus";
+$l_s_dignitaryupdate = "Aukandjate tegutseb iga";
+$l_s_turnsupdate = "muutub iga";
+?>

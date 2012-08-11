@@ -1,0 +1,5 @@
+name = "Alien Assault Traders Windowed Menu Mode"
+author = "Template Layouts by Panama Jack"
+authoremail = "akapanamajack@wildmail.com"
+authorwebsite = "http://www.aatraders.com"
+description = "This template allows users to move and resize all of the main screen information windows to suit their own tastes. This is a menued version which uses drop down menus for command selection. The window positions and sizes are automatically saved by the server as soon as a window has been moved or resized.  You can now customize your display to make it look the way you want.\n\nThe default layout is for a 1024x768 screen but you can position the windows where you want to fit the size screen you will be using."

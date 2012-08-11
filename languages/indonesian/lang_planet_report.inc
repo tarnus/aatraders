@@ -1,0 +1,39 @@
+<?php
+$l_pr_title = "Planet Laporan";
+$l_pr_teamlink = "Tim menunjukkan planet";
+$l_pr_noplanet = "Anda tidak memiliki planet begitu jauh";
+$l_pr_clicktosort = "Klik kepala kolom untuk menyortir.";
+$l_pr_totals = "Total";
+$l_pr_menulink = "Laporan planet Menu Utama";
+$l_pr_menu = "Menu";
+$l_pr_status = "Status";
+$l_pr_production = "Produksi";
+$l_pr_planetstatus = "Planet Status";
+$l_pr_changeprods = "Ubah Produksi";
+$l_pr_baserequired = "<B>Base yang disyaratkan</b> di Planet";
+$l_pr_comm_disp = "Menampilkan jumlah masing-masing komoditi di planet ini.";
+$l_pr_prod_disp = "Laporan ini memungkinkan Anda untuk mengubah tingkat produksi commondits pada planet yang memiliki basis <BR> - Anda harus pergi ke planet untuk membangun basis mengatur planet untuk perusahaan atau mengubah nama (perayaan dan semacamnya)";
+$l_pr_team_disp = "Laporan Commondity (seperti Planet Status) untuk planet diatur ke Tim dimiliki oleh Anda dan / atau sesama anggota tim";
+$l_pr_warning = "<B>PERINGATAN:</b> &#39;Base&#39; akan menyebabkan kapal Anda bergerak.";
+$l_pr_takecreds = "Mengambil <BR> Credits";
+$l_pr_collectcreds = "Kumpulkan Credits";
+$l_pr_build = "Membangun";
+$l_pr_notenoughturns = "TIDAK CUKUP berpaling kepada TAKE CREDITS";
+$l_pr_ppupdated = "Persentase produksi Diperbarui";
+$l_pr_prexeedcheck = "Memeriksa Nilai untuk lebih dari 100% dan nilai produksi negatif";
+$l_pr_prexeeds = "Planet [name] di sektor [sector_id] akan melebihi 100% produksi. Nilai produksi tidak berubah.";
+$l_pr_credstaken = "Mengambil [CreditsTaken] Kredit dari planet [name].";
+$l_pr_credsonboard = "Kapal Anda - <B>[name]</b> - sekarang telah [NewShipCredits] onboard.";
+$l_pr_notturns = "Anda tidak memiliki cukup berubah untuk mengambil kredit dari [name] di sektor [sector_id]";
+$l_pr_hostile = "TIDAK BERGERAK UNTUK SEKTOR [destination] MELALUI BERMUSUHAN pertahanan";
+$l_pr_pdefense = "Planet Pertahanan";
+$l_pr_sector = "Sektor";
+$l_pr_display = "Menampilkan tingkat pertahanan planet Anda.";
+$l_pr_showd = "Tunjukkan Tingkat Pertahanan semua planet pada tim Anda.";
+$l_pr_showtd = "Tampilkan Tim Pertahanan";
+$l_pr_selectall = "Pilih Semua";
+
+$l_pr_build = "Membangun";
+$l_pr_research = "Penelitian";
+$l_pr_special = "Khusus";
+?>

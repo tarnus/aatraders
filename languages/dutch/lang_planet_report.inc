@@ -1,0 +1,39 @@
+<?php
+$l_pr_title = "Planet Report";
+$l_pr_teamlink = "Toon team planeten";
+$l_pr_noplanet = "U hebt geen planeten tot nu toe";
+$l_pr_clicktosort = "Klik op de kolom om te sorteren.";
+$l_pr_totals = "Totalen";
+$l_pr_menulink = "Planetaire Verslag Main Menu";
+$l_pr_menu = "Menu";
+$l_pr_status = "Status";
+$l_pr_production = "Productie";
+$l_pr_planetstatus = "Planet Status";
+$l_pr_changeprods = "Verander Productie";
+$l_pr_baserequired = "<B>Nodig is als basis</b> op Planet";
+$l_pr_comm_disp = "Geeft het nummer van alle goederen op de planeet.";
+$l_pr_prod_disp = "Dit rapport kunt u een wijziging van het tarief van de productie van commondits op planeten die een basis hebben <BR> - U moet een reis naar de planeet om een basis te bouwen set van de planeet tot grote ondernemingen of de naam wijzigen (vieringen en dergelijke)";
+$l_pr_team_disp = "Commondity Verslag (zoals Planet Status) voor planeten bij Team eigendom van u en / of uw collega-teamleden";
+$l_pr_warning = "<B>WAARSCHUWING:</b> &#39;Base&#39; zal ertoe leiden dat uw schip te verplaatsen.";
+$l_pr_takecreds = "Nemen <BR> Credits";
+$l_pr_collectcreds = "Verzamel Credits";
+$l_pr_build = "Bouwen";
+$l_pr_notenoughturns = "NIET GENOEG wendt zich tot CREDITS NEMEN";
+$l_pr_ppupdated = "Productie Percentages Updated";
+$l_pr_prexeedcheck = "Controle van Waarden voor het overschot van 100% en de productie negatieve waarden";
+$l_pr_prexeeds = "Planet [name] in de sector [sector_id] zou bedragen dan 100% productie. Productie waarden onveranderd.";
+$l_pr_credstaken = "Took [CreditsTaken] Credits van planeet [name].";
+$l_pr_credsonboard = "Uw schip - <B>[name]</b> - nu heeft [NewShipCredits] aan boord.";
+$l_pr_notturns = "Je hebt niet genoeg blijkt om kredieten te nemen van [name] in de sector [sector_id]";
+$l_pr_hostile = "Can&#39;t Move naar Sector [destination] door vijandige defensies";
+$l_pr_pdefense = "Planetaire verdedigingen";
+$l_pr_sector = "Sector";
+$l_pr_display = "Geef de verdediging niveaus van je planeten.";
+$l_pr_showd = "Toon de Defense niveaus van alle planeten op uw team.";
+$l_pr_showtd = "Toon Team verdedigingen";
+$l_pr_selectall = "Alles selecteren";
+
+$l_pr_build = "Bouwen";
+$l_pr_research = "Onderzoek";
+$l_pr_special = "Special";
+?>

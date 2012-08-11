@@ -1,0 +1,40 @@
+<?php
+$l_ranks_title = "Top Lojtaret $ max_rank";
+$l_ranks_none = "Nuk Results to show.";
+$l_ranks_pnum = "Numri total i lojtarëve";
+$l_ranks_dships = "Lojtaret me anije të shkatërruara nuk janë të numëruara.";
+$l_ranks_rank = "Rank";
+$l_ranks_lastlog = "Last login";
+$l_ranks_regen = "për rillogaritjen rezultatin tuaj.";
+$l_ranks_done = "Rezultati juaj është recalculated.";
+$l_ranks_standing = "Përhershëm";
+$l_ranks_select = "Select Page Ranking për të parë";
+$l_ranks_page = "Page";
+$l_ranks_next = "Tjetër";
+$l_ranks_prev = "Previous";
+$l_ranks_online = "Online";
+$l_ranks_rating = "EFF. Rating";
+$l_ranks_show = "Showing lojtarë";
+$l_ranks_to = "te";
+$l_ranks_kills = "Vret";
+$l_ranks_deaths = "Vdekje";
+$l_ranks_captures = "Captures";
+$l_ranks_lost = "I humbur";
+$l_ranks_built = "Ndërtuar";
+$l_ranks_based = "Bazuar";
+$l_ranks_destroyed = "Destroy";
+$l_ranks_experience = "Përvoja";
+$l_ranks_death_type = "Vdekja Type";
+$l_ranks_deadtitle = "10 lojtarë të fundit vranë pa një Pod Escape";
+$l_ranks_killefficiency = "Vrasin Efikasiteti";
+
+$l_ranks_kill['killed'] = "Vranë";
+$l_ranks_kill['killedSD'] = "Sektori i Mbrojtjes";
+$l_ranks_kill['killedplanet'] = "Planet Attack";
+$l_ranks_kill['killedship'] = "Gurë";
+$l_ranks_kill['killedsuicide'] = "Vetëvrasje";
+$l_ranks_kill['killedsofa'] = "Divan Attack";
+$l_ranks_kill['killednova'] = "Nova bombë";
+$l_ranks_kill['killednovabackfire'] = "Nova dështojnë";
+$l_ranks_kill['killedsectormissile'] = "Sektori i raketave";
+?>

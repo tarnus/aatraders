@@ -1,0 +1,30 @@
+<?php
+$l_forums_titlemain = "Salakaubavedajate Den Baar";
+$l_forums_nocasino = "Casino Port ei ole praegu selles sektoris.";
+$l_forums_new = "Uus";
+$l_forums_topics = "Teemad:";
+$l_forums_date = "Kuupäev:";
+$l_forums_topic2 = "Teema";
+$l_forums_date2 = "Kuupäev";
+$l_forums_author = "Autor";
+$l_forums_posts = "Postitusi";
+$l_forums_views = "Vaatamisi";
+$l_forums_sticky = "Sticky:";
+$l_forums_locked = "Kinni:";
+$l_forums_sticky2 = "Kleeps";
+$l_forums_locked2 = "Kinni";
+$l_forums_coord = "Koordinaator";
+$l_forums_admin = "Admin";
+$l_forums_posttopic = "Postita teema";
+$l_forums_subject = "Teema:";
+$l_forums_message = "Sõnum:";
+$l_forums_editmessage = "Muuda Sõnum:";
+$l_forums_reply = "Vastused:";
+$l_forums_edited = "Viimati muudetud";
+$l_forums_lastedit = "Last Edit";
+$l_forums_edit = "Edit";
+$l_forums_lock = "Lukusta / Ava Teema";
+$l_forums_showtopic = "Tagasi Teemade nimekiri";
+$l_forums_normaltopic = "Tavaline teema";
+$l_forums_stickytopic = "Sticky Topic";
+?>

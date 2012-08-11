@@ -1,0 +1,46 @@
+Alien Assault Traders - Readme
+
+A web-based massively multi-player strategy game of space trading and combat.
+
+Version 0.13
+http://www.aatraders.com
+
+This program is free software; you can redistribute it and/or modify it under 
+the terms of the GNU Public License (see LICENSE or 
+http://www.gnu.org/licenses/gpl.html)
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Public
+License for more details.
+
+Requirements: 
+    PHP4.3.0 or higher (tested with 4.3.2)
+    MySQL (tested with 4.0.3 recommend 4.0.3 or higher)
+    ADODB (included 4.03)
+    Smarty (included 2.5)
+
+Download:
+    You can get the newest version at http://www.aatraders.com
+
+Credits:
+    Alien Assault Traders is based off of the original BlackNova Traders and Nova Gaming System code 
+    (specifically the .54 release of NGS). Their CHANGELOG information can be found in their project files.
+
+Installation:
+    Please see the INSTALL file.
+
+ChangeLog:
+    Please see the CHANGES file.    
+
+Documentation:
+    None to speak of yet.
+
+Updates:
+    Join the forums at http://www.aatraders.com .
+
+Enjoy,
+
+
+Alien Assault Traders is based off of the original BlackNova Traders and Nova Gaming System code (specifically the .54 release of NGS). Their
+CHANGELOG information can be found in their project files.

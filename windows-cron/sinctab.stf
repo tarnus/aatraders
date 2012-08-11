@@ -1,0 +1,20 @@
+# From left to right the time fields are:
+#- minute
+#- hour
+#- day of month
+#- month
+#- day of week
+#  Process to run
+#
+0 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+5 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+10 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+15 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+20 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+25 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+30 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+35 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+40 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+45 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+50 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password
+55 * * * * wget -q http://yourserver.address.com/scheduler.php?swordfish=password

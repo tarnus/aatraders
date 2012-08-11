@@ -1,0 +1,20 @@
+Swift Mailer TODO List
+-------------------------
+
+In 3.3.x:
+
+  * Add an eventCancelled property and setEventCancelled() method all events
+  * Merge Swift_Connection and Swift_ConnectionBase
+  * Create a SignedMessage class using openssl_pcks7_sign()
+
+
+General:
+
+  * Add VERP functionality, probably via plugin
+  * Possibly make ConnectionRotator/Multi deal with failied connections during the
+    send process - again, for batch mailing. Currently these connections only check
+    for failures at connection time.
+  * Refactor code in Swift_Message_Headers and Swift_Message_Encoder
+    - There is some post-processing of strings done in the headers class which could
+      be handled in the encoder.
+

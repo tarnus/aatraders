@@ -1,0 +1,33 @@
+Finish the following items...
+
+1.  Add movement log display of last few sectors you were in.
+
+2.  Purchase base levels every 5-10 average tech levels
+
+3.  Admin option to prevent player from being eligible to be purged until a certain date.
+
+4.  Port prices reflect players good/evil rating.
+
+5.  Sector D attacks any ship that attacks a planet in the sector.
+
+6.  Pirate Raid option in addition to attack ship.  Player can try a pirate raid on a ship with the opposite good/evil alignment.  Ship being raided does a save check on EWD, engines and sensor/cloak.  Stolen cash can be from 0-50%.  Plus chance to put a spy on the ship.
+
+7.  Auto Reset option where the game will reset itself when the reset date is reached.  It then stores the top player name in a Hall of Fame database and adds a Hall of Fame button to the login.
+
+8. Add realspace link to nearest sector.
+
+9. Option to use highest player on team or team score average to figure bounty checks instead of just that players score.  This is to prevent teams from haveing one abnormally low player who is used to attack low players that would normally give the higher players in the team a bounty.
+
+10. Kabal Contracts.  Players can take out contracts against players who are higher than them in score.  The Kabal will then try to hunt down the player and players planets until the player is killed by the Kabal
+
+11. Rewrite the Kabal routine.
+
+12. Federation attacks players who have federation bounties that are too old.  The fes ship attacks the players planets first and takes them.  The value of the planet counts towards paying off the fed bounty.  The fed ship stops attacking player and player planets when the bounty is paid in full.
+
+13. Federation Planet Auction where players can bid on planets the federation has captured.  The winner of the auction gets the planet.
+
+14. Add Risk like spiral arm wars where each spiral arm is a region of space a team has to control.  When a team owns enough sectors in the arm they control the arm.  When a team controls ALL arms of the galaxy they win the game.
+
+15. Add option where an arm of the galaxy is controlled by the Kabal and the kabal attacks any planets or ships in that arm they do not own.
+
+16. Add option to build research base to planets for building new ship class, weapons and defenses.

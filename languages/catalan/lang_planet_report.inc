@@ -1,0 +1,39 @@
+<?php
+$l_pr_title = "Informe del Planeta";
+$l_pr_teamlink = "Mostra planetes equip";
+$l_pr_noplanet = "No té planetes fins ara";
+$l_pr_clicktosort = "Feu clic a l&#39;encapçalament de columna per ordenar.";
+$l_pr_totals = "Totals";
+$l_pr_menulink = "Planetary Informe Menú Principal";
+$l_pr_menu = "Menú";
+$l_pr_status = "Estatus";
+$l_pr_production = "Producció";
+$l_pr_planetstatus = "Situació del planeta";
+$l_pr_changeprods = "Canvi de producció";
+$l_pr_baserequired = "<B>De base necessàries</b> en el Planeta";
+$l_pr_comm_disp = "Mostra el nombre de cada producte al planeta.";
+$l_pr_prod_disp = "Aquest informe us permet canviar la velocitat de producció de commondits en els planetes que tenen una base de <BR> - Has de viatjar al planeta per construir una base de conjunt del planeta per a les empreses o canviar el nom (festes i tal)";
+$l_pr_team_disp = "Commondity Informe (com Planet Status) pels planetes conjunt a l&#39;equip de la seva propietat i / o els membres de l&#39;equip";
+$l_pr_warning = "<B>ADVERTIMENT:</b> &#39;Base&#39; farà que el vaixell es mogui.";
+$l_pr_takecreds = "Prendre <BR> Crèdits";
+$l_pr_collectcreds = "Crèdits Recollir";
+$l_pr_build = "Construir";
+$l_pr_notenoughturns = "NO ÉS SUFICIENT PER PRENDRE CRÈDITS VOLTES";
+$l_pr_ppupdated = "Els percentatges de producció Actualitzat";
+$l_pr_prexeedcheck = "Comprovació de valors de més de 100% i els valors de producció negativa";
+$l_pr_prexeeds = "Planet [name] en el sector [sector_id] seria superior a la producció del 100%. Els valors de producció sense canvis.";
+$l_pr_credstaken = "Va prendre [CreditsTaken] Crèdits del planeta [name].";
+$l_pr_credsonboard = "El seu vaixell - <B>[name]</b> - ara té [NewShipCredits] a bord.";
+$l_pr_notturns = "No té prou torns per prendre crèdits a partir de [name] en el sector [sector_id]";
+$l_pr_hostile = "NO POT MOURE&#39;S DE SECTOR [destination] a través d&#39;hostilitats DEFENSES";
+$l_pr_pdefense = "Les defenses planetàries";
+$l_pr_sector = "Sector";
+$l_pr_display = "Mostra els nivells de defensa dels seus planetes.";
+$l_pr_showd = "Mostren els nivells de defensa de tots els planetes al seu equip.";
+$l_pr_showtd = "Mostra defenses de l&#39;equip";
+$l_pr_selectall = "Seleccionar tot";
+
+$l_pr_build = "Construir";
+$l_pr_research = "Recerca";
+$l_pr_special = "Especial";
+?>

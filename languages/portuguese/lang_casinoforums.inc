@@ -1,0 +1,30 @@
+<?php
+$l_forums_titlemain = "Smugglers Bar Den";
+$l_forums_nocasino = "Um Porto Casino não está presente neste sector.";
+$l_forums_new = "Novo";
+$l_forums_topics = "Tópicos:";
+$l_forums_date = "Data:";
+$l_forums_topic2 = "Tópico";
+$l_forums_date2 = "Data";
+$l_forums_author = "Autor";
+$l_forums_posts = "Posts";
+$l_forums_views = "Vistas";
+$l_forums_sticky = "Destaque:";
+$l_forums_locked = "Fechado:";
+$l_forums_sticky2 = "Sticky";
+$l_forums_locked2 = "Trancado";
+$l_forums_coord = "Coordenador";
+$l_forums_admin = "Admin";
+$l_forums_posttopic = "Post a Topic";
+$l_forums_subject = "Assunto:";
+$l_forums_message = "Mensagem:";
+$l_forums_editmessage = "Editar mensagem:";
+$l_forums_reply = "Respostas:";
+$l_forums_edited = "Editado";
+$l_forums_lastedit = "Última edição em";
+$l_forums_edit = "Editar";
+$l_forums_lock = "Bloqueio / desbloqueio do Tópico";
+$l_forums_showtopic = "Voltar à Lista de Tópicos";
+$l_forums_normaltopic = "Normal Tópico";
+$l_forums_stickytopic = "Sticky Topic";
+?>

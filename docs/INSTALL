@@ -1,0 +1,69 @@
+Welcome to AATraders.
+
+--- Unix based installs ---
+
+First, uncompress the archive into the desired directory. This will currently install everything into a directory called aatrade. For example:
+
+[user@ngs /user]$ cd public_html
+[user@ngs public_html]$ tar zxvf ~/aatraders-0.10.tar.gz
+
+Next, change into the backends subdirectory:
+
+Now that we have everything installed we need to ensure the ownership properties are correct:
+
+chmod -R u+rwx *
+chmod -R o+rx *
+chmod -R o-x *.php
+chmod -R g-r *
+chmod -R o+w templates_c
+chmod -R o+w config
+chmod -R o+w backup
+
+Change to the images/avatars directory
+
+chmod -R o+w uploads
+
+Change to teh images/icons directory
+
+chmod -R o+w uploads
+
+If there are any other permissions that need to be set the install.php will indicate what needs to be done.
+
+Do not edit any of the config files as the installer and create universe programs allow you to edit every single configuration option at startup.
+
+Finally, edit your crontab. Crontabs on unix/linux allow the system to periodically update values in the game, including 
+adding turns and degrading sector defenses.
+
+The installer will prompt you with the appropriate crontab entry.
+
+Now you should be all set, just run the create universe script now: http://www.example.com/create_universe.php
+
+
+
+--- Windows based installs ---
+
+We really don't support windows installs at this time but some people have been able to get things to work.  One of the problems is setting up a schedule task that runs every 5 minutes.
+
+One way that we do not recommend but does work is...
+
+If you have some problem with cron job, you can try this: 
+
+in your scheduler.php 
+just after the license ; 
+
+* End of scheduler explanation * 
+******************************************************************/ 
+
+Put this : 
+
+?> 
+<html> 
+<head> 
+<META HTTP-EQUIV="refresh" CONTENT="300;URL=http://localhost/aatrade/scheduler.php?swordfish=password"></head> 
+</html> 
+<? 
+
+A refresh every 300s, just to have the windows open 
+can be usefull for windows users...
+
+You put your admin password where it says password above.  You then run the scheduler in an IE window.  Do not close the window but minimize it and leave it alone.

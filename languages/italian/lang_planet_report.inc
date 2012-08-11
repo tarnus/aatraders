@@ -1,0 +1,39 @@
+<?php
+$l_pr_title              = "Rapporto Pianeta";
+$l_pr_teamlink           = "Mostra pianeti della Squadra";
+$l_pr_noplanet           = "Non hai ancora pianeti";
+$l_pr_clicktosort        = "Clicca sull'intestazione di una colonna per ordinare.";
+$l_pr_totals             = "Totali";
+$l_pr_menulink           = "Menu principale dei Rapporti Planetari";
+$l_pr_menu = "Menu";
+$l_pr_status             = "Stato";
+$l_pr_production         = "Produzione";
+$l_pr_planetstatus       = "Stato Pianeti";
+$l_pr_changeprods        = "Cambia Produzione";
+$l_pr_baserequired       = "<B>Base necessaria</B> sul pianeta";
+$l_pr_comm_disp          = "Mostra la quantità di ciascuna risorsa sui pianeti.";
+$l_pr_prod_disp          = "Questo Rapporto ti permette di cambiare il tasso di Produzione delle merci sui pianeti che hanno una base<BR>-- Devi viaggiare verso il pianeta per: costruire una base, fare del pianeta un pianeta corporato o cambiarne il nome(celebrazioni e simili)";
+$l_pr_team_disp          = "Rapporto Risorse (come lo Stato Pianeti) per pianeti posseduti da te o da membri della tua Squadra, che siano settati come pianeti della Squadra";
+$l_pr_warning            = "<B>ATTENZIONE:</B> 'Costruisci' richiedono che la tua nave si muova verso i settori dei pianeti interessati.";
+$l_pr_takecreds          = "Raccogli<BR>Crediti";
+$l_pr_collectcreds       = "Raccogli Crediti";
+$l_pr_build              = "Costruisci";
+$l_pr_notenoughturns     = "NON HAI ABBASTANZA TURNI PER RITIRARE TUTTI I CREDITI";
+$l_pr_ppupdated          = "Percentuali di Produzione aggiornate";
+$l_pr_prexeedcheck       = "Controllo Valori per percentuali negative o oltre il 100%";
+$l_pr_prexeeds           = "Il pianeta [name] nel settore [sector_id] eccederebbe il 100% nella produzione. Le percentuali sono state lasciate invariate.";
+$l_pr_credstaken         = "Ritirati [CreditsTaken] crediti dal pianeta [name].";
+$l_pr_credsonboard       = "La tua nave - <B>[name]</B> - ha ora [NewShipCredits] crediti a bordo.";
+$l_pr_notturns           = "Non hai abbastanza turni per ritirare i crediti da [name] nel settore [sector_id]";
+$l_pr_hostile            = "IMPOSSIBILE MUOVERE NEL SETTORE [destination] A CAUSA DI DIFESE DEL SETTORE OSTILI";
+$l_pr_pdefense            = "Difese Planetarie";
+$l_pr_sector            = "Settore";
+$l_pr_display            = "Mostra il livello tecnologico dei tuoi pianeti.";
+$l_pr_showd            = "Mostra il livello tecnologico dei pianeti della tua Squadra.";
+$l_pr_showtd            = "Mostra le Difese della Squadra";
+$l_pr_selectall            = "Seleziona tutti";
+
+$l_pr_build            = "Costruzione";
+$l_pr_research            = "Ricerca";
+$l_pr_special = "Speciali";
+?>

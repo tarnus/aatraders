@@ -1,0 +1,30 @@
+<?php
+$l_forums_titlemain          = "Forum della Squadra";
+$l_forums_title = "&#39;s Private Forum";
+$l_forums_new   = "Nuovo";
+$l_forums_topics   = "Argomenti: ";
+$l_forums_date          = "Data: ";
+$l_forums_topic2           = "Argomento";
+$l_forums_date2          = "Data";
+$l_forums_author       = "Autore";
+$l_forums_posts       = "Annunci";
+$l_forums_views       = "Visite";
+$l_forums_sticky       = "Nota Bene: ";
+$l_forums_locked       = "Bloccato: ";
+$l_forums_sticky2       = "Da Notare ";
+$l_forums_locked2       = "Bloccato ";
+$l_forums_coord       = "Coordinatore ";
+$l_forums_admin       = "Amministratore ";
+$l_forums_posttopic       = "Aggiungi un argomento";
+$l_forums_subject       = "Oggetto:";
+$l_forums_message       = "Messaggio:";
+$l_forums_editmessage       = "Modifica Messaggio:";
+$l_forums_reply       = "Risposte: ";
+$l_forums_edited       = "Modificato ";
+$l_forums_lastedit       = "Ultima modifica il ";
+$l_forums_edit       = "Modifica";
+$l_forums_lock       = "Blocca/Sblocca argomento";
+$l_forums_showtopic       = "Ritorna alla Lista Argomenti";
+$l_forums_normaltopic       = "Argomento Normale";
+$l_forums_stickytopic       = "Argomento Da Notare";
+?>

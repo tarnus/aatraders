@@ -1,0 +1,30 @@
+<?php
+$l_forums_titlemain = "Equip de fòrums";
+$l_forums_title = "&#39;s Private Fòrums";
+$l_forums_new = "Nou";
+$l_forums_topics = "Temes:";
+$l_forums_date = "Data:";
+$l_forums_topic2 = "Tema";
+$l_forums_date2 = "Data";
+$l_forums_author = "Autor";
+$l_forums_posts = "Missatges";
+$l_forums_views = "Vistes";
+$l_forums_sticky = "Sticky:";
+$l_forums_locked = "Bloquejat:";
+$l_forums_sticky2 = "Sticky";
+$l_forums_locked2 = "Bloquejat";
+$l_forums_coord = "Coordinador";
+$l_forums_admin = "Admin";
+$l_forums_posttopic = "Crear un tema";
+$l_forums_subject = "Assumpte:";
+$l_forums_message = "Missatge:";
+$l_forums_editmessage = "Edita missatge:";
+$l_forums_reply = "Respostes:";
+$l_forums_edited = "Editat";
+$l_forums_lastedit = "Darrera Edició";
+$l_forums_edit = "Edita";
+$l_forums_lock = "Bloqueig / desbloqueig del Tema";
+$l_forums_showtopic = "Tornar a la llista de temes";
+$l_forums_normaltopic = "Tema Normal";
+$l_forums_stickytopic = "Sticky Topic";
+?>

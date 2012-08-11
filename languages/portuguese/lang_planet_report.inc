@@ -1,0 +1,39 @@
+<?php
+$l_pr_title = "Relatório sobre o Planeta";
+$l_pr_teamlink = "Equipe planetas mapa";
+$l_pr_noplanet = "Você não tem planetas tão longe";
+$l_pr_clicktosort = "Clique no cabeçalho da coluna para classificar.";
+$l_pr_totals = "Totais";
+$l_pr_menulink = "Planetary Report Menu Principal";
+$l_pr_menu = "Menu";
+$l_pr_status = "Status";
+$l_pr_production = "Produção";
+$l_pr_planetstatus = "Planet Status";
+$l_pr_changeprods = "Variação de Produção";
+$l_pr_baserequired = "<B>Base Obrigatório</b> no Planeta";
+$l_pr_comm_disp = "Mostra o número de cada mercadoria no planeta.";
+$l_pr_prod_disp = "Este relatório permite-lhe alterar a taxa de produção de commondits em planetas que têm uma base <BR> - Você tem de viajar para o planeta para construir uma base do conjunto do planeta a empresa ou mudar o nome (festas e tal)";
+$l_pr_team_disp = "Commondity Report (como o planeta Status) para definir a Equipe de planetas possuído por você e / ou seus colegas de equipe";
+$l_pr_warning = "<B>AVISO:</b> &#39;Base&#39; fará com que o navio se mover.";
+$l_pr_takecreds = "Pegar <BR> Créditos";
+$l_pr_collectcreds = "Colete Créditos";
+$l_pr_build = "Construir";
+$l_pr_notenoughturns = "NÃO BASTA SE TRANSFORMA EM CRÉDITOS DE TOMAR";
+$l_pr_ppupdated = "Produção Percentuais Atualizado";
+$l_pr_prexeedcheck = "Verificar valores para o excesso de 100% e valores de produção negativos";
+$l_pr_prexeeds = "Planet [name] no sector [sector_id] irá exceder a produção de 100%. Os valores de produção inalterada.";
+$l_pr_credstaken = "Took [CreditsTaken] Créditos do planeta [name].";
+$l_pr_credsonboard = "Seu navio - <B>[name]</b> - tem agora [NewShipCredits] onboard.";
+$l_pr_notturns = "Você não tem o suficiente para ter créditos de volta a partir de [name] no sector [sector_id]";
+$l_pr_hostile = "NÃO PODE IR PARA UM SETOR [destination] MEIO HOSTIL DEFESAS";
+$l_pr_pdefense = "Defesas Planetário";
+$l_pr_sector = "Setor";
+$l_pr_display = "Mostrar os níveis de defesa de seus planetas.";
+$l_pr_showd = "Mostrar os Níveis de Defesa de todos os planetas em sua equipe.";
+$l_pr_showtd = "Defesas Show Team";
+$l_pr_selectall = "Selecionar tudo";
+
+$l_pr_build = "Construir";
+$l_pr_research = "Pesquisar";
+$l_pr_special = "Especial";
+?>

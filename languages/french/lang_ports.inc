@@ -1,0 +1,87 @@
+<?php
+// port.php port_purchase.php
+$l_trade		 = "Acheter/Vendre";
+$l_title_port		 = "Port Commercial";
+$l_title_trade		 = "Commerce de biens";
+$l_sector_war		 = "Embargo de guerre";
+$l_war_info		 = "La guerre fait rage dans ce secteur. Vous ne pouvez atteindre le port à travers les forces hostiles.";
+$l_no_trade		 = "Commerce interdit";
+$l_no_trade_out		 = "Le commerce à ce port n'est pas permis pour les étrangers";
+$l_no_trade_info	 = "Le commerce à ce port est interdit.";
+$l_buying		 = "Achète";
+$l_selling		 = "Vends";
+$l_commodity		 = "Commodité";
+$l_amount		 = "Quantité";
+$l_price		 = "Prix";
+$l_buy			 = "Acheter";
+$l_sell			 = "Vendre";
+$l_trade_st_info	 = "Vous avez [free_holds] unités d'espace libre, pouvez transporter [free_power] unités d'énergie additionnelles et vous disposez de [credits] crédits.";
+$l_upgrade_port_title = "Upgrade de ports";
+$l_device_port_title = "Port de périphérique";
+$l_no_credits		 = "Pas assez de crédits";
+$l_creds_to_spend	 = "Vous avez [credits] crédits à dépenser.";
+$l_cost			 = "Coût";
+$l_avail		 = "Disponible";
+$l_profit = "Profit";
+$l_current		 = "Présent";
+$l_current_level = "Niveau actuel";
+$l_current_qty		 = "Quantités présentes";
+$l_max = "Max";
+$l_ifyouneedmore	 = "Si vous avez besoin de plus de crédits vous pouvez accéder au [igb] ";
+$l_ifyouneedplan	 = "Accéder au ";
+$l_igb_term		 = "Terminal Bancaire IGB";
+$l_upgrade		 = "Améliorer";
+$l_unlimited		 = "Illimité";
+$l_full			 = "Plein";
+$l_equipped		 = "Équippé";
+$l_n_a			 = "N/D";
+$l_item = "Article";
+$l_totalcost		 = "Coût Total";
+$l_would_dump	         = "Si vous aimeriez laisser tous les colons que vous transportez ici, cliquez ";
+$l_noport		 = "Il n'y a aucun port ici!";
+$l_trade_turnneed	 = "Vous avez besoin d'au moins un tour pour faire du commerce à un port ou planète.";
+$l_returnto_port1        = "ici";
+$l_returnto_port2        = " Cliquez [port_link] pour retourner au menu du port.";
+$l_notenough_cargo	 = "Vous n'avez pas assez d'espace pour stocker les commodités que vous voulez acheter.";
+$l_notenough_power	 = "Vous ne disposez pas d'assez de puissance pour stocker l'énergie que vous voulez acheter.";
+$l_notenough_credits	 = "Vous n'avez pas suffisament de crédits pour conclure cette transaction.";
+$l_notenough_turns	 = "Vous n'avez pas suffisament de tours pour conclure cette transaction.";
+$l_trade_result		 = "Résultats pour cette transaction:";
+$l_trade_complete	 = "Transaction complète";
+$l_trade_upgraded = "Amélioré";
+$l_trade_added = "ajoutés";
+$l_trade_installed = "installé";
+$l_port_bounty 		 = "Vous ne pouvez pas accéder a un port spécial lorsque vous avez une mise à prix de la Fédération.<BR>";
+$l_port_bounty2 	 = "Cliquez <a href=\"port.php?pay=1\">ici</a> pour payer la mise à prix de [amount] credits.";
+$l_port_btynotenough 	 = "Vous n'avez pas asser de crédits pour payer la mise à prix de [amount] credits.<BR>";
+$l_port_bountypaid 	 = "Vous avez payer la mise à prix. cliquez <a href=\"port.php\">ici</a> pour continuer.<BR>";
+$l_port_loannotrade 	 = "IGB a constater un retard de remboursement de votre emprun. Vous ne pouvez plus commercer avec un port spécial tant que vous n'avez pas rembourser votre emprun.";
+$l_port_returntospecial = "pour revenir à l&#39;entrepôt de fournitures.";
+$l_ports_shiplimit = "Minimum de classe de navires de monter le dispositif:";
+$l_ports_needrepair = "Réparation";
+$l_spacedock_port_title = "Spacedock";
+
+$l_ports_needcredits = "Vous n&#39;avez pas assez de crédits pour cette transaction. Le coût total est";
+$l_ports_needcredits1 = "crédits et vous avez seulement";
+
+$l_no_trade = "Commerce interdit";
+$l_ports_nooutsiders = "Le négoce à ce port n&#39;est pas autorisée pour les étrangers.";
+$l_toprobemenu = "aller au menu de la sonde.";
+
+$l_bought = "Vous avez acheté";
+$l_sold = "Vous avez vendu";
+$l_notenough_commodity = "Vous n&#39;avez pas assez [commodity] pour compléter la transaction.";
+$l_exceed_commodity = "Nombre de [commodity] dépasse l&#39;offre et la demande.";
+$l_port_shiptoolarge = "Votre vaisseau est trop grand pour le commerce dans ce port.";
+$l_port_welcome = "Port [sectorname] Welcome&#39;s [player]";
+$l_port_amountforsale = "Le port a [amount] unités de [commodity] à vendre à [credits] Les crédits par unité.";
+$l_port_holdsperunit = "[holds] cales requise par unité.";
+$l_port_howmanypurchase = "Combien d&#39;unités [commodity] voulez-vous acheter?";
+$l_port_unitstobuy = "Unités d&#39;achat";
+$l_port_shipcarryingbuy = "Votre vaisseau est comptable [shipunits] unités de [commodity]. Vous pouvez acheter [buyunits] unités disposant d&#39;espace libre cale.";
+$l_port_howmanysell = "[amount] unités de [commodity] @ [credits] crédits par unité.";
+$l_port_unitstosell = "À en vendre";
+$l_port_perform = "Effectuer des transactions";
+$l_port_cargoholds = "Cales";
+
+?>

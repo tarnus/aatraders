@@ -1,0 +1,14 @@
+
+1	08/01/2011	08:06:39	*notice*	Light is connected
+2	08/01/2011	08:06:51	*notice*	Light quit
+3	08/01/2011	08:06:57	*notice*	Light is connected
+4	08/01/2011	08:08:34	*notice*	Light quit
+5	08/01/2011	08:33:29	*notice*	Light vient de se connecter
+6	09/01/2011	03:12:38	*notice*	Light disconnected (timeout)
+7	09/01/2011	03:12:38	*notice*	Milou is connected
+8	12/01/2011	11:27:00	*notice*	Milou a été déconnecté (timeout)
+9	12/01/2011	11:27:00	*notice*	Light vient de se connecter
+10	13/01/2011	07:30:41	*notice*	Light a été déconnecté (timeout)
+2	13/01/2011	07:30:41	*notice*	Light vient de se connecter
+3	13/01/2011	07:30:54	*notice*	Light a quitté
+4	13/01/2011	14:53:43	*notice*	Light vient de se connecter

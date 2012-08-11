@@ -1,0 +1,1 @@
+0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://main.aatraders.com/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c5cadbd387cbc6cec6d3e0d6d1c7c6d3b1a2

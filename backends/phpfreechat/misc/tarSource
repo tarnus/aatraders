@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "-- creating archive --"
+echo "-> copying files"
+rm -rf phpfreechat-`cat ../version`
+svn export .. ./phpfreechat-`cat ../version`
+echo "-> creating .tar.gz"
+tar czfp phpfreechat-`cat ../version`.tar.gz phpfreechat-`cat ../version`/ 
+echo "-> creating .zip"
+zip -Tq9r phpfreechat-`cat ../version`.zip phpfreechat-`cat ../version`/
+echo "-> removing temporary files"
+rm -rf phpfreechat-`cat ../version`
+echo "-- creating archive, done --"

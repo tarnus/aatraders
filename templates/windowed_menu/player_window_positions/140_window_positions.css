@@ -1,0 +1,116 @@
+.frame_player {
+	z-index: 1; 
+	position:absolute;
+	left:2px;
+	top:28px;
+	width:154px;
+	height:201px;
+}
+
+.frame_cargo {
+	z-index: 50;
+	position:absolute;
+	left:2px;
+	top:232px;
+	width:154px;
+	height:204px;
+}
+
+.frame_shoutbox {
+	z-index: 100;
+	position:absolute;
+	left:686px;
+	top:1px;
+	width:288px;
+	height:116px;
+}
+
+.frame_news {
+	z-index: 150;
+	position:absolute;
+	left:686px;
+	top:118px;
+	width:288px;
+	height:100px;
+}
+
+.frame_traderoutes {
+	z-index: 200;
+	position:absolute;
+	left:685px;
+	top:379px;
+	width:288px;
+	height:146px;
+}
+
+.frame_shoutboxinput {
+	z-index: 250;
+	position:absolute;
+	left:686px;
+	top:220px;
+	width:288px;
+	height:122px;
+}
+
+.frame_warplinks {
+	z-index: 300;
+	position:absolute;
+	left:1149px;
+	top:190px;
+	width:184px;
+	height:199px;
+}
+
+.frame_realspace {
+	z-index: 350;
+	position:absolute;
+	left:1149px;
+	top:390px;
+	width:185px;
+	height:171px;
+}
+
+.frame_mininav {
+	z-index: 400;
+	position:absolute;
+	left:1149px;
+	top:2px;
+	width:184px;
+	height:187px;
+}
+
+.frame_planet_display {
+	z-index: 500;
+	position:absolute;
+	left:160px;
+	top:25px;
+	width:524px;
+	height:501px;
+}
+
+.frame_enemy_display {
+	z-index: 550;
+	position:absolute;
+	left:975px;
+	top:140px;
+	width:169px;
+	height:383px;
+}
+
+.frame_sectordefense_display {
+	z-index: 600;
+	position:absolute;
+	left:975px;
+	top:3px;
+	width:173px;
+	height:136px;
+}
+
+.frame_footer {
+	z-index: 650;
+	position:absolute;
+	left:400px;
+	top:250px;
+	width:300px;
+	height:240px;
+}

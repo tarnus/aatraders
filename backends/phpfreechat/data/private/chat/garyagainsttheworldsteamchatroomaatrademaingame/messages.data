@@ -1,0 +1,42 @@
+
+1	05/07/2010	23:52:13	*notice*	Gary is connected
+2	05/07/2010	23:52:17	*notice*	Gary quit
+3	07/07/2010	03:51:17	*notice*	Gary is connected
+4	07/07/2010	16:42:15	*notice*	Gary disconnected (timeout)
+5	07/07/2010	16:42:15	*notice*	Gary is connected
+6	08/07/2010	07:07:11	*notice*	Gary disconnected (timeout)
+7	08/07/2010	07:07:11	*notice*	Gary is connected
+8	08/07/2010	07:07:13	*notice*	Gary quit
+9	09/07/2010	18:20:35	*notice*	Gary is connected
+10	09/07/2010	18:20:39	*notice*	Gary quit
+11	09/07/2010	21:52:55	*notice*	Gary is connected
+12	09/07/2010	21:53:00	*notice*	Gary quit
+13	10/07/2010	02:39:27	*notice*	Gary is connected
+14	10/07/2010	06:26:28	*notice*	Gary disconnected (timeout)
+15	10/07/2010	06:26:28	*notice*	Gary is connected
+16	10/07/2010	06:26:41	*notice*	Gary quit
+17	10/07/2010	06:50:10	*notice*	Gary is connected
+18	10/07/2010	06:50:49	*notice*	Gary quit
+19	10/07/2010	16:45:35	*notice*	Gary is connected
+20	10/07/2010	16:45:53	*notice*	Gary quit
+21	11/07/2010	01:34:40	*notice*	Gary is connected
+22	11/07/2010	01:34:45	*notice*	Gary quit
+23	11/07/2010	03:38:21	*notice*	Gary is connected
+24	11/07/2010	03:38:25	*notice*	Gary quit
+25	11/07/2010	07:58:17	*notice*	Gary is connected
+26	11/07/2010	07:58:21	*notice*	Gary quit
+27	11/07/2010	08:02:36	*notice*	Gary is connected
+28	12/07/2010	17:25:29	*notice*	Gary disconnected (timeout)
+29	12/07/2010	17:25:29	*notice*	Gary is connected
+30	13/07/2010	05:49:46	*notice*	Gary disconnected (timeout)
+31	13/07/2010	05:49:46	*notice*	Gary is connected
+32	13/07/2010	05:49:56	*notice*	Gary quit
+33	14/07/2010	07:52:45	*notice*	Gary is connected
+34	14/07/2010	07:53:06	*notice*	Gary quit
+35	15/07/2010	19:39:39	*notice*	Gary is connected
+36	15/07/2010	19:40:09	*notice*	Gary quit
+37	16/07/2010	21:47:26	*notice*	Gary is connected
+38	16/07/2010	23:49:35	*notice*	Gary disconnected (timeout)
+39	16/07/2010	23:49:35	*notice*	Gary is connected
+40	17/07/2010	19:38:09	*notice*	Gary disconnected (timeout)
+41	17/07/2010	19:38:09	*notice*	Gary is connected

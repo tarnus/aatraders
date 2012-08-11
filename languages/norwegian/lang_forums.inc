@@ -1,0 +1,30 @@
+<?php
+$l_forums_titlemain = "Team Forums";
+$l_forums_title = "&#39;s Private Forums";
+$l_forums_new = "Ny";
+$l_forums_topics = "Emner:";
+$l_forums_date = "Dato:";
+$l_forums_topic2 = "Emne";
+$l_forums_date2 = "Dato";
+$l_forums_author = "Forfatter";
+$l_forums_posts = "Innlegg";
+$l_forums_views = "Visninger";
+$l_forums_sticky = "Sticky:";
+$l_forums_locked = "Lukket:";
+$l_forums_sticky2 = "Sticky";
+$l_forums_locked2 = "Lukket";
+$l_forums_coord = "Koordinator";
+$l_forums_admin = "Admin";
+$l_forums_posttopic = "Post a Emne";
+$l_forums_subject = "Emne:";
+$l_forums_message = "Melding:";
+$l_forums_editmessage = "Rediger melding:";
+$l_forums_reply = "Svar:";
+$l_forums_edited = "Redigert";
+$l_forums_lastedit = "Last Edit on";
+$l_forums_edit = "Rediger";
+$l_forums_lock = "Lås / Lås opp Emne";
+$l_forums_showtopic = "Tilbake til emneliste";
+$l_forums_normaltopic = "Normal Emne";
+$l_forums_stickytopic = "Sticky Emne";
+?>

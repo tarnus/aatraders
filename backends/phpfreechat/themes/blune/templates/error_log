@@ -1,0 +1,1 @@
+[12-Nov-2010 22:30:35] PHP Fatal error:  Call to a member function getFileUrlFromTheme() on a non-object in /home/aatrader/public_html/aatrade_springfieldnet/backends/phpfreechat/themes/blune/templates/style.css.tpl.php on line 5

@@ -1,0 +1,82 @@
+<?php
+$l_s_yes               = "Sí";
+$l_s_no = "No";
+$l_s_enabled           = "Habilitado";
+$l_s_disabled          = "Deshabilitado";
+
+$l_s_modules           = "Módulos";
+$l_s_modulename        = "Nombre de Módulo";
+$l_s_moduleauthor      = "Autor";
+$l_s_moduleinfo = "Información";
+$l_s_nomodules         = "Ningún Módulo Cargado";
+
+$l_s_gamestatus        = "Estado de Juego";
+$l_s_allowpl           = "Permitir Jugadores";
+$l_s_allownewpl        = "Permitir Nuevos Jugadores";
+
+$l_s_gameoptions       = "Opciones de Juego";
+$l_s_allowteamplcreds  = "Habilitar Transferencia de Créditos a Planetas de Equipo";
+$l_s_allowfullscan     = "Habilitar Scan de Largo Alcance";
+$l_s_sofa              = "Habilitar Ataque Sub-Orbital de Cazas";
+$l_s_showpassword      = "Mostrar Contraseña al Registrarse";
+$l_s_genesisdestroy    = "Los cohetes Genesis pueden destruir planetas";
+$l_s_igb               = "Banco Intergaláctico (IGB)";
+$l_s_ksm               = "Mapas del Espacio Conocido";
+$l_s_navcomp           = "Coumputadora de Navegación";
+$l_s_newbienice        = "Ayuda al Novato";
+$l_s_spies             = "Red de Espías";
+$l_s_spycapture        = "Permitir a los Espías capturar planetas";
+
+$l_s_gamesettings      = "Ajustes del Juego";
+$l_s_gameversion       = "Nombre del Juego:";
+$l_s_minhullmines      = "Tamaño de Casco mínimo para golpear minas";
+$l_s_averagetechewd    = "Media de niveles para degradación de Dispositivos de Salto de Emergencia";
+$l_s_numsectors        = "Número  de sectores";
+$l_s_maxwarpspersector = "Cantidad máxima de Enlaces por sector";
+$l_s_averagetechfed    = "Máxima Media de niveles para los sectores de la Federación";
+$l_s_igbirateperupdate = "Porcentaje de Interés en IGB en cada actualización";
+$l_s_igblrateperupdate = "Porcentaje de Préstamo en IGB en cada actualización";
+$l_s_techupgradebase   = "Mejora de Nivel Tecnológico por Base";
+$l_s_collimit          = "Límite de Colonos";
+$l_s_maxturns          = "Número máximo de turnos acumulados";
+$l_s_maxplanetssector  = "Número máximo de planetas por sector";
+$l_s_maxtraderoutes    = "Número máximo de rutas de comercio por jugador";
+$l_s_colreprodrate     = "Tasa de Nacimiento de Colonos";
+$l_s_energyperfighter  = "Unidades de Energía usadas por cada caza en sector";
+$l_s_secfighterdegrade = "Porcentaje de degradación de cazas en sector";
+$l_s_planetinterest    = "Porcentaje de interés en planeta";
+$l_s_spiesperplanet    = "Número máximo de espías por planeta ";
+$l_s_spysuccessfactor  = "Factor de éxito de espías";
+$l_s_spykillfactor     = "Factor de detección de espías";
+$l_s_colsperfighter    = "Colonos necesarios para producir 1 Caza cada actualización";
+$l_s_colspertorp       = "Colonos necesarios para producir 1 Torpedo cada actualización";
+$l_s_colsperore        = "Colonos necesarios para producir 1 unidad de Minerales cada actualización";
+$l_s_colsperorganics   = "Colonos necesarios para producir 1 unidad de Alimentos cada actualización";
+$l_s_colspergoods      = "Colonos necesarios para producir 1 unidad de Bienes cada actualización";
+$l_s_colsperenergy     = "Colonos necesarios para producir 1 unidad de Energía cada actualización";
+$l_s_colspercreds      = "Colonos necesarios para producir 1 Crédito cada actualización";
+$l_s_colsper      = "Colonos necesarios para producir 1 [commodity] cada actualización";
+
+$l_s_gameschedsettings = "Ajustes sobre Actualización en el Juego";
+$l_s_schedtype         = "Tipo de Actualización";
+$l_s_cronbased         = "Basado en Cron (Tareas programadas)";
+$l_s_playertriggered   = "Provocado por Jugador";
+$l_s_minutes           = " minutos";
+$l_s_ticksupdate       = "Tics ocurren cada ";
+$l_s_turnsupdate       = "Los Turnos se actualizan cada ";
+$l_s_npcupdate       = "Los Alliance juegan cada ";
+$l_s_igbturnsupdate    = "Intereses en cuentas de IGB acumulados cada ";
+$l_s_newsupdate        = "Las Noticias serán generadas cada ";
+$l_s_planetupdate      = "Los Planetas generarán producción cada ";
+$l_s_spyupdate         = "Los Espías actuarán cada ";
+$l_s_portsupdate       = "Los Puertos se regenerarán cada ";
+$l_s_towupdate         = "Las Naves serán remolcadas de los sectores de Federación cada ";
+$l_s_scoreupdate       = "La Clasificación será actualizada cada ";
+$l_s_secdefdegrupdate  = "Las Defensas de Sector se degradan cada ";
+$l_s_apocalypseupdate  = "Los desastres planetarios ocurrirán cada ";
+$l_s_release_version   = "Versión del Juego";
+$l_s_time_since_reset  = "Tiempo desde el último reinicio";
+$l_s_independence = "Planetario de la Independencia";
+$l_s_dignitaryupdate = "Dignatarios actuará cada";
+$l_s_turnsupdate = "convierte a cada";
+?>

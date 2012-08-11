@@ -1,0 +1,39 @@
+<?php
+$l_pr_title = "Planet Report";
+$l_pr_teamlink = "Show team planeter";
+$l_pr_noplanet = "Du har inga planeter hittills";
+$l_pr_clicktosort = "Klicka på kolumnrubriken för att sortera.";
+$l_pr_totals = "Totals";
+$l_pr_menulink = "Planetary Report Huvudmeny";
+$l_pr_menu = "Meny";
+$l_pr_status = "Status";
+$l_pr_production = "Produktion";
+$l_pr_planetstatus = "Planet Status";
+$l_pr_changeprods = "Ändra Production";
+$l_pr_baserequired = "<B>Base Required</b> on Planet";
+$l_pr_comm_disp = "Visar antal av varje vara på planeten.";
+$l_pr_prod_disp = "Den här rapporten kan du ändra nivån på produktionen av commondits på planeter som har en bas <BR> - Man får åka till planeten för att bygga en bas som planeten till företag eller byta namn (fester och sådant)";
+$l_pr_team_disp = "Commondity Report (like Planet status) för planeter ställa till Team ägs av dig och / eller dina kolleger team";
+$l_pr_warning = "<B>VARNING:</b> &quot;Base&quot; så kommer ditt skepp att flytta.";
+$l_pr_takecreds = "Ta <BR> Credits";
+$l_pr_collectcreds = "Samla mynt";
+$l_pr_build = "Bygga";
+$l_pr_notenoughturns = "INTE NOG blir till TA POÄNG";
+$l_pr_ppupdated = "Produktion Procentsatser Uppdaterad";
+$l_pr_prexeedcheck = "Kontrollera Värden för över 100% och negativa värden produktion";
+$l_pr_prexeeds = "Planet [name] i sektorn [sector_id] skulle överstiga 100% produktionen. Produktionsvärde oförändrad.";
+$l_pr_credstaken = "Tog [CreditsTaken] Poäng från planet [name].";
+$l_pr_credsonboard = "Ditt skepp - <B>[name]</b> - Nu har [NewShipCredits] ombord.";
+$l_pr_notturns = "Du har inte tillräckligt vänder ta krediter från [name] i sektorn [sector_id]";
+$l_pr_hostile = "INTE FLYTTA TILL SEKTOR [destination] GENOM HOSTILE FÖRSVARSVERK";
+$l_pr_pdefense = "Planetary försvaret";
+$l_pr_sector = "Sector";
+$l_pr_display = "Display försvaret nivåer av dina planeter.";
+$l_pr_showd = "Visa Defense Nivåerna av alla planeter i ditt team.";
+$l_pr_showtd = "Show Team försvaret";
+$l_pr_selectall = "Välj Alla";
+
+$l_pr_build = "Bygga";
+$l_pr_research = "Undersöka";
+$l_pr_special = "Special";
+?>

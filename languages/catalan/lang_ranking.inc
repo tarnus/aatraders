@@ -1,0 +1,40 @@
+<?php
+$l_ranks_title = "Top Jugadors $ max_rank";
+$l_ranks_none = "No hi ha resultats per mostrar.";
+$l_ranks_pnum = "Nombre total de jugadors de";
+$l_ranks_dships = "Els jugadors amb vaixells destruïts no es compten.";
+$l_ranks_rank = "Fila";
+$l_ranks_lastlog = "Darrera entrada";
+$l_ranks_regen = "per tornar a calcular la seva puntuació.";
+$l_ranks_done = "La seva puntuació es calcularà de nou.";
+$l_ranks_standing = "Permanent";
+$l_ranks_select = "Seleccioneu la pàgina del rànquing per veure la";
+$l_ranks_page = "Pàgina";
+$l_ranks_next = "Següent";
+$l_ranks_prev = "Anterior";
+$l_ranks_online = "En línia";
+$l_ranks_rating = "FEP. Rating";
+$l_ranks_show = "Llistat jugadors";
+$l_ranks_to = "per";
+$l_ranks_kills = "Mata";
+$l_ranks_deaths = "Defuncions";
+$l_ranks_captures = "Captura";
+$l_ranks_lost = "Perdut";
+$l_ranks_built = "Construït";
+$l_ranks_based = "Basat";
+$l_ranks_destroyed = "Destroy";
+$l_ranks_experience = "Experiència";
+$l_ranks_death_type = "Tipus de mort";
+$l_ranks_deadtitle = "Últims 10 jugadors matin sense una càpsula d&#39;escapament";
+$l_ranks_killefficiency = "Kill Eficiència";
+
+$l_ranks_kill['killed'] = "Morts";
+$l_ranks_kill['killedSD'] = "Sector de Defensa";
+$l_ranks_kill['killedplanet'] = "Planet Attack";
+$l_ranks_kill['killedship'] = "Ship Attack";
+$l_ranks_kill['killedsuicide'] = "Suïcidi";
+$l_ranks_kill['killedsofa'] = "Sofà Attack";
+$l_ranks_kill['killednova'] = "Nova bomba";
+$l_ranks_kill['killednovabackfire'] = "Nova Backfire";
+$l_ranks_kill['killedsectormissile'] = "Sector de míssils";
+?>

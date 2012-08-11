@@ -1,0 +1,111 @@
+<?php
+// probe.php probe2.php probe3.php
+$l_probe_defense_levels = "Probe Tase";
+$l_probe_engine = "Mootor";
+$l_probe_sensors = "Andurid";
+$l_probe_cloak = "Varjatud";
+$l_probe_title = "Space Probe Menüü";
+$l_probe_none = "Sa pole samas sektoris, sest see sondi, et te ei saa suhelda ta.";
+
+$l_probe_named = "Tere tulemast Probe arv [probename], mille omanikuks on [name], mis asub sektoris [sector].";
+$l_probe_orders = "[orders] Probe otsida universum";
+$l_probe_orders_link = "Program";
+$l_probe_upgrade = "[upgrade] Probe Andurid / engine / varjatud";
+$l_probe_upgrade_link = "Upgrade";
+$l_probe_pickup = "[pickup] Probe hilisema paigutamine";
+$l_probe_pickup_link = "Pickup";
+$l_probe_update = "Värskendama";
+
+$l_probe_att_link = "Attack";
+$l_probe_att = "[attack] on sond";
+$l_probe_att_sure = "Oled kindel, et ...";
+$l_probe_scn_link = "Scan";
+$l_probe_scn = "[scan] sondi";
+
+$l_probe_unknown = "Unknown";
+$l_plant_scn_turn = "Sa vajad vähemalt ühte omakorda skaneerida juures.";
+$l_probe_noscan = "Andurid ei saa kinnitada seatud!";
+$l_probe_logscanA = "[name] üritas skaneerida ühe oma sondid sektoris [sector], kuid ei suutnud.";
+$l_probe_logscanB = "Üks teie sondid sektoris [sector] skaneerimise teel [name].";
+$l_probe_scn_report = "Scan tulemused [name], mis kuulub: [owner]";
+
+$l_probe_caplog = "Sinu juures &quot;[probename]&quot; sektoris [sector] oli püütud [name].";
+$l_probe_scan = "Sond skaneerib sektoris [sector] ja leiab:";
+$l_probe_destroyprobe = "Destroy sondi";
+$l_probe_destroyed = "Probe Destroyed!";
+$l_probe_warning = "Kuidas see täielikult hävitada selle anduriga";
+$l_probe_confirm = "Kas tõesti hävitada selle juures?";
+$l_gns_turn = "Sul ei ole piisavalt pöördub hävitab selle anduriga";
+$l_probe_type = "Anduriga";
+$l_probe_type0 = "Statsionaarne Probe";
+$l_probe_type1 = "Sentry Probe";
+$l_probe_type2 = "Warp Probe";
+$l_probe_type3 = "Realspace Probe";
+$l_probe_type4 = "Sequential Realspace Probe";
+$l_probe_target = "Sihi sektor";
+$l_probe_ordered = "Probe programmeeritud ning alustame otsinguid.";
+$l_probe_order2 = "Probe on [type] ja on suunatud sektori [target]";
+$l_probe_pickedup = "Probe kiirenes ja paigutatakse alaliselt ladustamine";
+$l_probe_title = "Probe Menüü";
+$l_probe_messages = "Vaata, mida teie spioone on avastatud.";
+
+$l_probe_defaulttitle1 = "Aktiivne Probes";
+$l_probe_defaulttitle2 = "Probes olete kiirenes";
+$l_probe_defaulttitle3 = "Probes oma planeedid";
+$l_probe_defaulttitle4 = "Probes oma laeva";
+$l_probe_linkback = "minna sondi menüü.";
+$l_probe_no1 = "Sul ei ole ühtegi aktiivset sondid.";
+$l_probe_no2 = "Sul ei ole sondid lattu.";
+$l_probe_no3 = "Sul ei ole sondid oma planeedid.";
+$l_probe_no4 = "Sul ei ole sondid oma laeva.";
+$l_probe_noprobeatall = "Sul ei ole sondid.";
+$l_probe_notknown = "Unknown";
+$l_probe_launch = "Tilkuma";
+$l_probe_detect = "Avastatud";
+$l_probe_codenumber = "Kood";
+$l_probe_job = "Töö";
+$l_probe_percent = "Protsenti";
+$l_probe_move = "Liikumine";
+$l_probe_view = "Vaade";
+$l_probe_action = "Action";
+$l_probe_shipowner = "Laevaomanik";
+$l_probe_shipname = "Laeva nimi";
+$l_probe_shiptype = "Laev klass";
+$l_probe_shiplocation = "Laev Asukoht";
+$l_probe_planetowner = "Planet Omanik";
+$l_probe_planetname = "Planeet";
+$l_probe_sector = "Jooksev sektor";
+$l_probe_tsector = "Sihi sektor";
+$l_probe_type = "Anduriga";
+$l_probe_forbid = "Sa ei saa tilk sondid selles sektoris";
+$l_probe2_title = "Kaater Space Probe";
+$l_probe2_turn = "Sa vajad vähemalt ühte omakorda kasutada ruumis sügavusel.";
+$l_probe2_onplanet = "Te ei saa kasutada selle seadmega samas planeedi pinnast.";
+$l_probe2_noprobe = "Sul ei ole ruumi sondid.";
+$l_probe2_forbid = "Käivitamine sondi selles sektoris ei ole lubatud.";
+$l_probe2_launched = "Kosmos juures avatud!";
+
+$l_probe2_warplink = "Warplink";
+$l_probe2_player = "Player";
+$l_probe2_onboarda = "pardal";
+$l_probe2_classship = "klassi laev";
+$l_probe2_traveled = "sõitis sektor";
+$l_probe2_fedjammed = "Föderatsioon on segamise kõik andur otsib üles Sector 1.";
+$l_probe2_lastseen = "Viimane Laev Seen";
+$l_probe2_portfound = "Port Leitud";
+$l_probe2_supports = "Toetab";
+$l_probe2_planets = "planeedid";
+$l_probe2_sectord = "Valdkond kaitseministeeriumi Avastati";
+$l_probe2_mines = "Kaevandus";
+$l_probe2_fighters = "Fighters";
+$l_probe2_ships = "Laevad Avastati";
+$l_probe2_ships2 = "Laev Avastati";
+$l_probe2_noneowned = "Nr planeedid ei kuulu teile on avastatud.";
+$l_probe2_warplinks = "Warplinks";
+$l_probe2_nothing = "Miski Avastati";
+$l_probe2_nocredits = "Sul ei ole piisavalt krediiti selle tehingu. Kogumaksumus on [total] krediiti ja sul on ainult [credits] krediiti.";
+
+$l_probe_forbidSG = "Sa ei saa postitada Realspace tüüpi anduriga arvesse sektori Moosese loodud valdkondades.";
+$l_probe_forbidFED = "Sa ei saa postitada Realspace tüüpi anduriga arvesse Föderatsiooni või allianssi kuuluvate sektorites.";
+$l_probe_forbidINVALID = "Teie sihtpunkt sektor on vigane sektori nime.";
+?>

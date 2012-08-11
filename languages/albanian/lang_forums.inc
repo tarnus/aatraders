@@ -1,0 +1,30 @@
+<?php
+$l_forums_titlemain = "Ekipi i TiranaLive";
+$l_forums_title = "&#39;s Private Forumi";
+$l_forums_new = "I ri";
+$l_forums_topics = "Topics:";
+$l_forums_date = "Data:";
+$l_forums_topic2 = "Tema";
+$l_forums_date2 = "Data";
+$l_forums_author = "Autor";
+$l_forums_posts = "Postime";
+$l_forums_views = "Views";
+$l_forums_sticky = "Sticky:";
+$l_forums_locked = "Locked:";
+$l_forums_sticky2 = "Sticky";
+$l_forums_locked2 = "Locked";
+$l_forums_coord = "Koordinator";
+$l_forums_admin = "Admin";
+$l_forums_posttopic = "Post a Topic";
+$l_forums_subject = "Subject:";
+$l_forums_message = "Message:";
+$l_forums_editmessage = "Edit Message:";
+$l_forums_reply = "Replies:";
+$l_forums_edited = "Edited";
+$l_forums_lastedit = "Last Edit më";
+$l_forums_edit = "Edit";
+$l_forums_lock = "Lock / Unlock Topic";
+$l_forums_showtopic = "Kthehu tek Tema List";
+$l_forums_normaltopic = "Normale Teme";
+$l_forums_stickytopic = "Sticky Topic";
+?>

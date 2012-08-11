@@ -1,0 +1,39 @@
+<?php
+$l_pr_title = "Planet Report";
+$l_pr_teamlink = "Ekipi i planeteve Show";
+$l_pr_noplanet = "Ju nuk keni planetet deri tani";
+$l_pr_clicktosort = "Klikoni mbi kolonën për të zgjidhur header.";
+$l_pr_totals = "Gjithsej";
+$l_pr_menulink = "Raporti planetare Main Menu";
+$l_pr_menu = "Menu";
+$l_pr_status = "Statusi";
+$l_pr_production = "Prodhimi";
+$l_pr_planetstatus = "Planet Status";
+$l_pr_changeprods = "Ndryshimi Prodhimi";
+$l_pr_baserequired = "<B>Baza e kërkuar</b> për Planet";
+$l_pr_comm_disp = "Tregon numrin e çdo mall në planetin.";
+$l_pr_prod_disp = "Ky Raport ju lejon të ndryshojë normën e prodhimit të commondits në planetet që kanë një bazë të <BR> - Ju duhet të udhëtojë për në planet për të ndërtuar një bazë të caktuar planetit të korporatave, ose të ndryshojë emrin (festimet e tillë)";
+$l_pr_team_disp = "Commondity Raporti (si Planet Status) për planete do të ekipit në pronësi nga ju dhe / ose shokët tuaj të anëtarëve të ekipit";
+$l_pr_warning = "<B>WARNING:</b> &quot;Bazë&quot; do të bëjë që anija tuaj për të vepruar.";
+$l_pr_takecreds = "Marr <BR> Kredite";
+$l_pr_collectcreds = "Mblidhni Kredite";
+$l_pr_build = "Ndërtoj";
+$l_pr_notenoughturns = "JO MJAFT kthehet të marrë CREDITS";
+$l_pr_ppupdated = "Prodhimi Përqindjet Përditësuar";
+$l_pr_prexeedcheck = "Kontrollimi Vlerat e tejkalon 100% dhe vlera negative të prodhimit";
+$l_pr_prexeeds = "Planet [name] në sektorin [sector_id] do të tejkaloj 100% e prodhimit. Vlerat e prodhimit i pandryshuar.";
+$l_pr_credstaken = "Mori [CreditsTaken] Kredi nga planet [name].";
+$l_pr_credsonboard = "Anija juaj - <B>[name]</b> - tani ka [NewShipCredits] bord.";
+$l_pr_notturns = "Ju nuk keni mjaft të kthehet për të marrë kredi nga [name] në sektorin [sector_id]";
+$l_pr_hostile = "MOVE NUK MUND TË SEKTORIT [destination] PËRMES armiqësor mbrojtëse";
+$l_pr_pdefense = "Mbrojtëse e Tokës";
+$l_pr_sector = "Sektori";
+$l_pr_display = "Afisho nivelet mbrojtjen e planeteve tuaj.";
+$l_pr_showd = "Show Nivelet e Mbrojtjes të të gjithë planetet në ekipin tuaj.";
+$l_pr_showtd = "Show mbrojtëse Team";
+$l_pr_selectall = "Select All";
+
+$l_pr_build = "Ndërtoj";
+$l_pr_research = "Kërkim";
+$l_pr_special = "Speciale";
+?>

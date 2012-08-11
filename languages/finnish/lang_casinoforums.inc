@@ -1,0 +1,30 @@
+<?php
+$l_forums_titlemain = "Salakuljettajat Den Bar";
+$l_forums_nocasino = "Casino satama ei ole läsnä tällä alalla.";
+$l_forums_new = "Uusi";
+$l_forums_topics = "Aiheet:";
+$l_forums_date = "Päivämäärä:";
+$l_forums_topic2 = "Aiheesta";
+$l_forums_date2 = "Päivämäärä";
+$l_forums_author = "Laatijan";
+$l_forums_posts = "Virkojen";
+$l_forums_views = "Näkemyksiä";
+$l_forums_sticky = "Sticky:";
+$l_forums_locked = "Lukittu";
+$l_forums_sticky2 = "Liimapinnat";
+$l_forums_locked2 = "Lukitaan";
+$l_forums_coord = "Koordinaattorina";
+$l_forums_admin = "Järjestelmänvalvojapolku";
+$l_forums_posttopic = "Lähetä aihe";
+$l_forums_subject = "Aihe:";
+$l_forums_message = "Viesti:";
+$l_forums_editmessage = "Muokkaa viestiä:";
+$l_forums_reply = "Vastauksen";
+$l_forums_edited = "Muokannut";
+$l_forums_lastedit = "Viimeksi Edit";
+$l_forums_edit = "Muokkaus";
+$l_forums_lock = "Lock / Unlock Topic";
+$l_forums_showtopic = "Palaa Topic List";
+$l_forums_normaltopic = "Tavallinen aihe";
+$l_forums_stickytopic = "Liimapinnat Topic";
+?>

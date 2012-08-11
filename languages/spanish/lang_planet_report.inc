@@ -1,0 +1,39 @@
+<?php
+$l_pr_title              = "Informe de Planetas";
+$l_pr_teamlink           = "Mostrar planetas de Equipo";
+$l_pr_noplanet           = "No posees ningún planeta";
+$l_pr_clicktosort        = "Haz clic en la cabecera de columna para ordenar por ese campo.";
+$l_pr_totals             = "Totales";
+$l_pr_menulink           = "Menú Principal del Informe de Planetas";
+$l_pr_menu               = "Menú";
+$l_pr_status             = "Estado";
+$l_pr_production         = "Producción";
+$l_pr_planetstatus       = "Status Planetario";
+$l_pr_changeprods        = "Cambiar Producción";
+$l_pr_baserequired       = "<B>Base Requerida</B> en el Planeta";
+$l_pr_comm_disp          = "Para mostrar estadísticas de tus planetas.";
+$l_pr_prod_disp          = "Esta pantalla te permite cambiar el porcentaje de producción de las mercancías, en los planetas que disponen de base<BR>-- Debes viajar al planeta para construir base, configurarlo como planeta de equipo , ó cambiarle el nombre";
+$l_pr_team_disp          = "Estadísticas (como en Status Planetario) para los planetas fijados como de Equipo, de tu propiedad y/o de tus compañer@s de equipo";
+$l_pr_warning            = "<B>AVISO:</B> 'Construir' causarán el movimiento de tu nave.";
+$l_pr_takecreds          = "Tomar<BR>Créditos";
+$l_pr_collectcreds       = "Recoger Créditos";
+$l_pr_build              = "Construir";
+$l_pr_notenoughturns     = "NO DISPONES DE SUFICIENTES TURNOS PARA RECOGER LOS CREDITOS";
+$l_pr_ppupdated          = "Porcentajes de Producción Actualizados";
+$l_pr_prexeedcheck       = "Comprobando Valores para el exceso sobre el 100% de producción y por los valores negativos de producción";
+$l_pr_prexeeds = "Planet [name] en el sector [sector_id] sería superior a la producción del 100%. Los valores de producción sin cambios.";
+$l_pr_credstaken         = "Tomados [CreditsTaken] Créditos del planeta [name].";
+$l_pr_credsonboard       = "Tu nave - <B>[name]</B> - ahora tiene [NewShipCredits] Créditos a bordo.";
+$l_pr_notturns           = "No dispones de suficientes turnos para tomar los créditos de [name] en el sector [sector_id]";
+$l_pr_hostile            = "IMPOSIBLE ENTRAR EN EL SECTOR [destination] A TRAVES DE FUERZAS HOSTILES";
+$l_pr_pdefense = "Las defensas planetarias";
+$l_pr_sector = "Sector";
+$l_pr_display = "Mostrar los niveles de defensa de sus planetas.";
+$l_pr_showd = "Muestran los niveles de defensa de todos los planetas en su equipo.";
+$l_pr_showtd = "Mostrar defensas del equipo";
+$l_pr_selectall = "Seleccionar todo";
+
+$l_pr_build = "Construir";
+$l_pr_research = "Investigación";
+$l_pr_special = "Especial";
+?>

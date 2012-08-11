@@ -1,0 +1,39 @@
+<?php
+$l_pr_title = "Planet Report";
+$l_pr_teamlink = "Näytä Team planeetat";
+$l_pr_noplanet = "Sinulla ei ole planeettoja toistaiseksi";
+$l_pr_clicktosort = "Napsauta sarakeotsikkoa lajitella.";
+$l_pr_totals = "Yhteenlaskut";
+$l_pr_menulink = "Planetary Report Päävalikko";
+$l_pr_menu = "Valikosta";
+$l_pr_status = "Tila";
+$l_pr_production = "Tuotanto";
+$l_pr_planetstatus = "Planet tila";
+$l_pr_changeprods = "Muuta Tuotanto";
+$l_pr_baserequired = "<B>Base tarvitaan</b> Planet";
+$l_pr_comm_disp = "Näyttää määrä kunkin hyödykkeen planeetalla.";
+$l_pr_prod_disp = "Tämän raportin avulla voit muuttaa osuus tuotannosta commondits on planeetoilla, jotka ovat perusta <BR> - Sinun täytyy matkustaa maapallon rakentaa perustaa asettaa planeetan yritysten tai vaihtaa nimeä (juhlia ja esimerkiksi)";
+$l_pr_team_disp = "Commondity mietintö (kuten Planet tila) ja planeettojen asetettu Team omistaa sinun ja / tai teidän muiden tiimin jäsenten";
+$l_pr_warning = "<B>VAROITUS:</b> &quot;Base&quot;, aiheuttaa aluksen liikkua.";
+$l_pr_takecreds = "Ottaa <BR> Hyvityksiä";
+$l_pr_collectcreds = "Kerää Laajuus";
+$l_pr_build = "Rakentaa";
+$l_pr_notenoughturns = "Not Enough Turns To toteuttaa CREDITS";
+$l_pr_ppupdated = "Tuotanto Prosentti Päivitetty";
+$l_pr_prexeedcheck = "Tarkistaminen arvot yli 100% ja negatiivinen tuotannon arvot";
+$l_pr_prexeeds = "Planet [name] sektori [sector_id] olisi yli 100% tuotannosta. Tuotanto arvot ennallaan.";
+$l_pr_credstaken = "Otti [CreditsTaken] hyvitykset Planet [name].";
+$l_pr_credsonboard = "Your laiva - <B>[name]</b> - nyt on [NewShipCredits] laivalla.";
+$l_pr_notturns = "Sinulla ei ole tarpeeksi muuttuu tehdä hyvityksiä [name] sektori [sector_id]";
+$l_pr_hostile = "Ei voi siirtää alalla [destination] KAUTTA HOSTILE puolustuksemme";
+$l_pr_pdefense = "Planetaarista Defenses";
+$l_pr_sector = "Sector";
+$l_pr_display = "Näytä puolustuksen taso sinun planeettoja.";
+$l_pr_showd = "Näytä Defense tasot planeetat ryhmäsi.";
+$l_pr_showtd = "Näytä Team Defenses";
+$l_pr_selectall = "Valitse kaikki";
+
+$l_pr_build = "Rakentaa";
+$l_pr_research = "Tutkimus";
+$l_pr_special = "Erityispainos";
+?>

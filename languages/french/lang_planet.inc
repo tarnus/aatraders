@@ -1,0 +1,63 @@
+<?php
+$l_sofa                  = "Bombardement Sub-Orbital des intercepteurs";
+$l_planet_upgrade   ="Upgrade"; //TODO: Translate it, please
+$l_planet_novamiss = "The Bomb Nouvelle manque de justesse, mais inflige des dégâts sur la planète.";
+$l_planet_novaturns = "The Bomb Nouvelle exige atleast [turns] se tourne vers le feu.";
+$l_planet_novafed = "The Bomb-Écossais ne pouvoir en place dans les secteurs de la Fédération.";
+$l_planet_nonova = "Vous n&#39;avez pas une bombe en Nouvelle-installé.";
+$l_planet_firenova = "Nova de feu Bomb";
+$l_planet_novaexplode = "Nouvelle bombe a explosé comme il a été congédié et votre navire a subi des dégâts considérables.";
+$l_planet_novaexplode2 = "Nouvelle bombe a explosé comme il a été licencié et votre vaisseau a été détruit.";
+$l_planet_noautotrade = "Auto Trade Route non établies pour cette planète.";
+$l_planet_autotrade   ="Auto trading [source_type] with port [dest_id].";
+$l_planet_autotradedelete = "Supprimer Auto commerce.";
+$l_planet_autotradeadd = "Créer Auto commerce.";
+$l_planet_tradedeleted = "Auto Trade itinéraire supprimé.";
+$l_planet_tradeadded = "Route de l&#39;auto de commerce ajoutée.";
+$l_planet_autotype = "Sélectionnez l&#39;élément au commerce";
+$l_planet_based = "<b><font color='#FFFFFF' size='2'>(</font><font color='#87d8ec' size='2'>Based</font><font color='#FFFFFF' size='2'>)</font></b>";
+$l_planet_needcargo = "Vous devez acheter un cargo pour cette planète avant que vous pouvez définir une Auto Trade Route.";
+$l_planet_purchasecargo = "Si vous souhaitez acheter un cargo";
+$l_planet_upgradecargo = "Si vous souhaitez mettre à jour votre navire de charge";
+$l_planet_cargocapacity = "Capacité:";
+$l_planet_cargoowned = "Vous possédez déjà un cargo pour cette planète.";
+$l_planet_cargoshipbuy = "Achat navire de charge";
+$l_planet_cargoshipupgrade = "Mise à niveau pour navire de charge";
+$l_planet_cargoatmax = "Votre vaisseau cargo se situe au niveau de mise à niveau maximal.";
+$l_planet_cargoshipbuyinfo = "Sélectionnez un préréglage pour navire de charge";
+$l_planet_cargoshipupgradeinfo = "Mettez à niveau votre Cargo Ships Hull.";
+$l_planet_cargoshipbuildinfo = "Construisez votre propre navire de charge";
+$l_planet_tradehelp = "1. Vous pouvez entrer dans un port d&#39;échanges pour chaque type de produit. <br> 2. Vous ne pouvez pas échanger une marchandise à un port qui vend la même marchandise. <br> Trading marchandises dans un port marchandises, de minerais à un port minéralier, ect. ne fera rien. <br> 3. Si vous ne voulez pas au commerce de certains produits il suffit d&#39;entrer 0 pour le secteur portuaire.";
+$l_planet_cargocredits = "Auto Trade crédits reçus:";
+$l_planet_cargonoown = "Vous devez posséder la planète afin de créer un Traderoute Auto.";
+$l_planet_digtrans = "Transfert Dignitaire";
+$l_planet_nocredits1 = "Vous n&#39;avez pas assez de crédits pour cette transaction. Le coût total est";
+$l_planet_nocredits2 = "crédits et vous avez seulement";
+$l_planet_nobase = "Vous devez avoir une base pour gérer les niveaux de défense de la planète.";
+$l_planet_genesisnoturn = "Vous devez avoir au moins 1 tour pour utiliser la Genèse de périphériques sur la planète.";
+$l_planet_nogenesis = "Vous avez besoin d&#39;un périphérique Genèse à détruire une planète.";
+$l_planet_wrongclass = "Cette classe de navire ne peut pas tirer un périphérique Nova Bomb.";
+$l_planet_combatpreview = "Combat Preview";
+$l_planet_beamfire1 = "Votre attaque a été détectée. Planetary tir Beams! Augmentation Faisceau Feu comme votre navire arrive trop près de la planète pour lancer combattants.";
+$l_planet_beamfire2 = "Votre attaque a été détectée. Planetary tir Beams! Cadence de tir massif provenant de la planète que les piles Faisceau verrouillage pour des coups multiples!";
+$l_planet_beamfire3 = "Votre attaque a été détectée. Planetary tir Beams! Batteries Faisceau sur toute la planète sont de verrouillage sur le feu pour de multiples massive! Faisceau d&#39;incendie beaucoup plus élevé que prévu!";
+$l_planet_beamfire4 = "Votre attaque a été détectée. Planetary tir Beams! Défenses Beam peut se verrouiller seulement pour un seul passage sur le tir.";
+
+$l_planet_sofanobeamsshields = "tire pas de poutres à vos boucliers.";
+$l_planet_sofanobeamsarmor = "tire pas de poutres à votre armure.";
+$l_planet_flauncherfailed1 = "Votre avion de chasse système de lancement a mal fonctionné.";
+$l_planet_flauncherfailed2 = "Vous avez seulement été capables de lancer";
+$l_planet_flauncherfailed3 = "pour cent de vos combattants.";
+$l_planet_nodfightertofighter = "n&#39;envoie pas de tous les combattants pour attaquer vos combattants.";
+$l_planet_nodfightertotorp = "n&#39;envoie pas de tous les combattants pour attaquer votre Torps.";
+$l_planet_flauncherfailed3 = "pour cent de vos combattants.";
+$l_planet_basenoturn = "Vous devez avoir au moins 1 tour de construire une base";
+$l_planet_autotradetype = "- [source_type] au port [dest_id]";
+
+$l_planet_imtitleattack = "Planet Under Attack";
+$l_planet_imisattacking = "attaque";
+$l_planet_iminsector = "dans le secteur";
+$l_planet_imnova = "est d&#39;utiliser un périphérique Nova sur";
+$l_planet_imsofa = "SOFA est Bombing";
+$l_planet_team = "Cette planète est la propriété d&#39;un de ses coéquipiers et que vous n&#39;avez pas la permission d&#39;accéder à l&#39;information pour cette planète.";
+?>

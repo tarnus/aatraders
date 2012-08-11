@@ -1,0 +1,40 @@
+<?php
+$l_ranks_title = "Top $ max_rank Spillere";
+$l_ranks_none = "Ingen resultater at vise.";
+$l_ranks_pnum = "Samlet antal spillere";
+$l_ranks_dships = "Spillere med ødelagte skibe er ikke medregnet.";
+$l_ranks_rank = "Rank";
+$l_ranks_lastlog = "Seneste login";
+$l_ranks_regen = "at genberegne din score.";
+$l_ranks_done = "Din score er genberegnet.";
+$l_ranks_standing = "Stående";
+$l_ranks_select = "Vælg Ranking side for at se";
+$l_ranks_page = "Side";
+$l_ranks_next = "Næste";
+$l_ranks_prev = "Forrige";
+$l_ranks_online = "Online";
+$l_ranks_rating = "Eff. Rating";
+$l_ranks_show = "Viser spillere";
+$l_ranks_to = "til";
+$l_ranks_kills = "Kills";
+$l_ranks_deaths = "Dødsfald";
+$l_ranks_captures = "Captures";
+$l_ranks_lost = "Mistet";
+$l_ranks_built = "Indbygget";
+$l_ranks_based = "Baseret";
+$l_ranks_destroyed = "Destroy";
+$l_ranks_experience = "Erfaring";
+$l_ranks_death_type = "Death Type";
+$l_ranks_deadtitle = "Sidste 10 spillere dræbt uden en Escape Pod";
+$l_ranks_killefficiency = "Kill Effektivitet";
+
+$l_ranks_kill['killed'] = "Dræbt";
+$l_ranks_kill['killedSD'] = "Sektor Defense";
+$l_ranks_kill['killedplanet'] = "Planet Attack";
+$l_ranks_kill['killedship'] = "Ship Attack";
+$l_ranks_kill['killedsuicide'] = "Selvmord";
+$l_ranks_kill['killedsofa'] = "Sofa Attack";
+$l_ranks_kill['killednova'] = "Nova Bomb";
+$l_ranks_kill['killednovabackfire'] = "Nova Backfire";
+$l_ranks_kill['killedsectormissile'] = "Sektor Missile";
+?>

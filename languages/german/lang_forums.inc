@@ -1,0 +1,30 @@
+<?php
+$l_forums_titlemain          = "Team Foren";
+$l_forums_title          = "'s privates Forum";
+$l_forums_new   = "Neu";
+$l_forums_topics   = "Thema: ";
+$l_forums_date          = "Datum: ";
+$l_forums_topic2           = "Thema";
+$l_forums_date2          = "Datum";
+$l_forums_author       = "Autor";
+$l_forums_posts = "Beiträge";
+$l_forums_views = "Views";
+$l_forums_sticky       = "klebrig: ";
+$l_forums_locked       = "gesperrt: ";
+$l_forums_sticky2       = "klebrig ";
+$l_forums_locked2       = "gesperrt ";
+$l_forums_coord       = "Koordinator ";
+$l_forums_admin = "Admin";
+$l_forums_posttopic       = "Neues Thema";
+$l_forums_subject       = "Betreff:";
+$l_forums_message       = "Nachticht:";
+$l_forums_editmessage       = "Nachricht ändern:";
+$l_forums_reply       = "Antworten: ";
+$l_forums_edited       = "Geändert ";
+$l_forums_lastedit       = "Letzte Änderung am ";
+$l_forums_edit       = "Ändern";
+$l_forums_lock       = "Sperre/Entsperre Thema";
+$l_forums_showtopic       = "Zurück zur Themen-Liste";
+$l_forums_normaltopic       = "Normales Thema";
+$l_forums_stickytopic       = "klebriges Thema";
+?>

@@ -1,0 +1,40 @@
+<?php
+$l_ranks_title      = "Top $max_rank m&auml;ngijad";
+$l_ranks_none       = "Pole midagi n&auml;idata.";
+$l_ranks_pnum       = "M&auml;ngijaid kokku";
+$l_ranks_dships     = "M&auml;ngijad, kelle laev on purustatud, ei ole siia tabelisse kaasatud.";
+$l_ranks_rank       = "Auaste";
+$l_ranks_lastlog    = "Viimati";
+$l_ranks_regen      = "et oma skoor uuesti arvutada.";
+$l_ranks_done       = "Su skoor on uuesti arvutatud.";
+$l_ranks_standing   = "Koht";
+$l_ranks_select = "Valige Edetabelite Page vaatamiseks";
+$l_ranks_page = "Page";
+$l_ranks_next = "Järgmine";
+$l_ranks_prev = "Eelmine";
+$l_ranks_online = "Online";
+$l_ranks_rating = "Eff. Reiting";
+$l_ranks_show = "Näitan mängijad";
+$l_ranks_to = "juurde";
+$l_ranks_kills = "Kills";
+$l_ranks_deaths = "Surnud";
+$l_ranks_captures = "Pildistab";
+$l_ranks_lost = "Kadunud";
+$l_ranks_built = "Ehitatud";
+$l_ranks_based = "Põhineb";
+$l_ranks_destroyed = "Hävitada";
+$l_ranks_experience = "Kogemus";
+$l_ranks_death_type = "Death Type";
+$l_ranks_deadtitle = "Viimased 10 mängijat tapetakse ilma Escape Pod";
+$l_ranks_killefficiency = "Kill Tõhusus";
+
+$l_ranks_kill['killed'] = "Killed";
+$l_ranks_kill['killedSD'] = "Valdkond Defense";
+$l_ranks_kill['killedplanet'] = "Planet Attack";
+$l_ranks_kill['killedship'] = "Laev Attack";
+$l_ranks_kill['killedsuicide'] = "Suitsiid";
+$l_ranks_kill['killedsofa'] = "Diivan Attack";
+$l_ranks_kill['killednova'] = "Nova Bomb";
+$l_ranks_kill['killednovabackfire'] = "Nova Backfire";
+$l_ranks_kill['killedsectormissile'] = "Valdkond rakettide";
+?>

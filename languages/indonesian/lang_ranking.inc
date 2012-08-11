@@ -1,0 +1,40 @@
+<?php
+$l_ranks_title = "Top $ max_rank Players";
+$l_ranks_none = "Tidak Hasil untuk menunjukkan.";
+$l_ranks_pnum = "Total jumlah pemain";
+$l_ranks_dships = "Pemain dengan kapal hancur tidak diperhitungkan.";
+$l_ranks_rank = "Rank";
+$l_ranks_lastlog = "Last login";
+$l_ranks_regen = "untuk menghitung ulang nilai Anda.";
+$l_ranks_done = "Skor Anda dihitung ulang.";
+$l_ranks_standing = "Berdiri";
+$l_ranks_select = "Pilih Peringkat Halaman untuk melihat";
+$l_ranks_page = "Halaman";
+$l_ranks_next = "Berikutnya";
+$l_ranks_prev = "Sebelumnya";
+$l_ranks_online = "Online";
+$l_ranks_rating = "Eff. Rating";
+$l_ranks_show = "Menampilkan pemain";
+$l_ranks_to = "untuk";
+$l_ranks_kills = "Membunuh";
+$l_ranks_deaths = "Kematian";
+$l_ranks_captures = "Captures";
+$l_ranks_lost = "Hilang";
+$l_ranks_built = "Dibangun";
+$l_ranks_based = "Berdasarkan";
+$l_ranks_destroyed = "Hancurkan";
+$l_ranks_experience = "Pengalaman";
+$l_ranks_death_type = "Jenis Kematian";
+$l_ranks_deadtitle = "Last 10 pemain dibunuh tanpa Escape Pod";
+$l_ranks_killefficiency = "Membunuh Efisiensi";
+
+$l_ranks_kill['killed'] = "Membunuh";
+$l_ranks_kill['killedSD'] = "Sektor Pertahanan";
+$l_ranks_kill['killedplanet'] = "Planet Attack";
+$l_ranks_kill['killedship'] = "Kapal Attack";
+$l_ranks_kill['killedsuicide'] = "Diri";
+$l_ranks_kill['killedsofa'] = "Sofa Attack";
+$l_ranks_kill['killednova'] = "Nova Bomb";
+$l_ranks_kill['killednovabackfire'] = "Nova bumerang";
+$l_ranks_kill['killedsectormissile'] = "Sektor Missile";
+?>

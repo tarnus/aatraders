@@ -1,0 +1,5 @@
+name = "Alien Assault Traders Paged Command Classic"
+author = "Panama Jack"
+authoremail = "akapanamajack@wildmail.com"
+authorwebsite = "http://www.aatraders.com"
+description = "Classic Paged Template for Alien Assault Traders. We have also included a number of hotkeys for the main screen.  Check the Hotkey Help button on the command screen."

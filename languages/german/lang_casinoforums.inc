@@ -1,0 +1,30 @@
+<?php
+$l_forums_titlemain          = "Schmuggler Dens Bar";
+$l_forums_nocasino          = "In diesem Sektor gibt es kein Kasinoport.";
+$l_forums_new   = "Neu";
+$l_forums_topics   = "Thema: ";
+$l_forums_date          = "Datum: ";
+$l_forums_topic2           = "Thema";
+$l_forums_date2          = "datum";
+$l_forums_author       = "Autor";
+$l_forums_posts = "Beiträge";
+$l_forums_views = "Views";
+$l_forums_sticky       = "Klebrig: ";
+$l_forums_locked       = "abgesperrt: ";
+$l_forums_sticky2       = "klebrig ";
+$l_forums_locked2       = "abgesperrt ";
+$l_forums_coord       = "Koordinator ";
+$l_forums_admin = "Admin";
+$l_forums_posttopic       = "Neues Thema";
+$l_forums_subject       = "Betreff:";
+$l_forums_message       = "Nachricht:";
+$l_forums_editmessage       = "Nachricht bearbeiten:";
+$l_forums_reply       = "Antworten: ";
+$l_forums_edited       = "bearbeitet ";
+$l_forums_lastedit       = "Letzte Änderung ";
+$l_forums_edit       = "Änderung";
+$l_forums_lock       = "gesperrt/offen Thema";
+$l_forums_showtopic       = "Zurück zur Themenlist";
+$l_forums_normaltopic       = "Normales Thema";
+$l_forums_stickytopic       = "klebriges Thema";
+?>

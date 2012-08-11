@@ -1,0 +1,5 @@
+name = "Alien Assault Traders Menu Dropdown"
+author = "Tarnus"
+authoremail = ""
+authorwebsite = "http://www.aatraders.com"
+description = "This is a low bandwidth Dropdown Menu Template for Alien Assault Traders with minimal graphics. Includes a pull down menu system with hotkeys and is designed to allow you to see everything as best you can without scrolling your page.  Designed by Tarnus"

@@ -1,0 +1,39 @@
+<?php
+$l_pr_title = "Planet Report";
+$l_pr_teamlink = "Vis team planeter";
+$l_pr_noplanet = "Du har ingen planeter hidtil";
+$l_pr_clicktosort = "Klik på kolonneoverskriften for at sortere.";
+$l_pr_totals = "Totals";
+$l_pr_menulink = "Planetary Report Hovedmenu";
+$l_pr_menu = "Menu";
+$l_pr_status = "Status";
+$l_pr_production = "Produktion";
+$l_pr_planetstatus = "Planet Status";
+$l_pr_changeprods = "Skift Produktion";
+$l_pr_baserequired = "<B>Base Required</b> på Planeten";
+$l_pr_comm_disp = "Viser antallet af hver enkelt vare på planeten.";
+$l_pr_prod_disp = "Denne rapport giver dig mulighed for at ændre satsen for produktionen af commondits på planeter, der har en base <BR> - Du skal rejse til planeten for at bygge en base, der er planeten for virksomhedernes eller ændre det navn (fester og sådan)";
+$l_pr_team_disp = "Commondity Betænkning (som Planet-status) for planeter indstillet til Team ejes af dig og / eller dine kolleger teammedlemmer";
+$l_pr_warning = "<B>ADVARSEL:</b> &#39;Base&#39; vil få dit skib til at bevæge sig.";
+$l_pr_takecreds = "Tage <BR> Credits";
+$l_pr_collectcreds = "Collect Credits";
+$l_pr_build = "Bygge";
+$l_pr_notenoughturns = "IKKE NOK skiftedes til at tage CREDITS";
+$l_pr_ppupdated = "Produktion Procent Opdateret";
+$l_pr_prexeedcheck = "Kontrol Værdier for mere end 100% og negative produktion værdier";
+$l_pr_prexeeds = "Planet [name] i sektoren [sector_id] ville overstige 100% produktion. Produktion værdier uændret.";
+$l_pr_credstaken = "Tog [CreditsTaken] Tilgodehavender fra planet [name].";
+$l_pr_credsonboard = "Dit skib - <B>[name]</b> - nu har [NewShipCredits] ombord.";
+$l_pr_notturns = "Du har ikke nok skiftes til at tage kreditter fra [name] i sektoren [sector_id]";
+$l_pr_hostile = "Kan ikke flytte til sektor [destination] gennem fjendtligt forsvarsværker";
+$l_pr_pdefense = "Planetary Defenses";
+$l_pr_sector = "Sektor";
+$l_pr_display = "Display forsvaret niveauer af dine planeter.";
+$l_pr_showd = "Vis Defense Niveauer af alle planeter på dit hold.";
+$l_pr_showtd = "Vis Team Defenses";
+$l_pr_selectall = "Vælg alle";
+
+$l_pr_build = "Bygge";
+$l_pr_research = "Forskning";
+$l_pr_special = "Special";
+?>

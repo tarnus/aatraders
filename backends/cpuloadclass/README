@@ -1,0 +1,79 @@
+class_CPULoad.php - CPU Load Class
+Copyright 2001-2002, Steve Blinch (BlitzAffe Online, http://code.blitzaffe.com)
+
+Latest version available at: http://code.blitzaffe.com
+Contact: steve@blitzaffe.com
+
+DESCRIPTION
+
+  This script obtains CPU load percentage information from /proc/stat, allowing
+  the server to display User, Nice, System, Idle, and CPU load percentages to
+  users.
+
+
+USAGE
+
+	The most important concept to note when using the CPULoad class is that the
+	CPU load can only be calculated over a period of time.  For example, the
+	script needs to check the current CPU load, wait for a second or two, then
+	check the CPU load again to get an accurate reading.
+	
+	There are two ways to do this:
+	
+	1. When the script is called, it can pause for one or two seconds to get an
+	accurate reading.  While this works, it tends to be cumbersome on busier
+	sites, since the page takes one or two seconds longer to load.
+	
+	2. The script can save the CPU data to a file every time it runs, then
+	refer back to it the next time it is executed.  This requires no delay in
+	processing.  The only drawback is that the CPU load is calculated over the
+	time period between page loads.  For example, if the page hasn't been
+	visited for an hour, the next visitor will see the CPU load average for
+	the last hour (rather than the current CPU load).
+	
+	Generally number 2 is the best method.
+	
+
+	The most commonly used functions of the CPULoad class are:
+	
+	CPULoad::sample_load($interval=1)
+	
+		This function corresponds to method number 1 above.  The CPULoad class
+		checks the CPU load, waits for 1 second, then re-checks the CPU load.
+		It then calculates the CPU load over that 1 second period.
+		
+		If you pass a value for $interval, this specifies the number of seconds
+		to wait between checks.  Higher values make for more accurate readings,
+		but will delay your script's execution.
+
+	CPULoad::get_load($fastest_sample=4)
+		
+		This function corresponds to method number 2 above.  The CPULoad class
+		saves a small file in /tmp/ every time it is called, and uses it to
+		remember the CPU load information.  It then calculates the average
+		CPU load since the last time it was called.
+		
+		If you pass a value for $fastest_interval, this specifies the minimum
+		number of seconds (between page loads) that must elapse before the CPU
+		load is recalculated.  Generally, 4 is good for accurate values.
+		
+	CPULoad::print_load()
+	
+		This function outputs the calculated CPU load information.
+		
+	
+	If you want access to the raw CPU load percentage information, the following
+	variables are available:
+	
+		CPULoad->load["user"] - contains the User Mode load percentage
+		CPULoad->load["nice"] - contains the Low Priority User Mode load percentage
+		CPULoad->load["system"] - contains the System Mode load percentage
+		CPULoad->load["idle"] - contains the Idle load percentage
+		CPULoad->load["cpu"] - contains overall CPU load
+		
+		CPULoad->cached - contains the number of seconds remaining until the CPU
+		load is recalculated (if using CPULoad::get_load()).
+
+
+If these descriptions sound confusing, just try out the sample script included;
+it's really simple to use.

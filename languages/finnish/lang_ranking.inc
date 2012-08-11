@@ -1,0 +1,40 @@
+<?php
+$l_ranks_title = "Top $ max_rank soittimet";
+$l_ranks_none = "O Tulokset näyttää.";
+$l_ranks_pnum = "Kokonaismäärä pelaajien";
+$l_ranks_dships = "Pelaajia tuhoutunut aluksia ei lasketa.";
+$l_ranks_rank = "Listalla";
+$l_ranks_lastlog = "Viimeksi kirjautunut";
+$l_ranks_regen = "voidaan laskea uudelleen pisteet.";
+$l_ranks_done = "Voit pisteet lasketaan uudelleen.";
+$l_ranks_standing = "Pysyvälle";
+$l_ranks_select = "Valitse Ranking Page to view";
+$l_ranks_page = "Sivusta";
+$l_ranks_next = "Seuraava";
+$l_ranks_prev = "Edellinen";
+$l_ranks_online = "Online";
+$l_ranks_rating = "Eff. Arviot";
+$l_ranks_show = "Näytetään pelaajat";
+$l_ranks_to = "voidaan";
+$l_ranks_kills = "Surmaa";
+$l_ranks_deaths = "Kuolleet";
+$l_ranks_captures = "Captures";
+$l_ranks_lost = "Menetetty";
+$l_ranks_built = "Rakennettu";
+$l_ranks_based = "Perustuva";
+$l_ranks_destroyed = "Tuhoaa";
+$l_ranks_experience = "Kokemus";
+$l_ranks_death_type = "Death Tyyppi";
+$l_ranks_deadtitle = "Viimeiset 10 pelaajaa lopetettava Escape Pod";
+$l_ranks_killefficiency = "Kill Tehokkuus";
+
+$l_ranks_kill['killed'] = "Killed";
+$l_ranks_kill['killedSD'] = "Alan Defense";
+$l_ranks_kill['killedplanet'] = "Planet Attack";
+$l_ranks_kill['killedship'] = "Laiva Attack";
+$l_ranks_kill['killedsuicide'] = "Itsemurhat";
+$l_ranks_kill['killedsofa'] = "Sohva Attack";
+$l_ranks_kill['killednova'] = "Novan Bomb";
+$l_ranks_kill['killednovabackfire'] = "Novan kostautua";
+$l_ranks_kill['killedsectormissile'] = "Alan Missile";
+?>

@@ -1,0 +1,2 @@
+Norwegian
+The above is the NAME you want displayed in the Language Selection drop down on the login and options page.

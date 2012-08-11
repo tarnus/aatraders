@@ -1,0 +1,64 @@
+
+1	03/01/2011	21:57:42	*notice*	Pepe is connected
+2	04/01/2011	00:35:54	*notice*	Pepe disconnected (timeout)
+3	04/01/2011	00:35:54	*notice*	Sabre is connected
+4	04/01/2011	00:35:57	*notice*	Sabre quit
+5	04/01/2011	09:07:20	*notice*	Pepe is connected
+6	04/01/2011	10:09:06	*notice*	Pepe disconnected (timeout)
+7	04/01/2011	10:09:06	*notice*	Pepe is connected
+8	04/01/2011	11:11:29	*notice*	Pepe disconnected (timeout)
+9	04/01/2011	11:11:29	*notice*	Pepe is connected
+10	04/01/2011	11:21:23	*notice*	Pepe changes his/her nickname to Pepe448
+2	04/01/2011	11:21:23	*notice*	Pepe448 is connected
+3	04/01/2011	13:06:26	*notice*	Pepe disconnected (timeout)
+4	04/01/2011	13:06:26	*notice*	Pepe448 disconnected (timeout)
+5	04/01/2011	13:06:26	*notice*	Sabre is connected
+6	04/01/2011	13:06:27	*notice*	Sabre quit
+7	04/01/2011	13:06:45	*notice*	Sabre is connected
+8	04/01/2011	13:27:25	*notice*	Sabre quit
+9	04/01/2011	13:27:38	*notice*	Sabre is connected
+10	04/01/2011	13:27:44	*notice*	Sabre quit
+11	04/01/2011	13:56:01	*notice*	Sabre is connected
+12	04/01/2011	16:01:52	*notice*	Sabre disconnected (timeout)
+13	04/01/2011	16:01:52	*notice*	Sabre is connected
+14	04/01/2011	16:03:50	*notice*	Sabre quit
+15	04/01/2011	20:21:06	*notice*	Pepe is connected
+16	04/01/2011	21:27:33	*notice*	Pepe disconnected (timeout)
+17	04/01/2011	21:27:33	*notice*	Sabre is connected
+18	04/01/2011	21:39:23	*notice*	Pepe is connected
+19	04/01/2011	23:04:11	*notice*	Pepe disconnected (timeout)
+20	04/01/2011	23:04:11	*notice*	Sabre disconnected (timeout)
+21	04/01/2011	23:04:11	*notice*	Pepe is connected
+22	05/01/2011	07:57:04	*notice*	Pepe disconnected (timeout)
+23	05/01/2011	07:57:04	*notice*	Pepe is connected
+24	06/01/2011	00:12:00	*notice*	Pepe disconnected (timeout)
+25	06/01/2011	00:12:00	*notice*	Pepe is connected
+26	06/01/2011	09:33:51	*notice*	Pepe disconnected (timeout)
+27	06/01/2011	09:33:51	*notice*	Pepe is connected
+28	06/01/2011	10:56:39	*notice*	Pepe disconnected (timeout)
+29	06/01/2011	10:56:39	*notice*	Pepe is connected
+30	06/01/2011	11:47:25	*notice*	Pepe changes his/her nickname to Pepe738
+31	06/01/2011	11:47:25	*notice*	Pepe738 is connected
+32	06/01/2011	18:44:35	*notice*	Pepe disconnected (timeout)
+33	06/01/2011	18:44:35	*notice*	Pepe738 disconnected (timeout)
+34	06/01/2011	18:44:35	*notice*	Pepe is connected
+35	06/01/2011	19:27:30	*notice*	Pepe changes his/her nickname to Pepe440
+36	06/01/2011	19:27:30	*notice*	Pepe440 is connected
+37	06/01/2011	20:11:21	*notice*	Pepe disconnected (timeout)
+38	06/01/2011	20:11:21	*notice*	Pepe is connected
+39	06/01/2011	20:27:23	*notice*	Sabre is connected
+40	06/01/2011	21:55:39	*notice*	Pepe disconnected (timeout)
+41	06/01/2011	21:55:39	*notice*	Pepe440 disconnected (timeout)
+42	06/01/2011	21:55:39	*notice*	Sabre disconnected (timeout)
+43	06/01/2011	21:55:39	*notice*	Pepe is connected
+44	07/01/2011	00:26:26	*notice*	Pepe disconnected (timeout)
+45	07/01/2011	00:26:26	*notice*	Pepe is connected
+46	07/01/2011	08:08:39	*notice*	Pepe disconnected (timeout)
+47	07/01/2011	08:08:39	*notice*	Pepe is connected
+48	07/01/2011	20:55:53	*notice*	Pepe disconnected (timeout)
+49	07/01/2011	20:55:53	*notice*	Pepe is connected
+50	07/01/2011	21:34:53	*notice*	Sabre is connected
+51	07/01/2011	23:09:36	*notice*	Pepe disconnected (timeout)
+52	07/01/2011	23:09:36	*notice*	Sabre disconnected (timeout)
+53	07/01/2011	23:09:36	*notice*	Pepe is connected
+54	07/01/2011	23:20:30	*notice*	Wonder Woman is connected

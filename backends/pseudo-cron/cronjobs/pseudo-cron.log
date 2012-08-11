@@ -1,0 +1,101 @@
+Wed, 12 Mar 2008 18:02:24 -0500	Running	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Wed, 12 Mar 2008 18:02:24 -0500		Last run:		 Wed, 31 Dec 1969 18:00:00 -0600
+Wed, 12 Mar 2008 18:02:24 -0500		Last scheduled: Wed, 12 Mar 2008 18:00:00 -0500
+Wed, 12 Mar 2008 18:02:24 -0500		Time Difference: 4017876
+Wed, 12 Mar 2008 18:02:24 -0500	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94&scheduler_passes=4017876
+Wed, 12 Mar 2008 18:02:25 -0500	<br>
+Wed, 12 Mar 2008 18:02:25 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Wed, 12 Mar 2008 18:02:27 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Wed, 12 Mar 2008 18:02:27 -0500		Last run:		 Wed, 12 Mar 2008 18:02:24 -0500
+Wed, 12 Mar 2008 18:02:27 -0500		Last scheduled: Wed, 12 Mar 2008 18:00:00 -0500
+Wed, 12 Mar 2008 18:02:27 -0500		Time Difference: -0
+Wed, 12 Mar 2008 18:02:27 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Wed, 12 Mar 2008 18:02:28 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Wed, 12 Mar 2008 18:02:28 -0500		Last run:		 Wed, 12 Mar 2008 18:02:24 -0500
+Wed, 12 Mar 2008 18:02:28 -0500		Last scheduled: Wed, 12 Mar 2008 18:00:00 -0500
+Wed, 12 Mar 2008 18:02:28 -0500		Time Difference: -0
+Wed, 12 Mar 2008 18:02:28 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:34:10 -0500	Running	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:34:10 -0500		Last run:		 Wed, 12 Mar 2008 18:02:24 -0500
+Sun, 16 Mar 2008 22:34:10 -0500		Last scheduled: Sun, 16 Mar 2008 22:30:00 -0500
+Sun, 16 Mar 2008 22:34:10 -0500		Time Difference: 1206
+Sun, 16 Mar 2008 22:34:10 -0500	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94&scheduler_passes=1206
+Sun, 16 Mar 2008 22:34:11 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:35:30 -0500	Running	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:35:30 -0500		Last run:		 Sun, 16 Mar 2008 22:34:10 -0500
+Sun, 16 Mar 2008 22:35:30 -0500		Last scheduled: Sun, 16 Mar 2008 22:35:00 -0500
+Sun, 16 Mar 2008 22:35:30 -0500		Time Difference: 0
+Sun, 16 Mar 2008 22:35:30 -0500	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94&scheduler_passes=0
+Sun, 16 Mar 2008 22:35:32 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:35:55 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:35:55 -0500		Last run:		 Sun, 16 Mar 2008 22:35:30 -0500
+Sun, 16 Mar 2008 22:35:55 -0500		Last scheduled: Sun, 16 Mar 2008 22:35:00 -0500
+Sun, 16 Mar 2008 22:35:55 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:35:55 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:36:09 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:36:09 -0500		Last run:		 Sun, 16 Mar 2008 22:35:30 -0500
+Sun, 16 Mar 2008 22:36:09 -0500		Last scheduled: Sun, 16 Mar 2008 22:35:00 -0500
+Sun, 16 Mar 2008 22:36:09 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:36:09 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:36:39 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:36:39 -0500		Last run:		 Sun, 16 Mar 2008 22:35:30 -0500
+Sun, 16 Mar 2008 22:36:39 -0500		Last scheduled: Sun, 16 Mar 2008 22:35:00 -0500
+Sun, 16 Mar 2008 22:36:39 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:36:39 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:37:01 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:37:01 -0500		Last run:		 Sun, 16 Mar 2008 22:35:30 -0500
+Sun, 16 Mar 2008 22:37:01 -0500		Last scheduled: Sun, 16 Mar 2008 22:35:00 -0500
+Sun, 16 Mar 2008 22:37:01 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:37:01 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:38:37 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:38:37 -0500		Last run:		 Sun, 16 Mar 2008 22:35:30 -0500
+Sun, 16 Mar 2008 22:38:37 -0500		Last scheduled: Sun, 16 Mar 2008 22:35:00 -0500
+Sun, 16 Mar 2008 22:38:37 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:38:37 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:38:47 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:38:47 -0500		Last run:		 Sun, 16 Mar 2008 22:35:30 -0500
+Sun, 16 Mar 2008 22:38:47 -0500		Last scheduled: Sun, 16 Mar 2008 22:35:00 -0500
+Sun, 16 Mar 2008 22:38:47 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:38:47 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:39:13 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:39:13 -0500		Last run:		 Sun, 16 Mar 2008 22:35:30 -0500
+Sun, 16 Mar 2008 22:39:13 -0500		Last scheduled: Sun, 16 Mar 2008 22:35:00 -0500
+Sun, 16 Mar 2008 22:39:13 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:39:13 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:39:45 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:39:45 -0500		Last run:		 Sun, 16 Mar 2008 22:35:30 -0500
+Sun, 16 Mar 2008 22:39:45 -0500		Last scheduled: Sun, 16 Mar 2008 22:35:00 -0500
+Sun, 16 Mar 2008 22:39:45 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:39:45 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:39:56 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:39:56 -0500		Last run:		 Sun, 16 Mar 2008 22:35:30 -0500
+Sun, 16 Mar 2008 22:39:56 -0500		Last scheduled: Sun, 16 Mar 2008 22:35:00 -0500
+Sun, 16 Mar 2008 22:39:56 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:39:56 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:40:33 -0500	Running	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:40:33 -0500		Last run:		 Sun, 16 Mar 2008 22:35:30 -0500
+Sun, 16 Mar 2008 22:40:33 -0500		Last scheduled: Sun, 16 Mar 2008 22:40:00 -0500
+Sun, 16 Mar 2008 22:40:33 -0500		Time Difference: 1
+Sun, 16 Mar 2008 22:40:33 -0500	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94&scheduler_passes=1
+Sun, 16 Mar 2008 22:40:33 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:41:00 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:41:00 -0500		Last run:		 Sun, 16 Mar 2008 22:40:33 -0500
+Sun, 16 Mar 2008 22:41:00 -0500		Last scheduled: Sun, 16 Mar 2008 22:40:00 -0500
+Sun, 16 Mar 2008 22:41:00 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:41:00 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:41:17 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:41:17 -0500		Last run:		 Sun, 16 Mar 2008 22:40:33 -0500
+Sun, 16 Mar 2008 22:41:17 -0500		Last scheduled: Sun, 16 Mar 2008 22:40:00 -0500
+Sun, 16 Mar 2008 22:41:17 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:41:17 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:56:46 -0500	Running	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:56:46 -0500		Last run:		 Sun, 16 Mar 2008 22:40:33 -0500
+Sun, 16 Mar 2008 22:56:46 -0500		Last scheduled: Sun, 16 Mar 2008 22:55:00 -0500
+Sun, 16 Mar 2008 22:56:46 -0500		Time Difference: 3
+Sun, 16 Mar 2008 22:56:46 -0500	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94&scheduler_passes=3
+Sun, 16 Mar 2008 22:56:48 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:56:55 -0500	Skipping	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94
+Sun, 16 Mar 2008 22:56:55 -0500		Last run:		 Sun, 16 Mar 2008 22:56:46 -0500
+Sun, 16 Mar 2008 22:56:55 -0500		Last scheduled: Sun, 16 Mar 2008 22:55:00 -0500
+Sun, 16 Mar 2008 22:56:55 -0500		Time Difference: -0
+Sun, 16 Mar 2008 22:56:55 -0500	Completed	0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	http://localhost/aatrade/scheduler.php?encoded=a6a2a5b5c6a28ac6c5cedde0c0d4c6d4d4ebe1d3c8a2c8d0e3d4c6d68bc8c2e1d7c0d2dacec3d9e49e94

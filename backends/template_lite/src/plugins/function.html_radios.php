@@ -2,13 +2,13 @@
 /**
  * Template_Lite {html_radios} function plugin
  *
- * Type:     function
- * Name:     radio
+ * Type:	 function
+ * Name:	 radio
  * Purpose:  Creates a radio button
  * Input:
- *           - name = the name of the radio button
- *           - value = optional value for the checkbox
- *           - checked = boolean - whether the box is checked or not
+ *		   - name = the name of the radio button
+ *		   - value = optional value for the checkbox
+ *		   - checked = boolean - whether the box is checked or not
  * Author:   Paul Lockaby <paul@paullockaby.com>
  */
 function tpl_function_html_radios($params, &$tpl)

@@ -69,7 +69,7 @@ testing strip tags
 	<tr>
 		<td>
 			<A HREF="<?php echo $_SERVER['SCRIPT_NAME']; ?>">
-			<font color="red">This is a  test     </font>
+			<font color="red">This is a  test	 </font>
 			</A>
 		</td>
 	</tr>

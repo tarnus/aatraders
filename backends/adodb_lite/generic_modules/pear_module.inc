@@ -7,6 +7,21 @@ eval('class pear_EXTENDER extends ' . $last_module . '_ADOConnection { }');
 class pear_ADOConnection extends pear_EXTENDER
 {
 	/**
+	* Set how select queries will retrieve data.
+	* Usage: $oldmode = $db->SetFetchMode($mode)
+	*
+	* @param mode	The fetchmode ADODB_FETCH_ASSOC or ADODB_FETCH_NUM
+	* @returns		The previous fetch mode
+	*/
+	function SetFetchMode($mode)
+	{	
+		GLOBAL $ADODB_FETCH_MODE;
+		$old = $ADODB_FETCH_MODE;
+		$ADODB_FETCH_MODE = $mode;
+		return $old;
+	}
+
+	/**
 	 * Returns the last record id of an inserted item
 	 * Usage: $db->GetCol($sql);
 	 * 

@@ -50,9 +50,9 @@ class Template_Lite {
 	var $default_modifiers		= array();
 	var $debugging	   =  false;
 
-	var $compiler_file        =    'class.compiler.php';
-	var $compiler_class        =   'Template_Lite_Compiler';
-	var $config_class          =   'config';
+	var $compiler_file		=	'class.compiler.php';
+	var $compiler_class		=   'Template_Lite_Compiler';
+	var $config_class		  =   'config';
 
 	// gzip output configuration
 	var $send_now			=  1;
@@ -481,7 +481,7 @@ class Template_Lite {
 		$_resource_name = explode(':', trim($file));
 
 		if (count($_resource_name) == 1 || $_resource_name[0] == "file")
-        {
+		{
 			if($_resource_name[0] == "file")
 			{
 				$file = substr($file, 5);
@@ -535,7 +535,7 @@ class Template_Lite {
 			$compile_id = str_replace("/", "_",(urlencode($compile_id)));
 		}
 
-        $this->_compile_id = $compile_id;
+		$this->_compile_id = $compile_id;
 
 		$this->_cache_id = $cache_id;
 		$this->template_dir = $this->_get_dir($this->template_dir);
@@ -758,15 +758,15 @@ class Template_Lite {
 		else
 		{
  			$old_plugins = $this->_plugins;
-			$this->_compile_obj->_plugins    = array(
- 	                'modifier'      => array(),
- 	                'function'      => array(),
- 	                'block'         => array(),
- 	                'compiler'      => array(),
- 	                'resource'      => array(),
- 	                'prefilter'     => array(),
- 	                'postfilter'    => array(),
- 	                'outputfilter'  => array());
+			$this->_compile_obj->_plugins	= array(
+ 					'modifier'	  => array(),
+ 					'function'	  => array(),
+ 					'block'		 => array(),
+ 					'compiler'	  => array(),
+ 					'resource'	  => array(),
+ 					'prefilter'	 => array(),
+ 					'postfilter'	=> array(),
+ 					'outputfilter'  => array());
 		}
 
 		$output = $this->_compile_obj->_compile_file($file_contents);

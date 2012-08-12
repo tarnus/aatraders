@@ -2,15 +2,15 @@
 /*
  * Template Lite plugin converted from Smarty
  * -------------------------------------------------------------
- * File:     prefilter.jstrip.php
- * Type:     prefilter
- * Name:     jstrip
+ * File:	 prefilter.jstrip.php
+ * Type:	 prefilter
+ * Name:	 jstrip
  * Version:  1.0
- * Date:     01 Nov 2004
+ * Date:	 01 Nov 2004
  * Purpose:  dummy compiler to compress javascript
  * Install:  Drop into the plugin directory,
- *           call load_filter('pre','jstrip');
- *           from your application.
+ *		   call load_filter('pre','jstrip');
+ *		   from your application.
  * -------------------------------------------------------------
  */
 

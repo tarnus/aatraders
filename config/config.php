@@ -121,11 +121,8 @@ function connectdb()
 	}
 
 	$version = @mysql_get_server_info();
-	$versioncheck = ereg_replace("[^0-9.]","", $version);
-	if (strnatcmp($versioncheck, '5.0.2') >= 0)
-	{
-		$debug_query = $db->Execute("SET sql_mode = ''");
-	}
+	$versioncheck=preg_replace("/[^0-9.]/", "",$version); 
+	
 
 	if (@extension_loaded('mbstring'))
 	{

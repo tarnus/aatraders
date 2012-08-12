@@ -4,8 +4,9 @@ CREATE TABLE sessions (
 	SessionID VARCHAR(64), 
 	session_data TEXT DEFAULT '', 
 	expiry INT(11),
-	expireref	VARCHAR(250)	DEFAULT '',
-	PRIMARY KEY	(SessionID),
+	expireref	VARCHAR(64)	DEFAULT '',
+	PRIMARY KEY	(ID),
+	INDEX SessionID (SessionID)
 	INDEX expiry (expiry)
 );
 */
@@ -42,13 +43,15 @@ class ADODB_Session {
 			$result = $db_object->Connect($host, $user, $password, $database);
 		}
 
-		if ($result == true)
+		if ($result)
 			$GLOBALS['ADODB_SESS_CONN'] =& $db_object;
 
 		return $result;
 	}
 
 	function sess_close() {
+//		$db_object = $GLOBALS['ADODB_SESS_CONN'];
+//		$db_object->close();
 		return true;
 	}
 
@@ -56,7 +59,6 @@ class ADODB_Session {
 		$filter	= ADODB_Session::filter();
 		$dataFieldName = ADODB_Session::dataFieldName();
 		$db_object =& $GLOBALS['ADODB_SESS_CONN'];
-
 		$table = $GLOBALS['ADODB_SESSION_TBL'];
 		$result = $db_object->execute("SELECT $dataFieldName FROM $table WHERE SessionID = '$sess_id'");
 		$CurrentTime = time();
@@ -70,7 +72,7 @@ class ADODB_Session {
 					$notify = $$var;
 				}
 			}
-			$db_object->execute("INSERT INTO $table (SessionID, expiry, expireref) VALUES ('$sess_id', '$CurrentTime', " . $db_object->qstr($notify) . ")");
+			$db_object->execute("INSERT INTO $table (SessionID, expiry, expireref) VALUES ('$sess_id', '$CurrentTime', '$notify')");
 			return '';
 		} else {
 			$data = $result->fields[$dataFieldName];
@@ -122,19 +124,7 @@ class ADODB_Session {
 			}
 		}
 
-		$result_set =& $db_object->Execute("SELECT COUNT(*) AS cnt FROM $table WHERE SessionID = $sess_id");
-		if ($result_set && $result_set->fields['cnt'] > 0)
-		{
-			$sql = "UPDATE $table SET $dataFieldName = '$data', expiry = '$CurrentTime', expireref = " . $db_object->qstr($notify) . " WHERE SessionID = '$sess_id'";
-		} else {
-			$sql = "INSERT INTO $table (SessionID, expiry, expireref, $dataFieldName) VALUES ('$sess_id', '$CurrentTime', " . $db_object->qstr($notify) . ", '$data')";
-		}
-		if ($result_set)
-		{
-			$result_set->Close();
-		}
-
-		$db_object->execute($sql);
+		$db_object->execute("UPDATE $table SET $dataFieldName = '$data', expiry = '$CurrentTime', expireref = '$notify' WHERE SessionID = '$sess_id'");
 		return true;
 	}
 
@@ -217,7 +207,6 @@ class ADODB_Session {
 			array('ADODB_Session', 'sess_destroy'),
 			array('ADODB_Session', 'sess_gc')
 		);
-		register_shutdown_function('session_write_close');
 	}
 
 	function filter($filter = null) {

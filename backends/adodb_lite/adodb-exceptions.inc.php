@@ -37,7 +37,7 @@ class ADODB_Exception extends Exception {
 
 			case 'PCONNECT':
 			case 'CONNECT':
-				$user = $thisConnection->username;
+				$user = $thisConnection->user;
 				$s = "$dbms error: [$errno: $errmsg] in $fn($p1, '$user', '****', $p2)\n";
 				break;
 

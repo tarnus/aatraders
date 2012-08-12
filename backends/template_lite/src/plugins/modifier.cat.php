@@ -9,14 +9,14 @@
 /**
  * Smarty cat modifier plugin
  *
- * Type:     modifier<br>
- * Name:     cat<br>
- * Date:     Feb 24, 2003
+ * Type:	 modifier<br>
+ * Name:	 cat<br>
+ * Date:	 Feb 24, 2003
  * Purpose:  catenate a value to a variable
- * Input:    string to catenate
+ * Input:	string to catenate
  * Example:  {$var|cat:"foo"}
  * @link http://smarty.php.net/manual/en/language.modifier.cat.php cat
- *          (Smarty online manual)
+ *		  (Smarty online manual)
  * @author   Monte Ohrt <monte at ohrt dot com>
  * @version 1.0
  * @param string
@@ -25,7 +25,7 @@
  */
 function tpl_modifier_cat($string, $cat)
 {
-    return $string . $cat;
+	return $string . $cat;
 }
 
 ?>

@@ -14,7 +14,7 @@ function tpl_make_timestamp($string)
 	}
 	else if (preg_match('/^\d{14}$/', $string))
 	{
-		// it is mysql timestamp format of YYYYMMDDHHMMSS?            
+		// it is mysql timestamp format of YYYYMMDDHHMMSS?			
 		$time = mktime(substr($string, 8, 2),substr($string, 10, 2),substr($string, 12, 2),
 						substr($string, 4, 2),substr($string, 6, 2),substr($string, 0, 4));
 	}

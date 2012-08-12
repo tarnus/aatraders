@@ -9,7 +9,7 @@ CREATE TABLE /*! IF NOT EXISTS */ sessions (
 	SessionID VARCHAR(64), 
 	session_data TEXT DEFAULT '', 
 	expiry INT(11),
-	expireref	VARCHAR(250)	DEFAULT '',
+	expireref	VARCHAR(64)	DEFAULT '',
 	INDEX (SessionID),
 	INDEX expiry (expiry)
 );

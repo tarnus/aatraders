@@ -23,9 +23,9 @@
 * hostname = localhost or url/ip address IE: http://0.0.0.0 or http://www.dbserver.com
 * database = The name of the database you will be accessing
 * options = All Drivers - 'persist', 'persistent', 'debug', 'fetchmode'
-*                      Mysql (all) - 'port', 'clientflags'
-*                      Mysqli - 'socket'
-*                      Postgress (all) - 'port'
+*					  Mysql (all) - 'port', 'clientflags'
+*					  Mysqli - 'socket'
+*					  Postgress (all) - 'port'
 * modules = The modules that should be loaded. IE: pear, cache, extend, ect. 
 * 
 */

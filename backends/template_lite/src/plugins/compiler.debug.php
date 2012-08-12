@@ -3,10 +3,10 @@
 /*
  * Template Lite plugin converted from Smarty
  * -------------------------------------------------------------
- * Type:     function
- * Name:     debug
+ * Type:	 function
+ * Name:	 debug
  * Version:  1.0
- * Date:     July 1, 2002
+ * Date:	 July 1, 2002
  * Author:	 Monte Ohrt <monte@ispi.net>
  * Purpose:  popup debug window
  * -------------------------------------------------------------
@@ -15,7 +15,7 @@ function tpl_compiler_debug($params, &$tpl)
 {
 	if($params['output'])
 	{
-	    $debug_output = '$this->assign("_templatelite_debug_output", ' . $params['output'] . ');';
+		$debug_output = '$this->assign("_templatelite_debug_output", ' . $params['output'] . ');';
 	}
 	else
 	{

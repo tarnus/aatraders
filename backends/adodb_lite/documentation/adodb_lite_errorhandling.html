@@ -8,7 +8,7 @@
 <meta name="robots" content="index,follow">
 	<title>ADOdb Lite How to Install</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-    <style type="text/css">
+	<style type="text/css">
 <!--
 .style1 {color: #FF0000}
 .style3 {
@@ -16,7 +16,7 @@
 	font-weight: bold;
 }
 -->
-    </style>
+	</style>
 <style type="text/css">
 <!--
 .style5 {color: #FF0000; font-weight: bold; }
@@ -58,18 +58,18 @@
 </p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><p class="left"> <b>include("../adodb-exceptions.inc.php");</b> <br>
-      include("../adodb.inc.php"); <br>
-      <br>
-      try <br>
-      { <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;$db = NewADOConnection("mysql://test:password@mine/"); <br>
-      } <br>
-      <br>
-      catch (exception $e) <br>
-      { <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;var_dump($e); <br>
-      } </p></td>
+	<td><p class="left"> <b>include("../adodb-exceptions.inc.php");</b> <br>
+	  include("../adodb.inc.php"); <br>
+	  <br>
+	  try <br>
+	  { <br>
+	  &nbsp;&nbsp;&nbsp;&nbsp;$db = NewADOConnection("mysql://test:password@mine/"); <br>
+	  } <br>
+	  <br>
+	  catch (exception $e) <br>
+	  { <br>
+	  &nbsp;&nbsp;&nbsp;&nbsp;var_dump($e); <br>
+	  } </p></td>
   </tr>
 </table>
 <p>&nbsp;</p>
@@ -88,7 +88,7 @@
   the display of errors.</p>
 <p class="left">You can  log your error messages by defining the following 
   optional constants ADODB_ERROR_LOG_TYPE and ADODB_ERROR_LOG_DEST. <br>
-    <br>
+	<br>
   ADODB_ERROR_LOG_TYPE 
   is the error log message type (see error_log 
   in the PHP manual). </p>
@@ -96,16 +96,16 @@
 </p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><p class="left"> <span class="style9">error_reporting(E_ALL);  //Enable reporting of all errors by PHP </span><b><br>
-      include("../adodb-errorhandler.inc.php");</b> <br>
-      include("../adodb.inc.php"); <br>
-      <b><br>
-        <span class="style9">define('ADODB_ERROR_LOG_TYPE', 3);<br>
-          define('ADODB_ERROR_LOG_DEST', 'adodb_errors.log');</span></b><br>
-      <br>
-      $db = NewADOConnection('mysql');<br>
-      $db-&gt;Connect('localhost', 'root', '', 'test');<br>
-      $resultset = $db-&gt;Execute('select * from test_table'); // Table named test_table is missing </p></td>
+	<td><p class="left"> <span class="style9">error_reporting(E_ALL);  //Enable reporting of all errors by PHP </span><b><br>
+	  include("../adodb-errorhandler.inc.php");</b> <br>
+	  include("../adodb.inc.php"); <br>
+	  <b><br>
+		<span class="style9">define('ADODB_ERROR_LOG_TYPE', 3);<br>
+		  define('ADODB_ERROR_LOG_DEST', 'adodb_errors.log');</span></b><br>
+	  <br>
+	  $db = NewADOConnection('mysql');<br>
+	  $db-&gt;Connect('localhost', 'root', '', 'test');<br>
+	  $resultset = $db-&gt;Execute('select * from test_table'); // Table named test_table is missing </p></td>
   </tr>
 </table>
 <p class="left"><br>
@@ -114,24 +114,24 @@
 
 </pre>
 <p><img src="images/dot_b.gif" width="5" height="5" alt="" border="0" align="absmiddle">&nbsp;&nbsp;<span class="style8">Pear Style Error  Handling using</span> <span class="style3">adodb-<b>errorpear</b>.inc.php</span><span class="style8">.</span> <br>
-    <br>
-    <span class="style9">This will create a 
-      PEAR_Error object whenever an error occurs. The last PEAR_Error object 
-      created can be retrieved using ADODB_Pear_Error(). </a></span></p>
+	<br>
+	<span class="style9">This will create a 
+	  PEAR_Error object whenever an error occurs. The last PEAR_Error object 
+	  created can be retrieved using ADODB_Pear_Error(). </a></span></p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><p class="left"><span class="style9">error_reporting(E_ALL);  //Enable reporting of all errors by PHP </span><b><br>
-      include("../adodb-errorpear.inc.php");</b> <br>
-      include("../adodb.inc.php"); <br>
-      <b><br>
-        </b> $db = NewADOConnection('mysql');<br>
-      $db-&gt;Connect('localhost', 'root', '', 'test');<br>
-      $resultset = $db-&gt;Execute('select * from test_table'); // Table named test_table is missing <br>
-      if(!$resultset)<br>
-      {<br>
-      <b>&nbsp;&nbsp;&nbsp;&nbsp;<span class="style9">$error_object = ADODB_Pear_Error();<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;echo '&lt;b&gt;' . $error_object-&gt;message . '&lt;/b&gt;';</span></b> <br>
-      }</p></td>
+	<td><p class="left"><span class="style9">error_reporting(E_ALL);  //Enable reporting of all errors by PHP </span><b><br>
+	  include("../adodb-errorpear.inc.php");</b> <br>
+	  include("../adodb.inc.php"); <br>
+	  <b><br>
+		</b> $db = NewADOConnection('mysql');<br>
+	  $db-&gt;Connect('localhost', 'root', '', 'test');<br>
+	  $resultset = $db-&gt;Execute('select * from test_table'); // Table named test_table is missing <br>
+	  if(!$resultset)<br>
+	  {<br>
+	  <b>&nbsp;&nbsp;&nbsp;&nbsp;<span class="style9">$error_object = ADODB_Pear_Error();<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;echo '&lt;b&gt;' . $error_object-&gt;message . '&lt;/b&gt;';</span></b> <br>
+	  }</p></td>
   </tr>
 </table></td>
 	</tr>

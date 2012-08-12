@@ -60,45 +60,37 @@ The following <span class="style11">modules</span> are supported:<br>
 </p>
 <table width="97%"  border="1" align="center" cellpadding="0" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><span class="left style1">Module Designator </span></td>
-    <td><span class="left style1">Module Function </span></td>
+	<td><span class="left style1">Module Designator </span></td>
+	<td><span class="left style1">Module Function </span></td>
   </tr>
   <tr>
-    <td><span class="left">pear</span></td>
-    <td><span class="left">Adds generic Pear Database Functions </span></td>
+	<td><span class="left">pear</span></td>
+	<td><span class="left">Adds generic Pear Database Functions </span></td>
   </tr>
   <tr>
-    <td><span class="left">transaction</span></td>
-    <td><span class="left">Adds transaction support for databases that support it </span></td>
+	<td><span class="left">transaction</span></td>
+	<td><span class="left">Adds transaction support for databases that support it </span></td>
   </tr>
   <tr>
-    <td><span class="left">extend</span></td>
-    <td><span class="left">Adds little used but important ADOdb functions </span></td>
+	<td><span class="left">extend</span></td>
+	<td><span class="left">Adds little used but important ADOdb functions </span></td>
   </tr>
   <tr>
-    <td><span class="left">date</span></td>
-    <td><span class="left">Adds all ADOdb Database Date Functions </span></td>
+	<td><span class="left">date</span></td>
+	<td><span class="left">Adds all ADOdb Database Date Functions </span></td>
   </tr>
   <tr>
-    <td><span class="left">object</span></td>
-    <td><span class="left">Adds all ADOdb Database Object Functions </span></td>
+	<td><span class="left">object</span></td>
+	<td><span class="left">Adds all ADOdb Database Object Functions </span></td>
   </tr>
   <tr>
-    <td><span class="left">menu</span></td>
-    <td><span class="left">Adds all ADOdb Database Menu Functions </span></td>
+	<td><span class="left">menu</span></td>
+	<td><span class="left">Adds all ADOdb Database Menu Functions </span></td>
   </tr>
   <tr>
-    <td><span class="left">adodblite</span></td>
-    <td><span class="left">Adds functions designed specifically for ADOdb Lite </span></td>
+	<td><span class="left">adodblite</span></td>
+	<td><span class="left">Adds functions designed specifically for ADOdb Lite </span></td>
   </tr>
-      <tr>
-        <td><span class="left">meta</span></td>
-        <td><span class="left">Adds all ADOdb Database Meta Functions </span></td>
-      </tr>
-      <tr>
-        <td><span class="left">perfmon</span></td>
-        <td><span class="left">Adds support for the Performance Monitor</span></td>
-      </tr>
 </table>
 <p class="left">&nbsp;</p>
 <p class="left"><img src="images/dot_b.gif" width="5" height="5" alt="dot" border="0" align="absmiddle">&nbsp;&nbsp;<b>Pear Module Functions (module included with ADOdb Lite) </b></p>
@@ -109,41 +101,41 @@ The following <span class="style11">modules</span> are supported:<br>
 </p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Pear Database Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$db-&gt;Disconnect()<br>
-          $db-&gt;ErrorNative()<br>
-          $db-&gt;GetCol($sql)<br>
-          $db-&gt;GetOne($sql)<br>
-          $db-&gt;GetRow($sql)<br>
-          $db-&gt;LimitQuery( $sql,[offset], [nrows], [$inputarray] )<br>
-          $db-&gt;Query($sql, [$inputarray])<br>
-          $db-&gt;Quote($string)<br>
-          <br>
-        </p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">Pear Database Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$db-&gt;Disconnect()<br>
+		  $db-&gt;ErrorNative()<br>
+		  $db-&gt;GetCol($sql)<br>
+		  $db-&gt;GetOne($sql)<br>
+		  $db-&gt;GetRow($sql)<br>
+		  $db-&gt;LimitQuery( $sql,[offset], [nrows], [$inputarray] )<br>
+		  $db-&gt;Query($sql, [$inputarray])<br>
+		  $db-&gt;Quote($string)<br>
+		  $db-&gt;SetFetchMode($mode) - $mode = 'ADODB_FETCH_DEFAULT' | 'ADODB_FETCH_NUM' | 'ADODB_FETCH_ASSOC' | 'ADODB_FETCH_BOTH'<br>
+		</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <br>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Pear Resultset Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$result-&gt;FetchInto($array)<br>
-          $result-&gt;FetchRow()<br>
-          $result-&gt;Free()<br>
-          $result-&gt;NumCols()<br>
-          $result-&gt;NumRows()<br>
-        </p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">Pear Resultset Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$result-&gt;FetchInto($array)<br>
+		  $result-&gt;FetchRow()<br>
+		  $result-&gt;Free()<br>
+		  $result-&gt;NumCols()<br>
+		  $result-&gt;NumRows()<br>
+		</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <p>&nbsp;</p>
@@ -155,23 +147,23 @@ The following <span class="style11">modules</span> are supported:<br>
 </p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Transaction Database Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$db-&gt;StartTrans()<br>
-          $db-&gt;BeginTrans()<br>
-          $db-&gt;CompleteTrans($autoComplete)<br>
-          $db-&gt;CommitTrans($ok)<br>
-          $db-&gt;RollbackTrans()<br>
-          $db-&gt;FailTrans()<br>
-          $db-&gt;HasFailedTrans()<br>
-          $db-&gt;RowLock($tables, $where)<br>
-          $db-&gt;CommitLock($table)<br>
-          $db-&gt;RollbackLock($table)</p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">Transaction Database Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$db-&gt;StartTrans()<br>
+		  $db-&gt;BeginTrans()<br>
+		  $db-&gt;CompleteTrans($autoComplete)<br>
+		  $db-&gt;CommitTrans($ok)<br>
+		  $db-&gt;RollbackTrans()<br>
+		  $db-&gt;FailTrans()<br>
+		  $db-&gt;HasFailedTrans()<br>
+		  $db-&gt;RowLock($tables, $where)<br>
+		  $db-&gt;CommitLock($table)<br>
+		  $db-&gt;RollbackLock($table)</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <br>
@@ -181,36 +173,36 @@ The following <span class="style11">modules</span> are supported:<br>
 </p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Extend Database Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$db-&gt;GetAssoc($sql, [$inputarray], [$force_array], [$first2cols])<br>
-          $db-&gt;GenID($seqName = 'adodbseq', $startID=1)<br>
-          $db-&gt;CreateSequence($seqName = 'adodbseq',$startID=1)<br>
-          $db-&gt;DropSequence($seqName = 'adodbseq')<br>
-        </p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">Extend Database Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$db-&gt;GetAssoc($sql, [$inputarray], [$force_array], [$first2cols])<br>
+		  $db-&gt;GenID($seqName = 'adodbseq', $startID=1)<br>
+		  $db-&gt;CreateSequence($seqName = 'adodbseq',$startID=1)<br>
+		  $db-&gt;DropSequence($seqName = 'adodbseq')<br>
+		</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <p>&nbsp;</p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Extend Resultset Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$result-&gt;GetAssoc([$force_array])<br>
-          $result-&gt;PO_RecordCount($table, $where)<br>
-          $result-&gt;NextRecordSet()<br>
-          $result-&gt;CurrentRow()<br>
-          $result-&gt;AbsolutePosition()<br>
-        </p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">Extend Resultset Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$result-&gt;GetAssoc([$force_array])<br>
+		  $result-&gt;PO_RecordCount($table, $where)<br>
+		  $result-&gt;NextRecordSet()<br>
+		  $result-&gt;CurrentRow()<br>
+		  $result-&gt;AbsolutePosition()<br>
+		</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <br>
@@ -223,124 +215,123 @@ The following <span class="style11">modules</span> are supported:<br>
 </p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Date Database Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$db-&gt;DBDate($date)<br>
-          $db-&gt;DBTimeStamp($timestamp)<br>
-          $db-&gt;UnixDate($str)<br>
-          $db-&gt;UnixTimeStamp($str)<br>
-          $db-&gt;OffsetDate($dayFraction, $basedate=false) - Mysql/Postgres/MsSql based drivers only <br>
-          $db-&gt;SQLDate($dateFormat, $basedate=false) - Mysql/Postgres/MsSql based drivers only<br>
-          $db-&gt;UserDate($str, [$fmt])<br>
-          $db-&gt;UserTimeStamp($str, [$fmt])<br>
-          <br>
-        </p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">Date Database Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$db-&gt;DBDate($date)<br>
+		  $db-&gt;DBTimeStamp($timestamp)<br>
+		  $db-&gt;UnixDate($str)<br>
+		  $db-&gt;UnixTimeStamp($str)<br>
+		  $db-&gt;OffsetDate($dayFraction, $basedate=false) - Mysql/Postgres/MsSql based drivers only <br>
+		  $db-&gt;SQLDate($dateFormat, $basedate=false) - Mysql/Postgres/MsSql based drivers only<br>
+		  $db-&gt;UserDate($str, [$fmt])<br>
+		  $db-&gt;UserTimeStamp($str, [$fmt])<br>
+		  <br>
+		</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <br>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Date Resultset Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$result-&gt;UnixDate($str)<br>
-          $result-&gt;UnixTimeStamp($str)<br>
-          $result-&gt;UserDate($str, [$fmt])<br>
-          $result-&gt;UserTimeStamp($str, [$fmt])<br>
-        </p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">Date Resultset Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$result-&gt;UnixDate($str)<br>
+		  $result-&gt;UnixTimeStamp($str)<br>
+		  $result-&gt;UserDate($str, [$fmt])<br>
+		  $result-&gt;UserTimeStamp($str, [$fmt])<br>
+		</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <br>
 <p class="left"><br>
-    <img src="images/dot_b.gif" width="5" height="5" alt="dot" border="0" align="absmiddle">&nbsp;&nbsp;<b>Object Module Functions (module included with ADOdb Lite) </b></p>
+	<img src="images/dot_b.gif" width="5" height="5" alt="dot" border="0" align="absmiddle">&nbsp;&nbsp;<b>Object Module Functions (module included with ADOdb Lite) </b></p>
 <p class="left"> Object Functions have been moved to their own module.  When creating a 
   new ADO Connection you will need to add the &quot;object&quot; flag if you wish to use any of these functions. The following 
   is a list of Object functions. <br>
 </p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Object Resultset Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$result-&gt;FetchObj()<br>
-          $result-&gt;FetchObject($isupper=true)<br>
-          $result-&gt;FetchNextObj()<br>
-          $result-&gt;FetchNextObject($isupper=true)<br>
-          $result-&gt;loadObjectList($key='')<br>
-        </p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">Object Resultset Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$result-&gt;FetchObj()<br>
+		  $result-&gt;FetchObject($isupper=true)<br>
+		  $result-&gt;FetchNextObj()<br>
+		  $result-&gt;FetchNextObject($isupper=true)<br>
+		</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <br>
 <p class="left"><br>
-    <img src="images/dot_b.gif" width="5" height="5" alt="dot" border="0" align="absmiddle">&nbsp;&nbsp;<b>Menu Module Functions (module included with ADOdb Lite) </b></p>
+	<img src="images/dot_b.gif" width="5" height="5" alt="dot" border="0" align="absmiddle">&nbsp;&nbsp;<b>Menu Module Functions (module included with ADOdb Lite) </b></p>
 <p class="left"> Menu Functions have been moved to their own module.  When creating a 
   new ADO Connection you will need to add the &quot;menu&quot; flag if you wish to use any of these functions. The following 
   is a list of the Menu functions. <br>
 </p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Menu Resultset Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$result-&gt;GetMenu($name, $defstr='', $blank1stItem=true, $multiple=false, $size=0, $selectAttr='', $compareFields0=true)<br>
-                  <br>
-          $result-&gt;GetMenu2($name, $defstr='', $blank1stItem=true, $multiple=false ,$size=0, $selectAttr='')<br>
-          <br>
-          $result-&gt;GetMenu3($name, $defstr='', $blank1stItem=true, $multiple=false, $size=0, $selectAttr='')<br>
-          <br>
-        </p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">Menu Resultset Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$result-&gt;GetMenu($name, $defstr='', $blank1stItem=true, $multiple=false, $size=0, $selectAttr='', $compareFields0=true)<br>
+				  <br>
+		  $result-&gt;GetMenu2($name, $defstr='', $blank1stItem=true, $multiple=false ,$size=0, $selectAttr='')<br>
+		  <br>
+		  $result-&gt;GetMenu3($name, $defstr='', $blank1stItem=true, $multiple=false, $size=0, $selectAttr='')<br>
+		  <br>
+		</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <br>
 <p class="left"><br>
-    <img src="images/dot_b.gif" width="5" height="5" alt="dot" border="0" align="absmiddle">&nbsp;&nbsp;<b>ADOdb Lite  Module Functions (module included with ADOdb Lite) </b></p>
+	<img src="images/dot_b.gif" width="5" height="5" alt="dot" border="0" align="absmiddle">&nbsp;&nbsp;<b>ADOdb Lite  Module Functions (module included with ADOdb Lite) </b></p>
 <p class="left"> These are functions that were created specifically for ADOdb Lite.  When creating a 
   new ADO Connection you will need to add the &quot;adodblite&quot; flag if you wish to use any of these functions. The following 
   is a list of ADOdb Lite functions. <br>
 </p>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">ADOdb Lite  Database Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$db-&gt;GetToFieldArray($sql, $inputarr=false, $fieldname = false) <br>
-        </p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">ADOdb Lite  Database Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$db-&gt;GetToFieldArray($sql, $inputarr=false, $fieldname = false) <br>
+		</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <br>
 <table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
   <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">ADOdb Lite  Resultset Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$result-&gt;GetToFieldArray($fieldname = false)<br>
-                  <br>
-        </p></td>
-      </tr>
-    </table></td>
+	<td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
+	  <tr>
+		<td><div align="center" class="style4">ADOdb Lite  Resultset Functions</div></td>
+	  </tr>
+	  <tr>
+		<td><p class="left">$result-&gt;GetToFieldArray($fieldname = false)<br>
+				  <br>
+		</p></td>
+	  </tr>
+	</table></td>
   </tr>
 </table>
 <p class="left"><br>
@@ -348,22 +339,22 @@ The following <span class="style11">modules</span> are supported:<br>
 <p class="left">The following example uses a table called <span class="style11">adodb_lite_test</span> with the following fields: <span class="style7">id</span>, <span class="style7">text</span>, <span class="style7">dummy</span>.</p>
 <table width="300" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#E9E9E9">
   <tr>
-    <td class="left"><div align="center"><span class="style7">id</span></div></td>
-    <td class="left"><div align="center"><span class="style7">text</span></div></td>
-    <td class="left"><div align="center"><span class="style7">dummy</span></div></td>
+	<td class="left"><div align="center"><span class="style7">id</span></div></td>
+	<td class="left"><div align="center"><span class="style7">text</span></div></td>
+	<td class="left"><div align="center"><span class="style7">dummy</span></div></td>
   </tr>
   <tr>
-    <td colspan="3"><hr></td>
+	<td colspan="3"><hr></td>
   </tr>
   <tr>
-    <td class="left">1</td>
-    <td class="left">296_count_1</td>
-    <td class="left">this</td>
+	<td class="left">1</td>
+	<td class="left">296_count_1</td>
+	<td class="left">this</td>
   </tr>
   <tr>
-    <td class="left">2</td>
-    <td class="left">532_count_2</td>
-    <td class="left">stuff</td>
+	<td class="left">2</td>
+	<td class="left">532_count_2</td>
+	<td class="left">stuff</td>
   </tr>
 </table>
 <p class="left">&nbsp;</p>
@@ -384,52 +375,7 @@ The following <span class="style11">modules</span> are supported:<br>
   <br>
   2<br>
   stuff</p>
-<p class="left">This may seem to duplicate the <span class="style6">GetAssoc</span> function but it allows you to specify the column or field name you would like to use to create the key elements from instead of it being the first element from the record set. </p>
-<p class="left">&nbsp;</p>
-<p class="left"><img src="images/dot_b.gif" width="5" height="5" alt="none" border="0" align="absmiddle">&nbsp;&nbsp;<b>Meta Module Functions<b> (module included with ADOdb Lite)</b></b></p>
-<p class="left"> The Meta Module contains all of the ADOdb meta functions. You must also include the pear module.</p>
-<p class="left"><span class="style1">Important:</span> You must include the <span class="style6">pear</span> module for the <span class="style6">meta</span> module to function properly. <br>
-</p>
-<table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
-  <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Meta Database Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$db-&gt;MetaError($err=false)<br>
-          $db-&gt;MetaErrorMsg($errno)<br>
-          $db-&gt;MetaPrimaryKeys($table, $owner=false)<br>
-          $db-&gt;MetaForeignKeys( $table, $owner = FALSE, $upper = FALSE, $associative = FALSE )<br>
-          $db-&gt;MetaType($t,$len=-1,$fieldobj=false)<br>
-          $db-&gt;MetaDatabases()<br>
-          $db-&gt;MetaTables($ttype=false,$showSchema=false,$mask=false)<br>
-          $db-&gt;MetaColumns($table)<br>
-          $db-&gt;MetaIndexes($table, $primary = FALSE, $owner=false)<br>
-          $db-&gt;MetaColumnNames($table, $numIndexes=false)<br>
-          $db-&gt;MetaTransaction($mode,$db)<br>
-          <br>
-        </p></td>
-      </tr>
-    </table></td>
-  </tr>
-</table>
-<p>&nbsp;</p>
-<table width="90%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
-  <tr>
-    <td><table width="100%"  border="0" cellspacing="1" cellpadding="0">
-      <tr>
-        <td><div align="center" class="style4">Meta Resultset Functions</div></td>
-      </tr>
-      <tr>
-        <td><p class="left">$result-&gt;MetaType($t, $len=-1, $fieldobj=false)<br>
-                  <br>
-        </p></td>
-      </tr>
-    </table></td>
-  </tr>
-</table>
-<p class="left"></p></td>
+<p class="left">This may seem to duplicate the <span class="style6">GetAssoc</span> function but it allows you to specify the column or field name you would like to use to create the key elements from instead of it being the first element from the record set. </p></td>
 	</tr>
 </table>
 <p class="px5">

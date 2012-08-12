@@ -2,14 +2,14 @@
 /**
  * template_lite date modifier plugin
  *
- * Type:     modifier
- * Name:     date
+ * Type:	 modifier
+ * Name:	 date
  * Purpose:  formats a date given a UNIX timestamp, based on the
- *           PHP "date" function
+ *		   PHP "date" function
  * Input:
- *         - string: input date string
- *         - format: date format for output
- *         - default_date: default date if $string is empty
+ *		 - string: input date string
+ *		 - format: date format for output
+ *		 - default_date: default date if $string is empty
  */
 function tpl_modifier_date($string, $format="r", $default_date=null)
 {

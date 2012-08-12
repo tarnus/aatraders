@@ -2,15 +2,15 @@
 /**
  * template_lite {html_input} function plugin
  *
- * Type:     function
- * Name:     html_input
+ * Type:	 function
+ * Name:	 html_input
  * Purpose:  Creates an input text or password box
  * Input:
- *           - name = the name of the textbox
- *           - password = boolean - if set, this box will be a password box
- *           - value = optional default value for the input box
- *           - size = optional size for the input box
- *           - length = optional maxlength for the input box
+ *		   - name = the name of the textbox
+ *		   - password = boolean - if set, this box will be a password box
+ *		   - value = optional default value for the input box
+ *		   - size = optional size for the input box
+ *		   - length = optional maxlength for the input box
  * Author:   Paul Lockaby <paul@paullockaby.com>
  */
 function tpl_function_html_input($params, &$tpl)

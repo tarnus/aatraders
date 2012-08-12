@@ -20,7 +20,7 @@ This library replaces native functions as follows:
 
 <pre>	
 	getdate()  with  adodb_getdate()
-	date()     with  adodb_date() 
+	date()	 with  adodb_date() 
 	gmdate()   with  adodb_gmdate()
 	mktime()   with  adodb_mktime()
 	gmmktime() with  adodb_gmmktime()
@@ -170,7 +170,7 @@ For best results, you can define the local date format yourself. Define a global
 variable $ADODB_DATE_LOCALE which is an array, 1st element is date format using
 adodb_date syntax, and 2nd element is the time format, also in adodb_date syntax.
 
-    eg. $ADODB_DATE_LOCALE = array('d/m/Y','H:i:s');
+	eg. $ADODB_DATE_LOCALE = array('d/m/Y','H:i:s');
 	
 	Supported format codes:
 
@@ -208,19 +208,19 @@ adodb_date syntax, and 2nd element is the time format, also in adodb_date syntax
 	%C - century number (the year divided by 100 and truncated to an integer, range 00 to 99) 
 	%g - like %G, but without the century. 
 	%G - The 4-digit year corresponding to the ISO week number (see %V). 
-	     This has the same format and value as %Y, except that if the ISO week number belongs 
+		 This has the same format and value as %Y, except that if the ISO week number belongs 
 		 to the previous or next year, that year is used instead. 
 	%j - day of the year as a decimal number (range 001 to 366) 
 	%u - weekday as a decimal number [1,7], with 1 representing Monday 
 	%U - week number of the current year as a decimal number, starting 
-	    with the first Sunday as the first day of the first week 
+		with the first Sunday as the first day of the first week 
 	%V - The ISO 8601:1988 week number of the current year as a decimal number, 
-	     range 01 to 53, where week 1 is the first week that has at least 4 days in the 
+		 range 01 to 53, where week 1 is the first week that has at least 4 days in the 
 		 current year, and with Monday as the first day of the week. (Use %G or %g for 
 		 the year component that corresponds to the week number for the specified timestamp.) 
 	%w - day of the week as a decimal, Sunday being 0 
 	%W - week number of the current year as a decimal number, starting with the 
-	     first Monday as the first day of the first week 
+		 first Monday as the first day of the first week 
 </pre>
 
 =============================================================================
@@ -286,12 +286,12 @@ Array (
    [seconds] => 0 
    [minutes] => 0 
    [hours] => 0 
-   [mday] => 1      # day of month, eg 1st day of the month
-   [mon] => 2       # month (eg. Feb)
+   [mday] => 1	  # day of month, eg 1st day of the month
+   [mon] => 2	   # month (eg. Feb)
    [year] => 2102 
-   [yday] => 31     # days in current year
-   [leap] =>        # true if leap year
-   [ndays] => 28    # no of days in current month
+   [yday] => 31	 # days in current year
+   [leap] =>		# true if leap year
+   [ndays] => 28	# no of days in current month
    ) 
    
 
@@ -580,17 +580,17 @@ Thursday, October 4, 1582 (Julian) was followed immediately by Friday, October 1
 		$greg_correction = 0;
 	
 	if($month > 2)
-	    $month -= 2;
+		$month -= 2;
 	else {
-	    $month += 10;
-	    $year--;
+		$month += 10;
+		$year--;
 	}
 	
 	$day =  floor((13 * $month - 1) / 5) +
-	        $day + ($year % 100) +
-	        floor(($year % 100) / 4) +
-	        floor(($year / 100) / 4) - 2 *
-	        floor($year / 100) + 77 + $greg_correction;
+			$day + ($year % 100) +
+			floor(($year % 100) / 4) +
+			floor(($year / 100) / 4) - 2 *
+			floor($year / 100) + 77 + $greg_correction;
 	
 	return $day - 7 * floor($day / 7);
 }
@@ -1141,8 +1141,7 @@ function adodb_mktime($hr,$min,$sec,$mon=false,$day=false,$year=false,$is_dst=fa
 		$y = floor($mon / 12);
 		$year += $y;
 		$mon -= $y*12;
-	} 
-	if ($mon < 1) {
+	} else if ($mon < 1) {
 		$y = ceil((1-$mon) / 12);
 		$year -= $y;
 		$mon += $y*12;

@@ -2,13 +2,13 @@
 /**
  * template_lite truncate modifier plugin
  *
- * Type:     modifier
- * Name:     truncate
+ * Type:	 modifier
+ * Name:	 truncate
  * Purpose:  Truncate a string to a certain length if necessary,
- *           optionally splitting in the middle of a word, and 
- *           appending the $etc string.
+ *		   optionally splitting in the middle of a word, and 
+ *		   appending the $etc string.
  * Credit:   Taken from the original Smarty
- *           http://smarty.php.net
+ *		   http://smarty.php.net
  */
 function tpl_modifier_truncate($string, $length = 80, $etc = '...', $break_words = false)
 {

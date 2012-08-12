@@ -156,7 +156,7 @@
 		<li><b>file</b><br>The file we are going to include.  If you are using an absolute path it is recommended you place file: before the path.</li>
 		<li><b>assign</b> (optional)<br>This will optionally assign the included file to a variable instead of outputting it into the current template body.</li>
 		<li><b>[var ...]</b> (optional)<br>
-	    You can also pass variables to included templates as attributes. Any variables explicitly passed to an included template as attributes are only available within the scope of the included file. Attribute variables override current template variables, in the case they are named alike.</li>
+		You can also pass variables to included templates as attributes. Any variables explicitly passed to an included template as attributes are only available within the scope of the included file. Attribute variables override current template variables, in the case they are named alike.</li>
 	</ul>
 
 	<h4>Example</h4>
@@ -323,14 +323,14 @@ is [not] odd [by]</p>
 <h2><a name="php"><code>php</code></a></h2>
 <p>
 <h4>Description</h4>
-	This block function will take everything inside it and execute it as pure PHP code. Everything in this block gets sent directly to the PHP compiler. To access variables from the template engine from inside a <tt>php</tt> block, use <tt>$this->_vars(varname)</tt>.
+	This block function will take everything inside it and execute it as pure PHP code. Everything in this block gets sent directly to the PHP compiler. To access variables from the template engine from inside a <tt>php</tt> block, use <tt>$this->get_vars(varname)</tt>.
 
 	<h4>Example</h4>
 	<pre>
 	EXAMPLE
 	=============================
 	{ php }
-		echo "Hello to " . $this-&gt;_vars('username') . "&lt;BR&gt;";
+		echo "Hello to " . $this-&gt;get_vars('username') . "&lt;BR&gt;";
 	{ /php }
 	</pre>
 </p>
@@ -457,7 +457,7 @@ is [not] odd [by]</p>
 	=============================
 	[0] [1] [2] [3] [4] [5] [6] [7] [8] [9]
 	</pre>
-    </p>
+	</p>
 <hr>
 
 <a href="index.html">Home</a>

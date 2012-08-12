@@ -2,11 +2,11 @@
 /*
  * template_lite plugin
  * -------------------------------------------------------------
- * Type:     function
- * Name:     html_options
+ * Type:	 function
+ * Name:	 html_options
  * Purpose:  prints out the options for an html_select item
  * Credit:   Taken from the original Smarty
- *           http://smarty.php.net
+ *		   http://smarty.php.net
  * -------------------------------------------------------------
  */
 function tpl_function_html_options($params, &$tpl)
@@ -33,7 +33,7 @@ function tpl_function_html_options($params, &$tpl)
 				$$_key = array_values((array)$_val);
 				break;
 			case 'selected':
-				$$_key = array_values((array)$_val);      
+				$$_key = array_values((array)$_val);	  
 				break;
 			default:
 				if(!is_array($_key))
@@ -53,7 +53,7 @@ function tpl_function_html_options($params, &$tpl)
 	{
 		foreach ($options as $_key=>$_val)
 		{
-			$_html_result .= tpl_function_html_options_optoutput($tpl, $_key, $_val, $selected);      
+			$_html_result .= tpl_function_html_options_optoutput($tpl, $_key, $_val, $selected);	  
 		}
 	}
 	else

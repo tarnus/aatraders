@@ -2,11 +2,11 @@
 /**
  * template_lite {strip}{/strip} block plugin
  *
- * Type:     block function
- * Name:     strip
+ * Type:	 block function
+ * Name:	 strip
  * Purpose:  strip unwanted white space from text
  * Credit:   Taken from the original Smarty
- *           http://smarty.php.net
+ *		   http://smarty.php.net
  */
 function tpl_block_strip($params, $content, &$tpl)
 {

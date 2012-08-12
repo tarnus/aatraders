@@ -1,8 +1,8 @@
 <?/**
  * Template-Lite {resize_image} function plugin Using Image Magic
  *
- * Type:     function
- * Name:     resize_image
+ * Type:	 function
+ * Name:	 resize_image
  * Purpose:  Outputs resized image  based on values passed.
  * Input:
  *			- img_src = tag path

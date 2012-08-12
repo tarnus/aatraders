@@ -14,7 +14,7 @@ if (!defined('_ADODB_LAYER'))
 if (!defined('ADODB_DIR'))
 	define('ADODB_DIR', dirname(__FILE__));
 
-$ADODB_vers = 'V1.42 ADOdb Lite 11 January 2007  (c) 2005-2007 Mark Dickenson. All rights reserved. Released LGPL.';
+$ADODB_vers = 'V1.20 ADOdb Lite 2 April 2006  (c) 2005, 2006 Mark Dickenson. All rights reserved. Released LGPL.';
 
 define('ADODB_FETCH_DEFAULT',0);
 define('ADODB_FETCH_NUM',1);
@@ -72,7 +72,7 @@ function &ADONewConnection( $dbtype = 'mysql', $modules = '' )
 		if(count($generic_modules))
 		{
 			foreach($generic_modules as $mod) {
-				include ADODB_DIR . '/generic_modules/' . $mod . '_module.inc';
+				include_once ADODB_DIR . '/generic_modules/' . $mod . '_module.inc';
 				$last_module = $mod;
 			}
 		}
@@ -167,34 +167,18 @@ function &NewDataDictionary(&$connection, $dbtype=false)
 	return $dict;
 }
 
-/**
- * Backwards compatible with ADOdb usage of NewPerfMonitor
- * Change to module basis for PerfMon mean we need only return a reference to $connection object.
- * Usage: $perf =& NewPerfMonitor($conn); - $perf is a reference to $conn
- * 
- * @access public 
- * @param ADOConnection $connection
- * @param string $dbtype This is an optional parameter with no actual use in ADOdb-Lite; for BC only.
- */
-function &NewPerfMonitor(&$connection, $dbtype=false)
-{
-	return $connection;
-}
-
 class ADOConnection
 {
 	var $connectionId = false;
 	var $record_set = false;
 	var $database;
 	var $dbtype;
-	var $dataProvider;
 	var $host;
 	var $open;
 	var $password;
 	var $username;
 	var $persistent;
 	var $debug = false;
-	var $debug_console = false;
 	var $debug_echo = true;
 	var $debug_output;
 	var $forcenewconnection = false;
@@ -210,10 +194,6 @@ class ADOConnection
 	var $raiseErrorFn = false;
 	var $query_count = 0;
 	var $query_time_total = 0;
-	var $query_list = array();
-	var $query_list_time = array();
-	var $query_list_errors = array();
-	var $_logsql = false;
 
 	function ADOConnection()
 	{
@@ -242,7 +222,7 @@ class ADOConnection
 	function IsConnected()
 	{
 		if($this->connectionId === false || $this->connectionId == false)
-	    	return false;
+			return false;
 		else return true;
 	}
 
@@ -306,13 +286,6 @@ class ADOConnection
 
 	function &Execute( $sql, $inputarr = false )
 	{
-		// adodb_log_sql will time the query execution and log the sql query
-		// note: the later $this->do_query() should not run since adodb_log_sql() independently executes the query itself.
-		if($this->_logsql === true)
-		{
-			$ret =& adodb_log_sql($this, $sql, $inputarr);
-			if (isset($ret)) return $ret;
-		}
 		$rs =& $this->do_query($sql, -1, -1, $inputarr);
 		return $rs;
 	} 
@@ -320,7 +293,7 @@ class ADOConnection
 	/**
 	 * Returns SQL query and instantiates sql statement & resultset driver
 	 * Usage: $linkId =& $db->SelectLimit( 'SELECT * FROM foo ORDER BY id', $nrows, $offset );
-	 *        $nrows and $offset are optional
+	 *		$nrows and $offset are optional
 	 * 
 	 * @access public 
 	 * @param string $sql 

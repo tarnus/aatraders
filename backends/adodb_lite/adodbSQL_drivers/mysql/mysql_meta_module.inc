@@ -18,7 +18,6 @@ class mysql_meta_ADOConnection extends mysql_meta_EXTENDER
 {
 	var $metaTablesSQL = "SHOW TABLES";	
 	var $metaColumnsSQL = "SHOW COLUMNS FROM %s";
-	var $fetchMode=false;
 
 	function MetaError($err=false)
 	{
@@ -60,48 +59,48 @@ class mysql_meta_ADOConnection extends mysql_meta_EXTENDER
 	 * @returns assoc array where keys are tables, and values are foreign keys
 	 */
 	function MetaForeignKeys( $table, $owner = FALSE, $upper = FALSE, $associative = FALSE )
-	{
-	    if ( !empty($owner) ) {
-		  $table = "$owner.$table";
-	    }
-	    $a_create_table = $this->getRow(sprintf('SHOW CREATE TABLE %s', $table));
+	 {
+		 if ( !empty($owner) ) {
+			$table = "$owner.$table";
+		 }
+		 $a_create_table = $this->getRow(sprintf('SHOW CREATE TABLE %s', $table));
 		 if ($associative) $create_sql = $a_create_table["Create Table"];
-	    else $create_sql  = $a_create_table[1];
+		 else $create_sql  = $a_create_table[1];
 
-	    $matches = array();
+		 $matches = array();
 
-	    if (!preg_match_all("/FOREIGN KEY \(`(.*?)`\) REFERENCES `(.*?)` \(`(.*?)`\)/", $create_sql, $matches)) return false;
-		$foreign_keys = array();	 	 
-	    $num_keys = count($matches[0]);
-	    for ( $i = 0;  $i < $num_keys;  $i ++ ) {
-		   $my_field  = explode('`, `', $matches[1][$i]);
-		   $ref_table = $matches[2][$i];
-		   $ref_field = explode('`, `', $matches[3][$i]);
+		 if (!preg_match_all("/FOREIGN KEY \(`(.*?)`\) REFERENCES `(.*?)` \(`(.*?)`\)/", $create_sql, $matches)) return false;
+		 $foreign_keys = array();	 	 
+		 $num_keys = count($matches[0]);
+		 for ( $i = 0;  $i < $num_keys;  $i ++ ) {
+			 $my_field  = explode('`, `', $matches[1][$i]);
+			 $ref_table = $matches[2][$i];
+			 $ref_field = explode('`, `', $matches[3][$i]);
 
-		   if ( $upper ) {
-			  $ref_table = strtoupper($ref_table);
-		   }
+			 if ( $upper ) {
+				 $ref_table = strtoupper($ref_table);
+			 }
 
-		   $foreign_keys[$ref_table] = array();
-		   $num_fields = count($my_field);
-		   for ( $j = 0;  $j < $num_fields;  $j ++ ) {
-			  if ( $associative ) {
-				 $foreign_keys[$ref_table][$ref_field[$j]] = $my_field[$j];
-			  } else {
-				 $foreign_keys[$ref_table][] = "{$my_field[$j]}={$ref_field[$j]}";
-			  }
-		   }
-	    }
-	    
-	    return  $foreign_keys;
-	}
+			 $foreign_keys[$ref_table] = array();
+			 $num_fields = count($my_field);
+			 for ( $j = 0;  $j < $num_fields;  $j ++ ) {
+				 if ( $associative ) {
+					 $foreign_keys[$ref_table][$ref_field[$j]] = $my_field[$j];
+				 } else {
+					 $foreign_keys[$ref_table][] = "{$my_field[$j]}={$ref_field[$j]}";
+				 }
+			 }
+		 }
+		 
+		 return  $foreign_keys;
+	 }
 
 	// not the fastest implementation - quick and dirty - jlim
 	// for best performance, use the actual $rs->MetaType().
 	function MetaType($t,$len=-1,$fieldobj=false)
 	{
 		if (empty($this->_metars)) {
-			$rsclass = $this->last_module_name . "_ResultSet";
+			$rsclass = $this->rsPrefix.$this->databaseType;
 			$this->_metars =& new $rsclass(false,$this->fetchMode); 
 		}
 
@@ -146,7 +145,7 @@ class mysql_meta_ADOConnection extends mysql_meta_EXTENDER
 		}
 		
 		if ($mask) {
-			$mask = $this->qstr($mask);
+			$mask = $this->connection->qstr($mask);
 			$this->metaTablesSQL .= " like $mask";
 		}
 		$ret =& $this->_MetaTables($ttype,$showSchema);
@@ -169,7 +168,7 @@ class mysql_meta_ADOConnection extends mysql_meta_EXTENDER
 			
 			if ($this->fetchMode !== false) $savem = $this->SetFetchMode(false);
 			
-			$rs = $this->Execute($this->metaTablesSQL);
+			$rs = $this->connection->Execute($this->metaTablesSQL);
 			if (isset($savem)) $this->SetFetchMode($savem);
 			$ADODB_FETCH_MODE = $save; 
 			
@@ -227,10 +226,10 @@ class mysql_meta_ADOConnection extends mysql_meta_EXTENDER
 		$ADODB_FETCH_MODE = ADODB_FETCH_NUM;
 		
 		if ($this->fetchMode !== false) $savem = $this->SetFetchMode(false);
-		$rs = $this->Execute(sprintf($this->metaColumnsSQL,$table));
+		$rs = $this->connection->Execute(sprintf($this->metaColumnsSQL,$table));
 		
 		if ($schema) {
-			$this->SelectDB($dbName);
+			$this->connection->SelectDB($dbName);
 		}
 		
 		if (isset($savem)) $this->SetFetchMode($savem);
@@ -313,58 +312,58 @@ class mysql_meta_ADOConnection extends mysql_meta_EXTENDER
 	  */
 	function MetaIndexes ($table, $primary = FALSE, $owner=false)
 	{
-	   // save old fetch mode
-	   global $ADODB_FETCH_MODE;
-	   
+		// save old fetch mode
+		global $ADODB_FETCH_MODE;
+		
 		$false = false;
-	   $save = $ADODB_FETCH_MODE;
-	   $ADODB_FETCH_MODE = ADODB_FETCH_NUM;
-	   if ($this->fetchMode !== FALSE) {
-			$savem = $this->SetFetchMode(FALSE);
-	   }
-	   
-	   // get index details
-	   $rs =& $this->Execute(sprintf('SHOW INDEX FROM %s',$table));
-	   
-	   // restore fetchmode
-	   if (isset($savem)) {
-			 $this->SetFetchMode($savem);
-	   }
-	   $ADODB_FETCH_MODE = $save;
-	   
-	   if (!is_object($rs)) {
-			 return $false;
-	   }
-	   
-	   $indexes = array ();
-	   
-	   // parse index data into array
-	   while (!$rs->EOF)
-	   {
-			 if ($primary == FALSE AND $rs->fields[2] == 'PRIMARY') {
-			 	$rs->MoveNext();
-				    continue;
-			 }
+		$save = $ADODB_FETCH_MODE;
+		$ADODB_FETCH_MODE = ADODB_FETCH_NUM;
+		if ($this->fetchMode !== FALSE) {
+			   $savem = $this->SetFetchMode(FALSE);
+		}
+		
+		// get index details
+		$rs =& $this->connection->Execute(sprintf('SHOW INDEX FROM %s',$table));
+		
+		// restore fetchmode
+		if (isset($savem)) {
+				$this->SetFetchMode($savem);
+		}
+		$ADODB_FETCH_MODE = $save;
+		
+		if (!is_object($rs)) {
+				return $false;
+		}
+		
+		$indexes = array ();
+		
+		// parse index data into array
+		while (!$rs->EOF)
+		{
+				if ($primary == FALSE AND $rs->fields[2] == 'PRIMARY') {
+					$rs->MoveNext();
+						continue;
+				}
 
-			 if (!isset($indexes[$rs->fields[2]])) {
-				    $indexes[$rs->fields[2]] = array(
-						  'unique' => ($rs->fields[1] == 0),
-						  'columns' => array()
-				    );
-			 }
+				if (!isset($indexes[$rs->fields[2]])) {
+						$indexes[$rs->fields[2]] = array(
+								'unique' => ($rs->fields[1] == 0),
+								'columns' => array()
+						);
+				}
 
-			 $indexes[$rs->fields[2]]['columns'][$rs->fields[3] - 1] = $rs->fields[4];
+				$indexes[$rs->fields[2]]['columns'][$rs->fields[3] - 1] = $rs->fields[4];
 
-	   	$rs->MoveNext();
-	   }
-	   
-	   // sort columns by order in the index
-	   foreach ( array_keys ($indexes) as $index )
-	   {
-			 ksort ($indexes[$index]['columns']);
-	   }
-	   
-	   return $indexes;
+			$rs->MoveNext();
+		}
+		
+		// sort columns by order in the index
+		foreach ( array_keys ($indexes) as $index )
+		{
+				ksort ($indexes[$index]['columns']);
+		}
+		
+		return $indexes;
 	}
 
 	/**
@@ -388,46 +387,6 @@ class mysql_meta_ADOConnection extends mysql_meta_EXTENDER
 			foreach($objarr as $v) $arr[strtoupper($v->name)] = $v->name;
 
 		return $arr;
-	}
-
-	function MetaTransaction($mode,$db)
-	{
-		$mode = strtoupper($mode);
-		$mode = str_replace('ISOLATION LEVEL ','',$mode);
-		
-		switch($mode) {
-
-		case 'READ UNCOMMITTED':
-			switch($db) { 
-			case 'oci8':
-			case 'oracle':
-				return 'ISOLATION LEVEL READ COMMITTED';
-			default:
-				return 'ISOLATION LEVEL READ UNCOMMITTED';
-			}
-			break;
-					
-		case 'READ COMMITTED':
-				return 'ISOLATION LEVEL READ COMMITTED';
-			break;
-			
-		case 'REPEATABLE READ':
-			switch($db) {
-			case 'oci8':
-			case 'oracle':
-				return 'ISOLATION LEVEL SERIALIZABLE';
-			default:
-				return 'ISOLATION LEVEL REPEATABLE READ';
-			}
-			break;
-			
-		case 'SERIALIZABLE':
-				return 'ISOLATION LEVEL SERIALIZABLE';
-			break;
-			
-		default:
-			return $mode;
-		}
 	}
 
 }
@@ -509,113 +468,7 @@ class mysql_meta_ResultSet extends mysql_meta_resultset_EXTENDER
 			if (!empty($fieldobj->primary_key)) return 'R';
 			else return 'I';
 		
-		default:
-			static $typeMap = array(
-		'VARCHAR' => 'C',
-		'VARCHAR2' => 'C',
-		'CHAR' => 'C',
-		'C' => 'C',
-		'STRING' => 'C',
-		'NCHAR' => 'C',
-		'NVARCHAR' => 'C',
-		'VARYING' => 'C',
-		'BPCHAR' => 'C',
-		'CHARACTER' => 'C',
-		'INTERVAL' => 'C',  # Postgres
-		'MACADDR' => 'C', # postgres
-		##
-		'LONGCHAR' => 'X',
-		'TEXT' => 'X',
-		'NTEXT' => 'X',
-		'M' => 'X',
-		'X' => 'X',
-		'CLOB' => 'X',
-		'NCLOB' => 'X',
-		'LVARCHAR' => 'X',
-		##
-		'BLOB' => 'B',
-		'IMAGE' => 'B',
-		'BINARY' => 'B',
-		'VARBINARY' => 'B',
-		'LONGBINARY' => 'B',
-		'B' => 'B',
-		##
-		'YEAR' => 'D', // mysql
-		'DATE' => 'D',
-		'D' => 'D',
-		##
-		'UNIQUEIDENTIFIER' => 'C', # MS SQL Server
-		##
-		'TIME' => 'T',
-		'TIMESTAMP' => 'T',
-		'DATETIME' => 'T',
-		'TIMESTAMPTZ' => 'T',
-		'T' => 'T',
-		'TIMESTAMP WITHOUT TIME ZONE' => 'T', // postgresql
-		##
-		'BOOL' => 'L',
-		'BOOLEAN' => 'L', 
-		'BIT' => 'L',
-		'L' => 'L',
-		##
-		'COUNTER' => 'R',
-		'R' => 'R',
-		'SERIAL' => 'R', // ifx
-		'INT IDENTITY' => 'R',
-		##
-		'INT' => 'I',
-		'INT2' => 'I',
-		'INT4' => 'I',
-		'INT8' => 'I',
-		'INTEGER' => 'I',
-		'INTEGER UNSIGNED' => 'I',
-		'SHORT' => 'I',
-		'TINYINT' => 'I',
-		'SMALLINT' => 'I',
-		'I' => 'I',
-		##
-		'LONG' => 'N', // interbase is numeric, oci8 is blob
-		'BIGINT' => 'N', // this is bigger than PHP 32-bit integers
-		'DECIMAL' => 'N',
-		'DEC' => 'N',
-		'REAL' => 'N',
-		'DOUBLE' => 'N',
-		'DOUBLE PRECISION' => 'N',
-		'SMALLFLOAT' => 'N',
-		'FLOAT' => 'N',
-		'NUMBER' => 'N',
-		'NUM' => 'N',
-		'NUMERIC' => 'N',
-		'MONEY' => 'N',
-		
-		## informix 9.2
-		'SQLINT' => 'I', 
-		'SQLSERIAL' => 'I', 
-		'SQLSMINT' => 'I', 
-		'SQLSMFLOAT' => 'N', 
-		'SQLFLOAT' => 'N', 
-		'SQLMONEY' => 'N', 
-		'SQLDECIMAL' => 'N', 
-		'SQLDATE' => 'D', 
-		'SQLVCHAR' => 'C', 
-		'SQLCHAR' => 'C', 
-		'SQLDTIME' => 'T', 
-		'SQLINTERVAL' => 'N', 
-		'SQLBYTES' => 'B', 
-		'SQLTEXT' => 'X',
-		 ## informix 10
-		"SQLINT8" => 'I8',
-		"SQLSERIAL8" => 'I8',
-		"SQLNCHAR" => 'C',
-		"SQLNVCHAR" => 'C',
-		"SQLLVARCHAR" => 'X',
-		"SQLBOOL" => 'L'
-		);
-		
-		$tmap = false;
-		$t = strtoupper($t);
-		$tmap = (isset($typeMap[$t])) ? $typeMap[$t] : 'N';
-			return $tmap;
+		default: return 'N';
 		}
 	}
 

@@ -14,6 +14,57 @@ include ("globals/scanlevel.inc");
 include ("globals/last_ship_seen.inc");
 include ("globals/device_ship_tech_modify.inc");
 
+function insert_img($params, &$tpl) 
+{ 
+ 
+     $class = (isset($params['class']) ? " class=\"iehax " . $params['class'] . "\" " : " class=\"iehax\" "); 
+     $id     = (isset($params['id']) ? " id=\"" . $params['id'] . "\" " : ""); 
+     $style = (isset($params['style']) ? " style=\"" . $params['style'] . "\" " : " "); 
+     $border = (isset($params['border']) ? $params['border'] : 0); 
+     $alt = (isset($params['alt']) ? $params['alt'] : "image"); 
+ 
+     static $firsttime = 0; 
+ 
+     $str = ''; 
+     if($firsttime == 0) 
+     { 
+          $firsttime = 1; 
+          $str = ' 
+<style type="text/css"> 
+<!-- 
+     span.iehax { display: none; } 
+     img.iehaxblank { display: none; } 
+--> 
+</style> 
+<!--[if IE]> 
+     <style type="text/css"> 
+     <!-- 
+          img.iehaxblank { display: inline ! important } 
+          img.iehaximg { display: none ! important } 
+     --> 
+     </style> 
+<![endif]--> 
+          '; 
+     } 
+ 
+     $str .= ' 
+<!--[if IE]> 
+     <span ' . $id . $class . ' 
+          style="height: ' . $params['height'] . 'px;  
+               width: ' . $params['width'] . 'px;  
+               filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' . 
+                    $params['src'] . '\',sizingMethod=\'scale\');  
+               display:inline; position:absolute; "> 
+     </span> 
+<![endif]--> 
+<img class="iehaxblank" width="' . $params['width'] . '" height="' . $params['height'] . '"  
+     src="images/spacer.gif" alt="."  border="' . $border . '"/> 
+<img class="iehaximg" src="' . $params['src'] . '" alt="' . $params['alt'] . '"  
+     width="' . $params['width'] . '" height="' . $params['height'] . '" border="' . $border . '"/>'; 
+ 
+     return $str; 
+}  
+
 get_post_ifset("move_method, move_defense_type, lobby_mode");
 
 $title = $l_main_title;

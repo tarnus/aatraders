@@ -50,7 +50,7 @@
 <table width="95%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
 	<tr>
 		<td><p class="left style1"> <span class="style1">&lt;?</span><br>
-			    <span class="style2">/**<br>
+				<span class="style2">/**<br>
 * ADOdb Lite Mysql Example Module<br>
 * <br>
 * This example module can be used to create your own extention to ADOdb Lite.<br>
@@ -103,13 +103,13 @@
 <table width="95%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
 	<tr>
 		<td><p class="left style1"> <span class="style1">&lt;?</span><br>
-        				<span class="style4">eval</span><span class="style6">(</span><span class="style5">'class mysql_</span><span class="style3">test</span><span class="style5">_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ADOConnection { }'</span><span class="style6">);</span></p>
-    			<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_ADOConnection</span> <span class="style3">extends</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_EXTENDER</span><br>
-        				<span class="style6">{<br>
+						<span class="style4">eval</span><span class="style6">(</span><span class="style5">'class mysql_</span><span class="style3">test</span><span class="style5">_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ADOConnection { }'</span><span class="style6">);</span></p>
+				<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_ADOConnection</span> <span class="style3">extends</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_EXTENDER</span><br>
+						<span class="style6">{<br>
 				}</span></p>
-    			<p class="left style1"><span class="style4">eval</span><span class="style6">(</span><span class="style5">'class mysql_<span class="style3">test</span>_resultset_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ResultSet { }'</span><span class="style6">);</span></p>
-    			<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_ResultSet</span> <span class="style3">extends</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_resultset_EXTENDER</span><br>
-        				<span class="style6">{<br>
+				<p class="left style1"><span class="style4">eval</span><span class="style6">(</span><span class="style5">'class mysql_<span class="style3">test</span>_resultset_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ResultSet { }'</span><span class="style6">);</span></p>
+				<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_ResultSet</span> <span class="style3">extends</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_resultset_EXTENDER</span><br>
+						<span class="style6">{<br>
 				}</span><br>
 				?&gt;</p></td>
 	</tr>
@@ -120,17 +120,17 @@
 <table width="95%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
 	<tr>
 		<td><p class="left style1"> <span class="style1">&lt;?</span><br>
-        				<span class="style4">eval</span><span class="style6">(</span><span class="style5">'class </span><span class="style5">mysql_test</span><span class="style5">_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ADOConnection { }'</span><span class="style6">);</span></p>
-    			<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6"><span class="style6">test</span>_ADOConnection</span> <span class="style3">extends</span> <span class="style6">mysql_</span><span class="style6"><span class="style6">test</span>_EXTENDER</span><br>
-        				<span class="style6">{<br>
+						<span class="style4">eval</span><span class="style6">(</span><span class="style5">'class </span><span class="style5">mysql_test</span><span class="style5">_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ADOConnection { }'</span><span class="style6">);</span></p>
+				<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6"><span class="style6">test</span>_ADOConnection</span> <span class="style3">extends</span> <span class="style6">mysql_</span><span class="style6"><span class="style6">test</span>_EXTENDER</span><br>
+						<span class="style6">{<br>
 &nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style3">function</span><span class="style6"> ADOdb_Date()<br>
 &nbsp;&nbsp;&nbsp;&nbsp;{<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style4">return</span> <span class="style3">date</span><span class="style6">(</span><span class="style5">&quot;F j, Y, g:i a&quot;</span><span class="style6">);  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;}<br>
 }</span></p>
-    			<p class="left style1"><span class="style4">eval</span><span class="style6">(</span><span class="style5">'class mysql_<span class="style5">test</span>_resultset_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ResultSet { }'</span><span class="style6">);</span></p>
-    			<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_ResultSet</span> <span class="style3">extends</span><span class="style6"> mysql_test_resultset_EXTENDER</span><br>
-        				<span class="style6">{<br>
+				<p class="left style1"><span class="style4">eval</span><span class="style6">(</span><span class="style5">'class mysql_<span class="style5">test</span>_resultset_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ResultSet { }'</span><span class="style6">);</span></p>
+				<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_ResultSet</span> <span class="style3">extends</span><span class="style6"> mysql_test_resultset_EXTENDER</span><br>
+						<span class="style6">{<br>
 				}</span><br>
 				?&gt;</p></td>
 	</tr>
@@ -140,17 +140,17 @@
 <table width="95%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
 	<tr>
 		<td><p class="left style1"> <span class="style1">&lt;?</span><br>
-        				<span class="style4">eval</span><span class="style6">(</span><span class="style5">'class </span><span class="style5">mysql_test</span><span class="style5">_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ADOConnection { }'</span><span class="style6">);</span></p>
-    			<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6">test_ADOConnection</span> <span class="style3">extends</span> <span class="style6">mysql_</span><span class="style6">test_EXTENDER</span><br>
-        				<span class="style6">{<br>
+						<span class="style4">eval</span><span class="style6">(</span><span class="style5">'class </span><span class="style5">mysql_test</span><span class="style5">_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ADOConnection { }'</span><span class="style6">);</span></p>
+				<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6">test_ADOConnection</span> <span class="style3">extends</span> <span class="style6">mysql_</span><span class="style6">test_EXTENDER</span><br>
+						<span class="style6">{<br>
 &nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style3">function</span><span class="style6"> ADOdb_Date()<br>
 &nbsp;&nbsp;&nbsp;&nbsp;{<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style4">return</span> <span class="style3">date</span><span class="style6">(</span><span class="style5">&quot;F j, Y, g:i a&quot;</span><span class="style6">); <br>
 &nbsp;&nbsp;&nbsp;&nbsp;}<br>
 				}</span></p>
-    			<p class="left style1"><span class="style4">eval</span><span class="style6">(</span><span class="style5">'class mysql_test_resultset_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ResultSet { }'</span><span class="style6">);</span></p>
-    			<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_ResultSet</span> <span class="style3">extends</span><span class="style6"> mysql_test_resultset_EXTENDER</span><br>
-        				<span class="style6">{<br>
+				<p class="left style1"><span class="style4">eval</span><span class="style6">(</span><span class="style5">'class mysql_test_resultset_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ResultSet { }'</span><span class="style6">);</span></p>
+				<p class="left style1"><span class="style3">class</span> <span class="style6">mysql_</span><span class="style6"><span class="style3">test</span>_ResultSet</span> <span class="style3">extends</span><span class="style6"> mysql_test_resultset_EXTENDER</span><br>
+						<span class="style6">{<br>
 &nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style3">function</span><span class="style6"> CurrentRow()<br>
 &nbsp;&nbsp;&nbsp;&nbsp;{<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="style4">return</span><span class="style6"> $this-&gt;_currentRow; <br>
@@ -185,23 +185,23 @@
 	<p class="left">There is really no difference in creating a  generic module except for the class naming. You do not add the database type to the class name.</p>
 	<p class="left">Example: </p>
 	<table width="95%"  border="1" align="center" cellpadding="10" cellspacing="1" bordercolor="#C3D2EB" bgcolor="#E9E9E9">
-      <tr>
-        <td><p class="left style1"> <span class="style1">&lt;?</span><br>
-                <span class="style4">eval</span><span class="style6">(</span><span class="style5">'class </span><span class="style3">test</span><span class="style5">_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ADOConnection { }'</span><span class="style6">);</span></p>
-            <p class="left style1"><span class="style3">class</span> <span class="style6"><span class="style3">test</span>_ADOConnection</span> <span class="style3">extends</span> <span class="style6"><span class="style3">test</span>_EXTENDER</span><br>
-                <span class="style6">{<br>
-                  }</span></p>
-          <p class="left style1"><span class="style4">eval</span><span class="style6">(</span><span class="style5">'class <span class="style3">test</span>_resultset_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ResultSet { }'</span><span class="style6">);</span></p>
-          <p class="left style1"><span class="style3">class</span> <span class="style6"><span class="style3">test</span>_ResultSet</span> <span class="style3">extends</span> <span class="style6"><span class="style3">test</span>_resultset_EXTENDER</span><br>
-                <span class="style6">{<br>
-                  }</span><br>
-            ?&gt;</p></td>
-      </tr>
-    </table>
+	  <tr>
+		<td><p class="left style1"> <span class="style1">&lt;?</span><br>
+				<span class="style4">eval</span><span class="style6">(</span><span class="style5">'class </span><span class="style3">test</span><span class="style5">_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ADOConnection { }'</span><span class="style6">);</span></p>
+			<p class="left style1"><span class="style3">class</span> <span class="style6"><span class="style3">test</span>_ADOConnection</span> <span class="style3">extends</span> <span class="style6"><span class="style3">test</span>_EXTENDER</span><br>
+				<span class="style6">{<br>
+				  }</span></p>
+		  <p class="left style1"><span class="style4">eval</span><span class="style6">(</span><span class="style5">'class <span class="style3">test</span>_resultset_EXTENDER extends '</span><span class="style6">. $last_module . </span><span class="style5">'_ResultSet { }'</span><span class="style6">);</span></p>
+		  <p class="left style1"><span class="style3">class</span> <span class="style6"><span class="style3">test</span>_ResultSet</span> <span class="style3">extends</span> <span class="style6"><span class="style3">test</span>_resultset_EXTENDER</span><br>
+				<span class="style6">{<br>
+				  }</span><br>
+			?&gt;</p></td>
+	  </tr>
+	</table>
 	<p class="left"><br>
 	  As you can see it is virtually identical to a database specific module except for the missing database type prepending the class name. The	module is then stored in the generic_modules directory and can be used by any database driver. </p>
 	<p><br>
-            </p>
+			</p>
 	</tr>
 </table>
 <p class="px5">

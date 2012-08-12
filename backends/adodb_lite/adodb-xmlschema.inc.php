@@ -1,7 +1,7 @@
 <?php
 // Copyright (c) 2004 ars Cognita Inc., all rights reserved
 /* ******************************************************************************
-    Released under both BSD license and Lesser GPL library license. 
+	Released under both BSD license and Lesser GPL library license. 
  	Whenever there is any discrepancy between the two licenses, 
  	the BSD license will take precedence. 
 *******************************************************************************/

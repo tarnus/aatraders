@@ -62,7 +62,7 @@ class Template_Lite_Compiler extends Template_Lite {
 	var $_svar_regexp		=	null;
 	var $_mod_regexp		=	null;
 	var $_var_regexp		=	null;
-    var $_obj_params_regexp     =   null;
+	var $_obj_params_regexp	 =   null;
 	var $_templatelite_vars		=	array();
 
 	function Template_Lite_compiler()
@@ -136,7 +136,7 @@ class Template_Lite_Compiler extends Template_Lite {
 		$_match		= array();		// a temp variable for the current regex match
 		$tags		= array();		// all original tags
 		$text		= array();		// all original text
-		$compiled_text	= ''; // stores the compiled result
+		$compiled_text	= '<?php /* '.$this->_version.' '.strftime("%Y-%m-%d %H:%M:%S %Z").' */ ?>'."\n"; // stores the compiled result
 		$compiled_tags	= array();		// all tags and stuff
 
 		$this->_require_stack = array();

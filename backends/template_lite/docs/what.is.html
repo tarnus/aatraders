@@ -19,8 +19,8 @@
 		<li>Template Lite supports config files and variables and will compile config files for speed, too!</li>
 </ul>
 Template Lite was designed from the ground up to be fast. It has acheived that goal.
-    </p>
-    <hr>
+	</p>
+	<hr>
 <h2><a name="credits">Credits</a></h2>
 <p>
 What you see here is the work of <a href="http://www.paullockaby.com">Paul Lockaby.</a> However, while more than 75% of the code in this template engine has been rewritten, a bunch of that other 25% and a lot of organization has been directly derived from <a href="http://smarty.php.net">Smarty - the compiling PHP template engine for PHP</a>. Smarty template engine was originally programmed and is still maintained at the aforementioned website by Monte Ohrt and Andrei Zmievski.
@@ -76,18 +76,18 @@ Template Lite offers most of the features of Smarty but there are a number of fe
 	
 	<li>Template Lite does not support the <code>include_php</code> tag, security features, and error handling.</li>
 	<li>The following reserved variables are not supported: </li>
-        <li>Template Class Variables:  <code>$debug_tpl</code>, <code>$debugging_ctrl</code>, <code>$autoload_filters</code>, <code>$compile_check</code>, <code>$cache_handler_func</code>,
-        <code>$cache_modified_check</code>, <code>$security</code>, 
-        <code>$secure_dir</code>, 
-        <code>$security_settings</code>, 
-        <code>$trusted_dir</code>, <code>$compiler_class</code>, 
-        <code>$request_vars_order</code>, 
-        <code>$request_use_auto_globals</code>, 
-        <code>$error_reporting</code>, 
-        <code>$compile_id</code>, 
-        <code>$use_sub_dirs</code>, 
-        <code>$default_resource_type</code></li>
-        <li>Template Class Functions:    <code>get_registered_object</code>,   <code>register_object</code> and <code>unregister_object</code></li>
+		<li>Template Class Variables:  <code>$debug_tpl</code>, <code>$debugging_ctrl</code>, <code>$autoload_filters</code>, <code>$compile_check</code>, <code>$cache_handler_func</code>,
+		<code>$cache_modified_check</code>, <code>$security</code>, 
+		<code>$secure_dir</code>, 
+		<code>$security_settings</code>, 
+		<code>$trusted_dir</code>, <code>$compiler_class</code>, 
+		<code>$request_vars_order</code>, 
+		<code>$request_use_auto_globals</code>, 
+		<code>$error_reporting</code>, 
+		<code>$compile_id</code>, 
+		<code>$use_sub_dirs</code>, 
+		<code>$default_resource_type</code></li>
+		<li>Template Class Functions:	<code>get_registered_object</code>,   <code>register_object</code> and <code>unregister_object</code></li>
 </ul>
 </p>
 <hr>
@@ -196,7 +196,7 @@ These are things that I should have done before I released it, but that I put of
 			<li>Added <tt>register_compiler_function</tt> function.</li>
 			<li>Added <tt>unregister_compiler_function</tt> function.</li>
 			<li>Added support for custom <tt>compiler</tt> functions.</li>
-		    <li>Changed <tt>plugin_dir</tt> variable name to <tt>plugins_dir</tt> to maintain compatibility with Smarty.</li>
+			<li>Changed <tt>plugin_dir</tt> variable name to <tt>plugins_dir</tt> to maintain compatibility with Smarty.</li>
 			<li>Added support for multiple plugin directories.</li>
 			<li>Moved all <tt>count()</tt> functions outside all for loops in the compiler and template engine to improve speed.</li>
 			<li>Moved all <tt>_escape_chars()</tt> from class.template.php to a shared plugin (shared.escape_chars.php) because it is only used by other custom plugins.		</li>
@@ -220,13 +220,13 @@ These are things that I should have done before I released it, but that I put of
 			<li>Added <tt>append</tt> method.</li>
 			<li>Added <tt>append_by_ref</tt> method.</li>
 			<li>Moved <tt>config_load</tt> code to a dynamically loaded internal program module called template.config_load.php in the internal directory.</li>
-		    <li>Changed <tt>html_checkbox</tt> custom function name to <tt>html_checkboxes</tt> to maintain compatibility with Smarty.</li>
-		    <li>Changed <tt>html_radio</tt> custom function name to <tt>html_radios</tt> to maintain compatibility with Smarty.</li>
-		    <li>Changed <tt>left_tag</tt> variable name to <tt>left_delimiter</tt> to maintain compatibility with Smarty.</li>
-		    <li>Changed <tt>right_tag</tt> variable name to <tt>right_delimiter</tt> to maintain compatibility with Smarty.</li>
-		    <li>Changed <tt>clear_compiled</tt> method name to <tt>clear_compiled_tpl</tt> to maintain compatibility with Smarty.</li>
-		    <li>Changed <tt>get_vars</tt> method name to <tt>get_template_vars</tt> to maintain compatibility with Smarty.</li>
-		    <li>Changed <tt>clear_cached</tt> method name to <tt>clear_cache</tt> to maintain compatibility with Smarty.</li>
+			<li>Changed <tt>html_checkbox</tt> custom function name to <tt>html_checkboxes</tt> to maintain compatibility with Smarty.</li>
+			<li>Changed <tt>html_radio</tt> custom function name to <tt>html_radios</tt> to maintain compatibility with Smarty.</li>
+			<li>Changed <tt>left_tag</tt> variable name to <tt>left_delimiter</tt> to maintain compatibility with Smarty.</li>
+			<li>Changed <tt>right_tag</tt> variable name to <tt>right_delimiter</tt> to maintain compatibility with Smarty.</li>
+			<li>Changed <tt>clear_compiled</tt> method name to <tt>clear_compiled_tpl</tt> to maintain compatibility with Smarty.</li>
+			<li>Changed <tt>get_vars</tt> method name to <tt>get_template_vars</tt> to maintain compatibility with Smarty.</li>
+			<li>Changed <tt>clear_cached</tt> method name to <tt>clear_cache</tt> to maintain compatibility with Smarty.</li>
 		</ul>
 	</li>
 	<li><a name="history150">April 8, 2006 - Version 1.50</a>

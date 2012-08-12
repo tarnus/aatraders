@@ -3,16 +3,16 @@
 /*
  * Template Lite plugin
  * -------------------------------------------------------------
- * Type:     block function
- * Name:     textformat
+ * Type:	 block function
+ * Name:	 textformat
  * Purpose:  format text a certain way with preset styles
- *           or custom wrap/indent settings
+ *		   or custom wrap/indent settings
  * Params:   style: string (email)
- *           indent: integer (0)
- *           wrap: integer (80)
- *           wrap_char string ("\n")
- *           indent_char: string (" ")
- *           wrap_boundary: boolean (true)
+ *		   indent: integer (0)
+ *		   wrap: integer (80)
+ *		   wrap_char string ("\n")
+ *		   indent_char: string (" ")
+ *		   wrap_boundary: boolean (true)
  * Taken from the original Smarty
  * http://smarty.php.net
  * -------------------------------------------------------------
@@ -33,7 +33,7 @@ function tpl_block_textformat($params, $content, &$template_object)
 		return true;
 	}
 
-    extract($params);
+	extract($params);
 
 	if($style == 'email')
 	{

@@ -34,73 +34,73 @@ if(empty($_POST['databasetype']))
 <body>
 <table width="800"  border="1" cellspacing="1" cellpadding="5" align="center">
   <tr>
-    <td><div align="center">
-      <p>
-        <img src="adodblite_thumb.jpg" border="0" title="ADOdb Lite Thumbnail Logo" alt="ADOdb Lite Thumbnail Logo"><br><br><span class="style10"><u>ADOdb Lite Data Dictionary/XML Test Program</u></span><br>
-      </p>
-    </div></td>
+	<td><div align="center">
+	  <p>
+		<img src="adodblite_thumb.jpg" border="0" title="ADOdb Lite Thumbnail Logo" alt="ADOdb Lite Thumbnail Logo"><br><br><span class="style10"><u>ADOdb Lite Data Dictionary/XML Test Program</u></span><br>
+	  </p>
+	</div></td>
   </tr>
   <tr>
-    <td valign="top">
+	<td valign="top">
 <form action="test_datadictionary.php" method="POST" enctype="multipart/form-data">
 	<table width="80%"  border="0" align="center" cellpadding="10" cellspacing="1">
-      <tr>
-        <td><div align="right"><span class="style2">Create Test Databases</span></div></td>
-        <td width="50%"><input type="radio" name="create_test" value="0" checked>No&nbsp;&nbsp;-&nbsp;&nbsp;<input type="radio" name="create_test" value="1">Yes</td>
-      </tr>
-      <tr>
-        <td valign="middle"><div align="right"><span class="style2">Select your Database Type</span></div></td>
-        <td valign="middle"><div align="left"><span class="style2">
-            <select name="databasetype">
-                <option value="mysql" selected>MySql</option>
-                <option value="mysqli">MySqli</option>
-                <option value="MySqlt">MySqlt</option>
-                <option value="fbsql">Front Base</option>
-                <option value="maxdb">Max DB</option>
-                <option value="msql">Mini Sql</option>
-                <option value="mssql">Microsoft SQL</option>
-                <option value="mssqlpo">Microsoft SQL Pro</option>
-                <option value="postgres">Postgres</option>
-                <option value="postgres64">Postgres 6.4</option>
-                <option value="postgres7">Postgres 7</option>
-                <option value="sqlite">SQLite</option>
-                <option value="sybase">SyBase</option>
-            </select>
-        </span></div></td>
-      </tr>
-      <tr>
-        <td><div align="right"><span class="style2">Database Name</span></div></td>
-        <td width="50%"><input type="text" name="databasename"></td>
-      </tr>
-      <tr>
-        <td width="50%"><div align="right"><span class="style2">Database User Name</span></div></td>
-        <td>
-          <input type="text" name="dbusername">
-        </td>
-      </tr>
-      <tr>
-        <td><div align="right"><span class="style2"> Database User Password </span></div></td>
-        <td><input type="text" name="dbpassword"></td>
-      </tr>
-      <tr>
-        <td><div align="right"><span class="style2">Database Host </span></div></td>
-        <td><input type="text" name="dbhost" value="localhost"></td>
-      </tr>
-      <tr>
-        <td colspan="2"><div align="center">
-          <input type="submit" name="Submit Form" value="Submit">
-        </div></td>
-        </tr>    </table>
+	  <tr>
+		<td><div align="right"><span class="style2">Create Test Databases</span></div></td>
+		<td width="50%"><input type="radio" name="create_test" value="0" checked>No&nbsp;&nbsp;-&nbsp;&nbsp;<input type="radio" name="create_test" value="1">Yes</td>
+	  </tr>
+	  <tr>
+		<td valign="middle"><div align="right"><span class="style2">Select your Database Type</span></div></td>
+		<td valign="middle"><div align="left"><span class="style2">
+			<select name="databasetype">
+				<option value="mysql" selected>MySql</option>
+				<option value="mysqli">MySqli</option>
+				<option value="MySqlt">MySqlt</option>
+				<option value="fbsql">Front Base</option>
+				<option value="maxdb">Max DB</option>
+				<option value="msql">Mini Sql</option>
+				<option value="mssql">Microsoft SQL</option>
+				<option value="mssqlpo">Microsoft SQL Pro</option>
+				<option value="postgres">Postgres</option>
+				<option value="postgres64">Postgres 6.4</option>
+				<option value="postgres7">Postgres 7</option>
+				<option value="sqlite">SQLite</option>
+				<option value="sybase">SyBase</option>
+			</select>
+		</span></div></td>
+	  </tr>
+	  <tr>
+		<td><div align="right"><span class="style2">Database Name</span></div></td>
+		<td width="50%"><input type="text" name="databasename"></td>
+	  </tr>
+	  <tr>
+		<td width="50%"><div align="right"><span class="style2">Database User Name</span></div></td>
+		<td>
+		  <input type="text" name="dbusername">
+		</td>
+	  </tr>
+	  <tr>
+		<td><div align="right"><span class="style2"> Database User Password </span></div></td>
+		<td><input type="text" name="dbpassword"></td>
+	  </tr>
+	  <tr>
+		<td><div align="right"><span class="style2">Database Host </span></div></td>
+		<td><input type="text" name="dbhost" value="localhost"></td>
+	  </tr>
+	  <tr>
+		<td colspan="2"><div align="center">
+		  <input type="submit" name="Submit Form" value="Submit">
+		</div></td>
+		</tr>	</table>
 </form>
 </td>
   </tr>
   <tr>
-    <td><div align="center">
-      <p align="left"><span class="style11">This program will test the ADOdb Lite Data Dictionary for all supported databases as well as the XML Schema support. <br>
+	<td><div align="center">
+	  <p align="left"><span class="style11">This program will test the ADOdb Lite Data Dictionary for all supported databases as well as the XML Schema support. <br>
 	  <br>
 	  You do not need to enter database information if Create Test Databases is not enabled.<br> 
-      </p>
-      </div></td>
+	  </p>
+	  </div></td>
   </tr></table>
 <?php
 }
@@ -214,11 +214,11 @@ function print_sql($dbType, $sqla, $action)
 <body>
 <table width="800"  border="1" cellspacing="1" cellpadding="5" align="center">
   <tr>
-    <td colspan="2" valign="middle"><div align="center">
-      <p>
-        <img src="adodblite_thumb.jpg" border="0" title="ADOdb Lite Thumbnail Logo" alt="ADOdb Lite Thumbnail Logo"><br><br><span class="style10"><u>ADOdb Lite Data Dictionary/XML Test Program</u></span><br>
-      </p>
-    </div></td>
+	<td colspan="2" valign="middle"><div align="center">
+	  <p>
+		<img src="adodblite_thumb.jpg" border="0" title="ADOdb Lite Thumbnail Logo" alt="ADOdb Lite Thumbnail Logo"><br><br><span class="style10"><u>ADOdb Lite Data Dictionary/XML Test Program</u></span><br>
+	  </p>
+	</div></td>
   </tr>
 <?php
 
@@ -259,14 +259,14 @@ function test_dictionary($dbType){
 	else
 	{
 		$flds = "
-ID            I           AUTO KEY,
-FIRSTNAME     VARCHAR(30) DEFAULT 'Joan',
-LASTNAME      VARCHAR(28) DEFAULT 'Chen' key,
+ID			I		   AUTO KEY,
+FIRSTNAME	 VARCHAR(30) DEFAULT 'Joan',
+LASTNAME	  VARCHAR(28) DEFAULT 'Chen' key,
 averylonglongfieldname X(1024) DEFAULT 'test',
-price         N(7.2)  DEFAULT '0.00',
-MYDATE        D      DEFDATE,
-BIGFELLOW     X      NOTNULL,
-TS            T      DEFTIMESTAMP";
+price		 N(7.2)  DEFAULT '0.00',
+MYDATE		D	  DEFDATE,
+BIGFELLOW	 X	  NOTNULL,
+TS			T	  DEFTIMESTAMP";
 	}
 
 	$sqla = $dict->CreateDatabase('ADOdbLite',array('postgres'=>"LOCATION='/u01/postdata'"));
@@ -294,7 +294,7 @@ TS            T      DEFTIMESTAMP";
 		$db->Connect( $_POST['dbhost'], $_POST['dbusername'], $_POST['dbpassword'], $_POST['databasename'] );
 		$dict->SetSchema('');
 		$sqla2 = $dict->CreateTableSQL('adoxyz',$flds, $opts);
-	    if($_POST['create_test']){
+		if($_POST['create_test']){
 			$debug_query = $dict->ExecuteSQLArray($sqla2);
 		}
 		if ($sqla2) print_sql($dbType,$sqla2, "CreateTableSQL");
@@ -313,7 +313,7 @@ $i = 2;
 foreach(array('mysql', 'mysqli', 'mysqlt', 'fbsql', 'maxdb', 'msql', 'mssql', 'mssqlpo', 'odbc', 'postgres', 'postgres64', 'postgres7', 'postgres8', 'sqlite', 'sqlitepo', 'sybase', 'sybase_ase') as $dbType) {
 	$color = $i % 2;
 	echo "  <tr>
-    <td valign=\"top\" bgcolor=" . $bgcolor[$color] . ">";
+	<td valign=\"top\" bgcolor=" . $bgcolor[$color] . ">";
 	test_dictionary($dbType);
 	echo "	</td>
   </tr>";
@@ -322,7 +322,7 @@ foreach(array('mysql', 'mysqli', 'mysqlt', 'fbsql', 'maxdb', 'msql', 'mssql', 'm
 
 ?>
    <tr>
-    <td colspan="2" valign="top">
+	<td colspan="2" valign="top">
 <?php
 include_once( "../adodb-xmlschema.inc.php" );
 
@@ -366,14 +366,14 @@ foreach ($sql as $s)
 echo "\$db2->Execute(\"$s\");<br><br>";
 print "</pre>\n";
 ?>
-    </td>
+	</td>
   </tr>
    <tr>
-    <td colspan="2" valign="top"><p align="center"><br>
-        <span class="style10">Testing Complete</span><br>
-        <br>
-    </p>
-    </td>
+	<td colspan="2" valign="top"><p align="center"><br>
+		<span class="style10">Testing Complete</span><br>
+		<br>
+	</p>
+	</td>
   </tr></table>
 <?php
 }

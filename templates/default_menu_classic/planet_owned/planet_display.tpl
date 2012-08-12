@@ -56,7 +56,8 @@ function clean_js()
       <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%" align="center">
         <tr> 
           <td align="center"> 
-			{insert name="img" src="templates/`$templatename`images/planet`$planettype`.png" alt="" width="100" height="100"}<br>
+            <img src="templates/{$templatename}images/planet{$planettype}.png" alt="" width="100" height="100">
+			 <br>
             <font color="white" style="font-size:11px; font-weight:bold;">{$planetname}</font><br><br>
           </td>
         </tr>

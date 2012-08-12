@@ -74,7 +74,8 @@
 												<font color='red' size='4'><b>{$l_by_bountyscan}</b></font></br>
 											{/if}
 											<A HREF="planet.php?planet_id={$planetid[$key]}">
-											{insert name="img" src="templates/`$templatename`images/planet`$planetimg[$key]`.png" alt="" width="100" height="100"}
+												<img src="templates/{$templatename}images/planet{$planetimg[$key]}.png" alt="" width="100" height="100">
+											 
 											</a><BR><font size="2" color="white" face="arial">
 											{$planetname[$key]}
 											<br>({$planetowner[$key]})

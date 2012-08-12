@@ -1135,7 +1135,7 @@ echo "<tr><td class=\"nav_title_12\">&nbsp;<a class=mnu href=traderoute_engage.p
 	<td align=center valign=top>
 	<A HREF=planet.php?planet_id={$planetid[$i]}>
 	<img src="templates/{$templatename}images/planet{$planetimg[$i]}.png" alt="" width="100" height="100">
-		{insert name="img" src="templates/`$templatename`images/planet`$planetimg[$i]`.png" alt="" width="100" height="100"}
+	
 	<BR><font size=2 color="white" face="arial">
 	{$planetname[$i]}
 	<br>({$planetowner[$i]})

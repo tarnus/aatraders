@@ -114,7 +114,8 @@ body {
 
 <table width="600" border="1" align="center" cellpadding="5" cellspacing="0">
 <tr><td colspan="5" align="center" class="portfooter">
-	{insert name="img" src="templates/`$templatename`images/planet`$titleimage`.png" alt="" width="100" height="100"}<br>{$planetname}</h3><br><br>
+	<img src="templates/{$templatename}images/planet{$titleimage}.png" alt="" width="100" height="100">
+	 <br>{$planetname}</h3><br><br>
 	{if $capture == 0}
 		<b><u>{$l_planet_notdef}</u></b><BR>
 	{else}

@@ -119,7 +119,7 @@ body {
 <table width="600" border="1" align="center" cellpadding="5" cellspacing="0">
   <tr>
     <td class="header"><h3>
-    	{insert name="img" src="templates/`$templatename`images/planet`$titleimage`.png" alt="" width="100" height="100"}<br>{$planetname}</h3><br><br>
+<img src="templates/{$templatename}images/planet{$titleimage}.png" alt="" width="100" height="100"><br>{$planetname}</h3><br><br>
 		{if $isfedbounty == 0}
 			<h3><b><u>{$l_by_nofedbounty}</u></b><BR></h3>
 		{else}

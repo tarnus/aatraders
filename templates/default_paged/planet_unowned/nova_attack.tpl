@@ -115,7 +115,7 @@ body {
 <table width="600" border="1" align="center" cellpadding="5" cellspacing="0">
   <tr>
     <td class="header"><h3>{$target_title}</br>
-			{insert name="img" src="templates/`$templatename`images/planet`$titleimage`.png" alt="" width="100" height="100"}</h3>
+    	<img src="templates/{$templatename}images/planet{$titleimage}.png" alt="" width="100" height="100"></h3>
 	</td>
   </tr>
 	{if $isfedbounty == 0}

@@ -119,7 +119,7 @@ body {
 <table width="600" border="1" align="center" cellpadding="5" cellspacing="0">
   <tr>
     <td class="header"><h3>{$l_planet_combatpreview}</br>
-		{insert name="img" src="templates/`$templatename`images/planet`$titleimage`.png" alt="" width="100" height="100"}<br>
+    	<img src="templates/{$templatename}images/planet{$titleimage}.png" alt="" width="100" height="100"><br>
 		{$planetname}</h3>
 	</td>
   </tr>

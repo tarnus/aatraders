@@ -519,7 +519,7 @@ SG&nbsp;
           <td colspan="2" rowspan="2" align="center" valign="middle" class=nav_title_12>
 		  {if $countplanet > 3}
 			<A HREF=planet.php?planet_id={$planetid[3]}>
-			{insert name="img" src="templates/`$templatename`images/planet`$planetimg[3]`.png" alt="" width="100" height="100"}
+<img src="templates/{$templatename}images/planet{$planetimg[3]}.png" alt="" width="100" height="100">
 			</a><BR>
 			<b>{$planetname[3]}
 			<br>(<font color=cyan>{$planetowner[3]}</font>)</b>
@@ -556,8 +556,7 @@ SG&nbsp;
           <td colspan="2" align="center" valign="middle" class=nav_title_12>
 		  {if $countplanet > 1}
 			<A HREF=planet.php?planet_id={$planetid[1]}>
-			{insert name="img" src="templates/`$templatename`images/planet`$planetimg[1]`.png" alt="" width="100" height="100"}
-			</a><BR>
+<img src="templates/{$templatename}images/planet{$planetimg[1]}.png" alt="" width="100" height="100"></a><BR>
 			<b>{$planetname[1]}
 			<br>(<font color=cyan>{$planetowner[1]}</font>)</b>
 				<br>{if $planetratingnumber[1] == -1}
@@ -576,7 +575,7 @@ SG&nbsp;
           <td colspan="2" rowspan="2" align="center" valign="middle" class=nav_title_12>
 		  {if $countplanet > 0}
 			<A HREF=planet.php?planet_id={$planetid[0]}>
-			{insert name="img" src="templates/`$templatename`images/planet`$planetimg[0]`.png" alt="" width="100" height="100"}
+<img src="templates/{$templatename}images/planet{$planetimg[0]}.png" alt="" width="100" height="100">
 			</a><BR>
 			<b>{$planetname[0]}
 			<br>(<font color=cyan>{$planetowner[0]}</font>)</b>
@@ -596,7 +595,7 @@ SG&nbsp;
           <td rowspan="2" align="center" valign="middle" class=nav_title_12>
 		  {if $countplanet > 2}
 			<A HREF=planet.php?planet_id={$planetid[2]}>
-			{insert name="img" src="templates/`$templatename`images/planet`$planetimg[2]`.png" alt="" width="100" height="100"}
+<img src="templates/{$templatename}images/planet{$planetimg[2]}.png" alt="" width="100" height="100">
 			</a><BR>
 			<b>{$planetname[2]}
 			<br>(<font color=cyan>{$planetowner[2]}</font>)</b>
@@ -612,8 +611,7 @@ SG&nbsp;
           <td colspan="2" rowspan="2" align="center" valign="middle" class=nav_title_12>
 		  {if $countplanet > 4}
 			<A HREF=planet.php?planet_id={$planetid[4]}>
-			{insert name="img" src="templates/`$templatename`images/planet`$planetimg[4]`.png" alt="" width="100" height="100"}
-			</a><BR>
+<img src="templates/{$templatename}images/planet{$planetimg[4]}.png" alt="" width="100" height="100">			</a><BR>
 			<b>{$planetname[4]}
 			<br>(<font color=cyan>{$planetowner[4]}</font>)</b>
 				<br>{if $planetratingnumber[4] == -1}

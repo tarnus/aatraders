@@ -8,7 +8,7 @@
 <table border=0 cellspacing=0 cellpadding=0 width=90% align="center">
   <tr>
 		<td align="center" valign=top>
-			{insert name="img" src="templates/`$templatename`images/planet`$planettype`.png" alt="" width="100" height="100" border="1"}
+			 <img src="templates/{$templatename}images/planet{$planettype}.png" alt="" width="100" height="100">
 		</td></tr><tr>
 	<td align="center">
 	{if $sc_base != "N"}
@@ -182,7 +182,7 @@
 	  <tr>
 		<td>
 		<font size=2><b>
-		&nbsp;{insert name="img" src="templates/`$templatename`images/credits.png" alt="" width="12" height="12" border="0"}&nbsp;{$l_credits}&nbsp;&nbsp;&nbsp;
+		&nbsp; <img src="templates/{$templatename}images/credits.png" alt="" width="12" height="12">&nbsp;{$l_credits}&nbsp;&nbsp;&nbsp;
 		</b></font>
 		<td>
 		<font color=white><b>
@@ -194,7 +194,7 @@
 	  <tr>
 		<td>
 		<font size=2><b>
-		&nbsp;{insert name="img" src="images/ports/ore.png" alt="" width="12" height="12" border="0"}&nbsp;{$l_ore}&nbsp;&nbsp;&nbsp;
+		&nbsp;<img src="templates/{$templatename}images/ports/ore.png" alt="" width="12" height="12">&nbsp;{$l_ore}&nbsp;&nbsp;&nbsp;
 		</b></font>
 		<td>
 		<font color=white><b>
@@ -206,7 +206,7 @@
 	  <tr>
 		<td>
 		<font size=2><b>
-		&nbsp;{insert name="img" src="images/ports/organics.png" alt="" width="12" height="12" border="0"}&nbsp;{$l_organics}&nbsp;&nbsp;&nbsp;
+		&nbsp;<img src="templates/{$templatename}images/ports/organics.png" alt="" width="12" height="12">&nbsp;{$l_organics}&nbsp;&nbsp;&nbsp;
 		</b></font>
 		<td>
 		<font color=white><b>
@@ -218,7 +218,7 @@
 	  <tr>
 		<td>
 		<font size=2><b>
-		&nbsp;{insert name="img" src="images/ports/goods.png" alt="" width="12" height="12" border="0"}&nbsp;{$l_goods}&nbsp;&nbsp;&nbsp;
+		&nbsp;<img src="templates/{$templatename}images/ports/goods.png" alt="" width="12" height="12">&nbsp;{$l_goods}&nbsp;&nbsp;&nbsp;
 		</b></font>
 		<td>
 		<font color=white><b>
@@ -230,7 +230,7 @@
 	  <tr>
 		<td>
 		<font size=2><b>
-		&nbsp;{insert name="img" src="images/ports/colonists.png" alt="" width="12" height="12" border="0"}&nbsp;{$l_colonists}&nbsp;&nbsp;&nbsp;
+		&nbsp;<img src="templates/{$templatename}images/ports/colonists.png" alt="" width="12" height="12">&nbsp;{$l_colonists}&nbsp;&nbsp;&nbsp;
 		</b></font>
 		<td>
 		<font color=white><b>
@@ -243,7 +243,7 @@
 	  <tr>
 		<td>
 		<font size=2><b>
-		&nbsp;{insert name="img" src="images/ports/`$l_special_image`.png" alt="" width="12" height="12" border="0"}&nbsp;{$l_specialname}&nbsp;&nbsp;&nbsp;
+		&nbsp;<img src="templates/{$templatename}images/ports/{$l_special_image}.png" alt="" width="12" height="12">&nbsp;{$l_specialname}&nbsp;&nbsp;&nbsp;
 		</b></font>
 		<td>
 		<font color=white><b>
@@ -261,7 +261,7 @@
 	  <tr>
 		<td>
 		<font size=2><b>
-		&nbsp;{insert name="img" src="images/ports/energy.png" alt="" width="12" height="12" border="0"}&nbsp;{$l_energy}&nbsp;&nbsp;&nbsp;
+		&nbsp;<img src="templates/{$templatename}images/ports/energy.png" alt="" width="12" height="12">&nbsp;{$l_energy}&nbsp;&nbsp;&nbsp;
 		</b></font>
 		<td>
 		<font color=white><b>
@@ -273,7 +273,7 @@
 	  <tr>
 		<td>
 		<font size=2><b>
-		&nbsp;{insert name="img" src="templates/`$templatename`images/tfighter.png" alt="" width="12" height="12" border="0"}&nbsp;{$l_fighters}&nbsp;&nbsp;&nbsp;
+		&nbsp;<img src="templates/{$templatename}images/tfighter.png" alt="" width="12" height="12">&nbsp;{$l_fighters}&nbsp;&nbsp;&nbsp;
 		</b></font>
 		<td>
 		<font color=white><b>
@@ -285,7 +285,7 @@
 	  <tr>
 		<td>
 		<font size=2><b>
-		&nbsp;{insert name="img" src="templates/`$templatename`images/torp.png" alt="" width="12" height="12" border="0"}&nbsp;{$l_torps}&nbsp;&nbsp;&nbsp;
+		&nbsp;<img src="templates/{$templatename}images/torp.png" alt="" width="12" height="12">&nbsp;{$l_torps}&nbsp;&nbsp;&nbsp;
 		</b></font>
 		<td>
 		<font color=white><b>
@@ -297,7 +297,7 @@
 	  <tr>
 		<td>
 		<font size=2><b>
-		&nbsp;{insert name="img" src="templates/`$templatename`images/armor.png" alt="" width="12" height="12" border="0"}&nbsp;{$l_armorpts}&nbsp;&nbsp;&nbsp;
+		&nbsp;<img src="templates/{$templatename}images/armor.png" alt="" width="12" height="12">&nbsp;{$l_armorpts}&nbsp;&nbsp;&nbsp;
 		</b></font>
 		<td>
 		<font color=white><b>

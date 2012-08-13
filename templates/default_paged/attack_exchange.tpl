@@ -116,7 +116,7 @@ body {
   <tr>
     <td class="header"><h3>{$target_title}</br>
     	{if $attacktype == "planet"}
-			{insert name="img" src="templates/`$templatename`images/planet`$titleimage`.png" alt="" width="100" height="100"}
+<img src="templates/{$templatename}images/planet{$titleimage}.png" alt="" width="100" height="100">
    		{else}
 			<img src="templates/{$templatename}images/{$titleimage}.gif" border=0>
 		{/if}</h3>

@@ -129,22 +129,22 @@ function AAT_ereg($pattern, $string, $regs='')
 	if ($mbstring_supported) {
 		if ($regs == '')
 		{
-			return preg_match("/".$pattern."/u", $string);
+			return mb_ereg($pattern, $string);
 		}
 		else
 		{
-			return preg_match("/".$pattern."/u", $string, $regs);
+			return mb_ereg($pattern, $string, $regs);
 		}
 	}
 	else
 	{
 		if ($length == '')
 		{
-			return preg_match("/".$pattern."/", $string);
+			return ereg($pattern, $string);
 		}
 		else
 		{
-			return preg_match("/".$pattern."/", $string, $regs);
+			return ereg($pattern, $string, $regs);
 		}
 	}
 }
@@ -155,22 +155,22 @@ function AAT_eregi($pattern, $string, $regs='')
 	if ($mbstring_supported) {
 		if ($regs == '')
 		{
-			return preg_match("/".$pattern."/iu", $string);
+			return mb_eregi($pattern, $string);
 		}
 		else
 		{
-			return preg_match("/".$pattern."/i", $string, $regs);
+			return mb_eregi($pattern, $string, $regs);
 		}
 	}
 	else
 	{
 		if ($length == '')
 		{
-			return preg_match("/".$pattern."/u", $string);
+			return eregi($pattern, $string);
 		}
 		else
 		{
-			return preg_match("/".$pattern."/", $string, $regs);
+			return eregi($pattern, $string, $regs);
 		}
 	}
 }
@@ -179,11 +179,11 @@ function AAT_ereg_replace($pattern, $replacement, $string)
 {
 	global $mbstring_supported;
 	if ($mbstring_supported) {
-		return preg_replace("/".$pattern."/u", $replacement, $string);
+		return mb_ereg_replace($pattern, $replacement, $string);
 	}
 	else
 	{
-		return ereg_replace("/".$pattern."/", $replacement, $string);
+		return ereg_replace($pattern, $replacement, $string);
 	}
 }
 
@@ -191,13 +191,11 @@ function AAT_eregi_replace($pattern, $replacement, $string)
 {
 	global $mbstring_supported;
 	if ($mbstring_supported) {
-		return preg_replace("/".$pattern."/iu", $replacement, $string);
+		return mb_eregi_replace($pattern, $replacement, $string);
 	}
 	else
 	{
-		return preg_replace("/".$pattern."/i", $replacement, $string);
-
-		 
+		return eregi_replace($pattern, $replacement, $string);
 	}
 }
 
@@ -207,22 +205,22 @@ function AAT_split($pattern, $string, $limit='')
 	if ($mbstring_supported) {
 		if ($limit == '')
 		{
-			return preg_split("/".$pattern."/u", $string);
+			return mb_split($pattern, $string);
 		}
 		else
 		{
-			return preg_split("/".$pattern."/u", $string, $limit);
+			return mb_split($pattern, $string, $limit);
 		}
 	}
 	else
 	{
 		if ($limit == '')
 		{
-			return preg_split("/".$pattern."/", $string);
+			return explode($pattern, $string);
 		}
 		else
 		{
-			return preg_split("/".$pattern."/", $string, $limit);
+			return explode($pattern, $string, $limit);
 		}
 	}
 }

@@ -14,7 +14,7 @@ include ("globals/scanlevel.inc");
 include ("globals/last_ship_seen.inc");
 include ("globals/device_ship_tech_modify.inc");
 
-function insert_img($params, &$tpl) 
+function insert_img123($params, &$tpl) 
 { 
  
      $class = (isset($params['class']) ? " class=\"iehax " . $params['class'] . "\" " : " class=\"iehax\" "); 

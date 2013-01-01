@@ -1,3 +1,5 @@
+// Redo checksum file list when ready for a release.
+
 admin.php=6a2ea7ddf3b1750f4e0e75eb7eb22a01
 ajax_processor.php=1269228d5a1d0b42e5e44a587040e46d
 artifact_grab.php=8c8439a8af1635ea8f7eff52c80c5653

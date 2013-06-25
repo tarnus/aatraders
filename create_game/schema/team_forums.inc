@@ -18,7 +18,7 @@
 	KEY `private` (`private`),
 	KEY `teams` (`teams`),
 	KEY `lastposttime` (`lastposttime`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}team_forums", $res,__LINE__,__FILE__);
     // End team_forums table
 

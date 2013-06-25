@@ -42,7 +42,7 @@
 	`minecm` int(11) NOT NULL default '0',
 	`maxecm` int(11) NOT NULL default '0',
 	PRIMARY KEY	(`type_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}ship_types", $res,__LINE__,__FILE__);
 
     // End ship types table

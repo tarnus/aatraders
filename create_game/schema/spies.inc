@@ -22,7 +22,7 @@
 	KEY `ship_id` (`ship_id`),
 	KEY `job_id` (`job_id`),
 	KEY `spy_percent` (`spy_percent`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}spies", $res,__LINE__,__FILE__);
     // End Spy table
 

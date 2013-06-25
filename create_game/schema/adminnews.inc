@@ -9,7 +9,7 @@
 	`an_id` int(11) NOT NULL auto_increment,
 	`an_text` text,
 	PRIMARY KEY	(`an_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}adminnews", $res,__LINE__,__FILE__);
     // End admin news table
  

@@ -11,7 +11,7 @@
   `smile_image` varchar(100) default NULL,
   `emoticon` varchar(75) default NULL,
   PRIMARY KEY  (`smilies_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
 	db_op2_result("{$db_prefix}smilies", $res,__LINE__,__FILE__);
 
 	// End smilies table

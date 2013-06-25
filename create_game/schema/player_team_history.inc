@@ -15,7 +15,7 @@
 	PRIMARY KEY	(`history_id`),
 	KEY `player_id` (`player_id`),
 	KEY `left_team` (`left_team`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}player_team_history", $res,__LINE__,__FILE__);
     // End player team history
 

@@ -16,7 +16,7 @@
 	KEY `owner_id` (`owner_id`),
 	KEY `det_time` (`det_time`),
 	KEY `unique_value` (`unique_value`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}detect", $res,__LINE__,__FILE__);
     // End detect table
 

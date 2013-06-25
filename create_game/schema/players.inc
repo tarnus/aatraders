@@ -88,7 +88,7 @@
 	KEY `kill_efficiency` (`kill_efficiency`),
 	KEY `player_online_time` (`player_online_time`),
 	KEY `destroyed` (`destroyed`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}players", $res,__LINE__,__FILE__);
     // End of players table
 

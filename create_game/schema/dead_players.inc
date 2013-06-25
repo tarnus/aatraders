@@ -29,7 +29,7 @@
 	`player_total_online` int(11) NOT NULL default '0',
 	`death_type` varchar(30) NOT NULL default '',
 	PRIMARY KEY	(`dead_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}dead_players", $res,__LINE__,__FILE__);
     // End of dead_players table
 

@@ -14,7 +14,7 @@
 	PRIMARY KEY	(`id`),
 	KEY `creator` (`creator`),
 	KEY `team_name` (`team_name`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}teams", $res,__LINE__,__FILE__);
 
     // End of teams table

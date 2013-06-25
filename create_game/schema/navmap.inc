@@ -16,7 +16,7 @@
 	KEY `dest_sector` (`dest_sector`),
 	KEY `dest_sector_name` (`dest_sector_name`),
 	KEY `distance` (`distance`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}navmap", $res,__LINE__,__FILE__);
     // End of navmap table
 

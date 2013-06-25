@@ -23,7 +23,7 @@
 	KEY `last_run` (`last_run`),
 	KEY `ticks_left` (`ticks_left`),
 	KEY `ticks_full` (`ticks_full`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}scheduler", $res,__LINE__,__FILE__);
     // End scheduler table
 

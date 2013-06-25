@@ -14,7 +14,7 @@ $res = $db->Execute("CREATE TABLE IF NOT EXISTS `{$db_prefix}npc_player` (
 	`orders` int(11) NOT NULL default '0',
 	`experience` int(11) NOT NULL default '0',
 	PRIMARY KEY	(`npc_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
 db_op2_result("{$db_prefix}npc_player", $res,__LINE__,__FILE__);
 // End of Alliance table
 ?>

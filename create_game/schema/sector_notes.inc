@@ -28,7 +28,7 @@
 	KEY `note_sector_id` (`note_sector_id`),
 	KEY `note_scanfrom_name` (`note_scanfrom_name`),
 	KEY `note_sector_name` (`note_sector_name`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}sector_notes", $res,__LINE__,__FILE__);
    // End sector_notes table
 

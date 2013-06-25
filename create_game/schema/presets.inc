@@ -13,7 +13,7 @@
 	PRIMARY KEY	(`preset_id`),
 	KEY `player_id` (`player_id`),
 	KEY `preset` (`preset`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}presets", $res,__LINE__,__FILE__);
     // End of players presets table
 

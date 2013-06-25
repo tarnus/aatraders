@@ -12,7 +12,7 @@
 	PRIMARY KEY	(`link_id`),
 	KEY `link_start` (`link_start`),
 	KEY `link_dest` (`link_dest`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}links", $res,__LINE__,__FILE__);
     // End of links table
 

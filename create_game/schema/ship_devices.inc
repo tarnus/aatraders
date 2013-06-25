@@ -22,7 +22,7 @@
 	KEY `device_name` (`device_name`),
 	KEY `cargo_class` (`cargo_class`),
 	KEY `amount` (`amount`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}ship_devices", $res,__LINE__,__FILE__);
     // End ship_devices table
 

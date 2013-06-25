@@ -117,7 +117,7 @@ function create_schema()
 	PRIMARY KEY  (`log_id`),
 	KEY `type` (`type`),
 	KEY `time` (`time`)
-	) TYPE={$database_type}{$dbencoding}");
+	) Engine={$database_type}{$dbencoding}");
 	db_op2_result("{$db_prefix}admin_log", $res,__LINE__,__FILE__);
 
 	// End logs table
@@ -195,7 +195,7 @@ $db->debug=1;
 			{
 				if($db_type == "mysql" and $db_mysql_type == "InnoDB")
 				{
-					$db->Execute("ALTER TABLE " . $$db_prefix . str_replace(".xml", "", $filelist[$c]) . " TYPE=INNODB");
+					$db->Execute("ALTER TABLE " . $$db_prefix . str_replace(".xml", "", $filelist[$c]) . " Engine=INNODB");
 				}
 				TextFlush("<font color=\"lime\">- Table Created Successfully.</font><br>\n");
 			}

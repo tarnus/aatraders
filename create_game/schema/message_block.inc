@@ -12,7 +12,7 @@
 	PRIMARY KEY	(`mb_id`),
 	KEY `blocked_player_id` (`blocked_player_id`),
 	KEY `player_id` (`player_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}message_block", $res,__LINE__,__FILE__);
     // End Message Block table
 

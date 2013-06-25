@@ -19,7 +19,7 @@
 	KEY `sp_IP` (`sp_IP`),
 	KEY `dp_name` (`dp_name`),
 	KEY `e_stamp` (`e_stamp`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}email_log", $res,__LINE__,__FILE__);
     // End email log
 

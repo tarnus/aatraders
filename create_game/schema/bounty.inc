@@ -13,7 +13,7 @@
 	PRIMARY KEY	(`bounty_id`),
 	KEY `placed_by` (`placed_by`),
 	KEY `bounty_on` (`bounty_on`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}bounty", $res,__LINE__,__FILE__);
     // End bounty table
 

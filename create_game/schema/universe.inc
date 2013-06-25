@@ -30,7 +30,7 @@
 	KEY `x` (`x`),
 	KEY `y` (`y`),
 	KEY `z` (`z`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}universe", $res,__LINE__,__FILE__);
     // End of universe table
 

@@ -25,7 +25,7 @@
 	KEY `owner_id` (`owner_id`),
 	KEY `ship_id` (`ship_id`),
 	KEY `active` (`active`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}probe", $res,__LINE__,__FILE__);
     // End probe table
 

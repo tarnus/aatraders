@@ -20,7 +20,7 @@
 	KEY `player_id` (`player_id`),
 	KEY `on_planet_id` (`on_planet_id`),
 	KEY `artifact_type` (`artifact_type`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}artifacts", $res,__LINE__,__FILE__);
     // End artifacts table
 

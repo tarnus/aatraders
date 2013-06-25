@@ -19,7 +19,7 @@
 	KEY `player_id` (`player_id`),
 	KEY `defense_type` (`defense_type`),
 	KEY `quantity` (`quantity`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}sector_defense", $res,__LINE__,__FILE__);
     // End of sector defense table
 

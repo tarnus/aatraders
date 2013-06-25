@@ -21,7 +21,7 @@
 	PRIMARY KEY	(`log_id`),
 	KEY `player_id` (`player_id`),
 	KEY `time` (`time`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
 	db_op2_result("{$db_prefix}dead_player_admin_extended_logging", $res,__LINE__,__FILE__);
 
 	// End logs table

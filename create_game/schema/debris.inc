@@ -13,7 +13,7 @@
 	PRIMARY KEY	(`debris_id`),
 	KEY `sector_id` (`sector_id`),
 	KEY `debris_type` (`debris_type`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}debris", $res,__LINE__,__FILE__);
     // End debris table
 

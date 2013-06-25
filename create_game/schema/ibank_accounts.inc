@@ -14,7 +14,7 @@
 	KEY `balance` (`balance`),
 	KEY `loan` (`loan`),
 	KEY `loantime` (`loantime`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}ibank_accounts", $res,__LINE__,__FILE__);
     // End of ibank accounts table
 

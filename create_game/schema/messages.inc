@@ -16,7 +16,7 @@
 	PRIMARY KEY	(`ID`),
 	KEY `recp_id` (`recp_id`),
 	KEY `sent` (`sent`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}messages", $res,__LINE__,__FILE__);
     // End messaging table
 

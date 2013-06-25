@@ -11,7 +11,7 @@
 	`value` varchar(50) NOT NULL default '0',
 	PRIMARY KEY	(`id`),
 	KEY `name` (`name`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}wordcensor", $res,__LINE__,__FILE__);
     // End wordcensor table
 

@@ -21,7 +21,7 @@
 	KEY `day` (`day`),
 	KEY `hour` (`hour`),
 	KEY `minute` (`minute`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}site_activity_log", $res,__LINE__,__FILE__);
 	// End site_activity_log table
 

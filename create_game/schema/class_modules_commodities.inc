@@ -73,7 +73,7 @@
 	KEY `goodevil` (`goodevil`),
 	KEY `price` (`price`),
 	KEY `hold_space` (`hold_space`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}class_modules_commodities", $res,__LINE__,__FILE__);
     // End class_modules_commodities table
 ?>

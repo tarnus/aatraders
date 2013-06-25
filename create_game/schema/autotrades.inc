@@ -25,7 +25,7 @@
 	KEY `owner` (`owner`),
 	KEY `trade_time` (`trade_time`),
 	KEY `planet_id` (`planet_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}autotrades", $res,__LINE__,__FILE__);
 
     // End of autotrades table

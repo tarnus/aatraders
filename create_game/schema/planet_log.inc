@@ -19,7 +19,7 @@
 	KEY `owner_id` (`owner_id`),
 	KEY `action` (`action`),
 	KEY `time` (`time`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}planet_log", $res,__LINE__,__FILE__);
     // End planet_log
 

@@ -22,7 +22,7 @@
 	PRIMARY KEY	(`zone_id`),
 	KEY `owner` (`owner`),
 	KEY `team_zone` (`team_zone`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}zones", $res,__LINE__,__FILE__);
     // End of zones table
 

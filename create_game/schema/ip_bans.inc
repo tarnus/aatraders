@@ -12,7 +12,7 @@
 	PRIMARY KEY	(`ban_id`),
 	KEY `ban_mask` (`ban_mask`),
 	KEY `email` (`email`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}ip_bans", $res,__LINE__,__FILE__);
     // End ip bans table
 

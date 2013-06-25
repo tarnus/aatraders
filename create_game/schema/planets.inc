@@ -95,7 +95,7 @@
 	KEY `prod_build` (`prod_build`),
 	KEY `colonists` (`colonists`),
 	KEY `last_visited` (`last_visited`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}planets", $res,__LINE__,__FILE__);
     // End of planets table
 

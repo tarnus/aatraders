@@ -13,7 +13,7 @@
 	PRIMARY KEY	(`post_id`),
 	KEY `topic_id` (`topic_id`),
 	KEY `forum_id` (`forum_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}team_forum_posts_text", $res,__LINE__,__FILE__);
     // End team_forum_posts_text table
 

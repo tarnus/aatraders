@@ -19,7 +19,7 @@
 	KEY `autoadd_debris` (`autoadd_debris`),
 	KEY `destroyship_debris` (`destroyship_debris`),
 	KEY `enable` (`enable`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}class_modules_debris", $res,__LINE__,__FILE__);
     // End class_modules_commodities table
 ?>

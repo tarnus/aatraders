@@ -16,7 +16,7 @@
 	PRIMARY KEY	(`sb_id`),
 	KEY `sb_date` (`sb_date`),
 	KEY `sb_alli` (`sb_alli`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}shoutbox", $res,__LINE__,__FILE__);
     // End Shoutbox table
 

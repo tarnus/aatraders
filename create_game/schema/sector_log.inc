@@ -24,7 +24,7 @@
 	KEY `time` (`time`),
 	KEY `player_id` (`player_id`),
 	KEY `ship_class` (`ship_class`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}sector_log", $res,__LINE__,__FILE__);
     // End sector log table
 

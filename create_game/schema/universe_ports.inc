@@ -20,7 +20,7 @@
 	KEY `commodity_price` (`commodity_price`),
 	KEY `trade_date` (`trade_date`),
 	KEY `goodevil` (`goodevil`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}universe_ports", $res,__LINE__,__FILE__);
     // End of universe_portdata table
 

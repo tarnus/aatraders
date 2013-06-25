@@ -19,7 +19,7 @@
 	KEY `cargo_name` (`cargo_name`),
 	KEY `cargo_class` (`cargo_class`),
 	KEY `amount` (`amount`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}ship_holds", $res,__LINE__,__FILE__);
     // End ship holds table
 

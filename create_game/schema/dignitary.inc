@@ -24,7 +24,7 @@
 	KEY `percent` (`percent`),
 	KEY `active_date` (`active_date`),
 	KEY `reactive_date` (`reactive_date`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}dignitary", $res,__LINE__,__FILE__);
     // End Dignitary table
 

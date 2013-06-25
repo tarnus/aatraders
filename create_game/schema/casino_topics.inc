@@ -21,7 +21,7 @@
 	KEY `topic_status` (`topic_status`),
 	KEY `topic_time` (`topic_time`),
 	KEY `post_player_id` (`post_player_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}casino_topics", $res,__LINE__,__FILE__);
     // End topics table
 

@@ -17,7 +17,7 @@
 	PRIMARY KEY	(`rec_id`),
 	KEY `player_id` (`player_id`),
 	KEY `lastonline` (`lastonline`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}team_forum_players", $res,__LINE__,__FILE__);
     // End team_forum_players table
 

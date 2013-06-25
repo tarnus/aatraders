@@ -18,7 +18,7 @@
 	KEY `topic_id` (`topic_id`),
 	KEY `forum_id` (`forum_id`),
 	KEY `post_player_id` (`post_player_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}team_forum_posts", $res,__LINE__,__FILE__);
     // End team_forum_posts table
 

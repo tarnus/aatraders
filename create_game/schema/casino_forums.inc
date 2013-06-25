@@ -20,7 +20,7 @@
 	KEY `private` (`private`),
 	KEY `casino_sector` (`casino_sector`),
 	KEY `lastposttime` (`lastposttime`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}casino_forums", $res,__LINE__,__FILE__);
     // End forums table
 

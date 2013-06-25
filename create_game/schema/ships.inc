@@ -51,7 +51,7 @@
 	KEY `sector_id` (`sector_id`),
 	KEY `player_id` (`player_id`),
 	KEY `planet_id` (`planet_id`)
-) TYPE={$database_type}{$dbencoding}");
+) Engine={$database_type}{$dbencoding}");
     db_op2_result("{$db_prefix}ships", $res,__LINE__,__FILE__);
     // End ships table
 

@@ -2,3 +2,4 @@ files.txt
 config/config_master.php
 config/config_local*.php
 replace.sh
+templates_c/*

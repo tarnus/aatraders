@@ -673,7 +673,7 @@ if ($allspecial != -1)
 	{
 		if($tpspecial == 1)
 		{
-			if(($transfer_special * $special_holds) > (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used))
+			if(($transfer_special * $special_holds) > (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used)  && (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used) >0)
 			{
 				$transfer_special = floor((NUM_HOLDS($shipinfo['hull']) - $ship_holds_used) / $special_holds);
 				$ship_holds_used += ($transfer_special * $special_holds);
@@ -705,7 +705,7 @@ if ($allore != -1)
 	{
 		if($tpore == 1)
 		{
-			if($transfer_ore > (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used))
+			if($transfer_ore > (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used)  && (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used) >0)
 			{
 				$transfer_ore = NUM_HOLDS($shipinfo['hull']) - $ship_holds_used;
 				$ship_holds_used += $transfer_ore;
@@ -737,7 +737,7 @@ if ($allorganics != -1)
 	{
 		if($tporganics == 1)
 		{
-			if($transfer_organics > (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used))
+			if($transfer_organics > (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used)  && (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used) >0)
 			{
 				$transfer_organics = NUM_HOLDS($shipinfo['hull']) - $ship_holds_used;
 				$ship_holds_used += $transfer_organics;
@@ -769,7 +769,7 @@ if ($allgoods != -1)
 	{
 		if($tpgoods == 1)
 		{
-			if($transfer_goods > (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used))
+			if($transfer_goods > (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used)  && (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used) >0)
 			{
 				$transfer_goods = NUM_HOLDS($shipinfo['hull']) - $ship_holds_used;
 				$ship_holds_used += $transfer_goods;
@@ -801,7 +801,7 @@ if ($allcolonists != -1)
 	{
 		if($tpcolonists == 1)
 		{
-			if($transfer_colonists > (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used))
+			if($transfer_colonists > (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used)  && (NUM_HOLDS($shipinfo['hull']) - $ship_holds_used) >0)
 			{
 				$transfer_colonists = NUM_HOLDS($shipinfo['hull']) - $ship_holds_used;
 				$ship_holds_used += $transfer_colonists;

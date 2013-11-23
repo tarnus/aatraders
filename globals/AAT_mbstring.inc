@@ -125,6 +125,7 @@ function AAT_substr_count($haystack, $needle)
 
 function AAT_ereg($pattern, $string, $regs='')
 {
+	$pattern=str_replace("/", "\/", $pattern);
 	global $mbstring_supported;
 	if ($mbstring_supported) {
 		if ($regs == '')
@@ -151,6 +152,7 @@ function AAT_ereg($pattern, $string, $regs='')
 
 function AAT_eregi($pattern, $string, $regs='')
 {
+	$pattern=str_replace("/", "\/", $pattern);
 	global $mbstring_supported;
 	if ($mbstring_supported) {
 		if ($regs == '')
@@ -177,6 +179,7 @@ function AAT_eregi($pattern, $string, $regs='')
 
 function AAT_ereg_replace($pattern, $replacement, $string)
 {
+	$pattern=str_replace("/", "\/", $pattern);
 	global $mbstring_supported;
 	if ($mbstring_supported) {
 		return preg_replace("/".$pattern."/u", $replacement, $string);
@@ -189,6 +192,7 @@ function AAT_ereg_replace($pattern, $replacement, $string)
 
 function AAT_eregi_replace($pattern, $replacement, $string)
 {
+	$pattern=str_replace("/", "\/", $pattern);
 	global $mbstring_supported;
 	if ($mbstring_supported) {
 		return preg_replace("/".$pattern."/iu", $replacement, $string);
@@ -203,6 +207,7 @@ function AAT_eregi_replace($pattern, $replacement, $string)
 
 function AAT_split($pattern, $string, $limit='')
 {
+	$pattern=str_replace("/", "\/", $pattern);
 	global $mbstring_supported;
 	if ($mbstring_supported) {
 		if ($limit == '')

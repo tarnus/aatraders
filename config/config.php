@@ -1,3 +1,4 @@
+
 <?php
 // This program is free software; you can redistribute it and/or modify it   
 // under the terms of the GNU General Public License as published by the     
@@ -13,7 +14,7 @@ if (preg_match("/config.php/i", $_SERVER['PHP_SELF']))
 }
 
 ini_set ("session.use_trans_sid","0"); // Otherwise, on re-login, it will append a session id on the url - blech.
-
+include ("globals/global_declare.inc");
 include ("globals/AAT_mbstring.inc");
 
 if (get_magic_quotes_gpc())

@@ -102,7 +102,6 @@ function import_setup ($ini_file, $ini_table)
 				$section = str_replace("[", "", str_replace("]", "", $lines[$i]));
 
 			$text = AAT_eregi('^[-!#$%&\'*+\\./0-9=?A-Z^_`{|}~]+', trim($lines[$i]));
-
 			$items = array();
 			$items = explode(";", trim($lines[$i]));
 			$variable = explode("=", $items[0]);

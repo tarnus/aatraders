@@ -157,6 +157,16 @@ if ($numlink_start >= $link_max )
 	die();
 }
 
+$result2 = $db->Execute("SELECT count(*) as linkcount FROM {$db_prefix}links WHERE link_start=$target_sector_id ORDER BY link_dest ASC");
+$destination_links = $result2->fields['linkcount'];
+if (($oneway !='oneway') && $destination_links >= $link_max )
+{
+  $template_object->assign("error_msg", $l_warp_sectex);
+  $template_object->assign("gotomain", $l_global_mmenu);
+  $template_object->display($templatename."warpedit_add.tpl");
+  include ("footer.php");
+  die();
+}
 if ($result3 > 0)
 {
 	while (!$result3->EOF)

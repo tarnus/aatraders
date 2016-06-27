@@ -25,7 +25,7 @@ $findem->close();
 $res = $db->Execute("SELECT {$db_prefix}planets.planet_id, {$db_prefix}planets.sector_id
 					FROM {$db_prefix}planets , {$db_prefix}universe 
 					WHERE {$db_prefix}universe.sector_id = {$db_prefix}planets.sector_id
-					AND aatrade_universe.zone_id !=2
+					AND {$db_prefix}universe.zone_id !=2
 					AND {$db_prefix}universe.sg_sector =0");
 db_op_result($res,__LINE__,__FILE__);
 $planet_list_count=$res->RecordCount(); 
